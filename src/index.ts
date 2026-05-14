@@ -1,0 +1,1 @@
+console.log('Hello, travel-surfing-planner!');
