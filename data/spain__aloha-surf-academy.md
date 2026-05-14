@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ723W2B81RgwRlF2FtRzTOAc -->
 # Fuerteventura, Spain: Aloha Surf Academy
 
 ![Aloha Surf Academy](https://alohasurfacademy.com/wp-content/uploads/CostaRicatrip.jpg)

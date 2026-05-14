@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJiwESrmsfRgwRKV-fvNvozwc -->
 # Lanzarote, Spain: Lanzarote Surf - Famara surf camp
 
 ![Lanzarote Surf - Famara surf camp](https://lanzarotesurf.com/wp-content/uploads/2024/11/DSC_5946-1-scaled.jpg)

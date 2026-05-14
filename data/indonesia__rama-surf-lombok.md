@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJW16MGcGpzS0RWYr8CO_cCUo -->
 # Kuta Lombok, Indonesia: Rama surf lombok
 
 ![Rama surf lombok](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/m5KLVPj7kocy1PbV/logo-rsl-dOq8zLeDG1CWqBPa.png)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJJ94bMXAWIYQREu5e4MeSVYM -->
 # Sayulita, Mexico: WildMex Surf School & Adventure Center, Sayulita
 
 ![WildMex Surf School & Adventure Center, Sayulita](https://wildmex.com/wp-content/uploads/2026/03/wildmex_surf_and_adventure_home-1.avif)

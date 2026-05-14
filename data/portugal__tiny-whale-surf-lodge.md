@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJrZStrhQwGw0RqgyGQlMcMqg -->
 # Lagos, Portugal: Tiny Whale Surf Lodge
 
 ![Tiny Whale Surf Lodge](https://www.tinywhalesurflodge.com/wp-content/uploads/2026/02/INT-banner-04.jpg)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJhdpcgz1Nsg0R7GVdG_XkdCM -->
 # Taghazout, Morocco: Surfing in Taghazout - Surf Camp Taghazout
 
 ![Surfing in Taghazout - Surf Camp Taghazout](https://surfingintaghazout.com/wp-content/uploads/2025/12/2-5.png)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJI_SsehL1Q4wROlYFlyOSbu8 -->
 # Surfers Point, Barbados, Barbados: Zed's Surfing Adventures
 
 ![Zed's Surfing Adventures](https://static.wixstatic.com/media/9ee854_73adc5897faf4edebb62f3b2ee7edea6~mv2.png/v1/fill/w_2500,h_1654,al_c/9ee854_73adc5897faf4edebb62f3b2ee7edea6~mv2.png)

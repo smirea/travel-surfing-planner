@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJGz9UyLrHoY8RHgiXwox4qDQ -->
 # Jaco, Costa Rica: Surf Synergy Surf and Wellness Resort
 
 ![Surf Synergy Surf and Wellness Resort](http://static1.squarespace.com/static/65666546dcec1232ffb9fd29/t/65a88a6c706904102895059a/1705544300876/SurfSynergy_social.png?format=1500w)

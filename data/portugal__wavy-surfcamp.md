@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJc1nO_SE2Gw0Rpoh4yS3nqiw -->
 # Sagres, Portugal: Wavy SurfCamp
 
 ![Wavy SurfCamp](https://wavysurfcamp.com/wp-content/uploads/2025/12/cropped-ICONO-WAVY.png)

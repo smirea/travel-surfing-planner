@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJpWorzxybrQ0RcbbMfqfCJuE -->
 # Essaouira, Morocco: Loving Surf, Kite & Surf School Surf Shop
 
 ![Loving Surf, Kite & Surf School Surf Shop](https://www.lovingsurf.com/wp-content/uploads/2019/01/loving-surf-lessons-coaching-holidays-essaouira-morocco.png)

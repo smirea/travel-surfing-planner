@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJGwG-dWCpzS0RnIjU7JCDCe0 -->
 # Kuta, Lombok, Indonesia: LMBK Surf House
 
 ![LMBK Surf House](https://lmbksurfhouse.com/wp-content/uploads/2022/11/Screen-Shot-2021-05-07-at-10.20.36-PM.png)

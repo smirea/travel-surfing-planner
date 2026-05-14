@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJIbfLaQsnHw0RzSpdoU2TKq4 -->
 # Ericeira, Portugal: Ericeira Surf Camp
 
 ![Ericeira Surf Camp](https://ericeirasurfcamp.com/wp-content/uploads/2020/03/Ericeira-Surf-Camp-Prices-Header.png)

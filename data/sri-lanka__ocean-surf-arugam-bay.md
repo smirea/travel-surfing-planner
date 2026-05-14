@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJW-U06y-95ToRUvtG4a1gQWM -->
 # Arugam Bay, Sri Lanka: Ocean Surf Arugam Bay
 
 ![Ocean Surf Arugam Bay](https://oceansurfarugambay.com/wp-content/uploads/2024/04/best-experinced-surf-instructor-in-arugam-bay.png)

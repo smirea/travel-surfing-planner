@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJLWnEqTAV4ToR6SwJA39Jy8g -->
 # Weligama, Sri Lanka: Layback Surf Camp
 
 ![Layback Surf Camp](http://static1.squarespace.com/static/5c3c45545cfd79a26f6517bf/t/5ec0bb063ca6b4722cd648e7/1589689096424/sri+lanka+surfing+camp.jpg?format=1500w)

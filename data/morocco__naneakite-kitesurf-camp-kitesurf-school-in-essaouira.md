@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJSdY6EXWbrQ0REg5psB7jJis -->
 # Essaouira, Morocco: Naneakite : Kitesurf camp - Kitesurf school in Essaouira
 
 ![Naneakite : Kitesurf camp - Kitesurf school in Essaouira](https://naneakite.com/wp-content/uploads/2022/11/png-logo_Plan-de-travail-1-copie-2-e1671228505309.png)

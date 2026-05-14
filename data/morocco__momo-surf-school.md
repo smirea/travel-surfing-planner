@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJneLAp_pNsg0RC4vkE4C_dsk -->
 # Taghazout, Morocco: Momo surf school
 
 ![Momo surf school](https://momosurf.com/wp-content/uploads/2025/09/Untitled-500-x-500-px-1-1-150x150.png)

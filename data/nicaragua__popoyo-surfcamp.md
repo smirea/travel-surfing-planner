@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJkRNQRLsvdI8R0qWDo_fVMhc -->
 # Popoyo, Nicaragua: Popoyo Surfcamp
 
 ![Popoyo Surfcamp](https://cdn.prod.website-files.com/6785971439e53f4bb4e84c80/6785971539e53f4bb4e84cf5_bell_dark.svg)

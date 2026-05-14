@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJy0wD5csxGw0RyTXUQcLeZpQ -->
 # Lagos, Portugal: Algarve Watersport Surf Camp
 
 ![Algarve Watersport Surf Camp](https://algarvewatersport.com/wp-content/uploads/2026/03/woman-surfing-small-wave-cliffs-background-1024x683.webp)

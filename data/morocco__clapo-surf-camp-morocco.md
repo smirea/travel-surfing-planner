@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJNYRwYJZfsg0Re5AlGTO76ak -->
 # Imsouane, Morocco: Clapo Surf Camp Morocco
 
 ![Clapo Surf Camp Morocco](http://static1.squarespace.com/static/6304a9776f41f33990db00b0/t/67066bb63987b0283ada8e58/1742143641683/surfing-time.jpg?format=1500w)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJBbOJ5sazsw0RcihBNE8bB9M -->
 # Tamraght, Morocco: Solyra Surf Morocco | Surf & Yoga Camp in Tamraght
 
 ![Solyra Surf Morocco | Surf & Yoga Camp in Tamraght](https://solyrasurfmorocco.com/wp-content/uploads/2026/02/fun.jpeg)

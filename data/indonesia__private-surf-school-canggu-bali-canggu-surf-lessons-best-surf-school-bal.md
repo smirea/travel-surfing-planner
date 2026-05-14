@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJlR4s-_U40i0Rdm6wVTjEA2I -->
 # Kuta / Canggu, Bali, Indonesia: Private Surf School Canggu Bali | Canggu Surf Lessons | Best Surf School Bali
 
 ![Private Surf School Canggu Bali | Canggu Surf Lessons | Best Surf School Bali](https://balisurfinstructor.com/wp-content/uploads/2026/02/Surf-lesson.avif)

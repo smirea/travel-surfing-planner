@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJg151aaSpzS0RI8E-BgkWcKo -->
 # Kuta Lombok, Indonesia: Surfing Banditos Lombok - Surf School
 
 ![Surfing Banditos Lombok - Surf School](http://static1.squarespace.com/static/6579f2ac47ec241bf7fa0d14/t/67f9d188374c5c3481eea0c1/1744425352517/PNG+LOGO+LIGN.png?format=1500w)

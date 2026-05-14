@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ83mtsDlikGsRvxjDXGBRPrY -->
 # Byron Bay, Australia: Mojosurf Surf School Byron Bay
 
 ![Mojosurf Surf School Byron Bay](https://mojosurf.com/wp-content/uploads/2023/05/Mojosurf-likeminded-surfers.jpg)

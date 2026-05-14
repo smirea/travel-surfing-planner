@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJdY2Ftc8xGw0RhUN2U8jKaOk -->
 # Lagos, Portugal: JAH SHAKA SURF SHOP
 
 ![JAH SHAKA SURF SHOP](https://cdn.prod.website-files.com/656f02aca1d62748d066cce7/66886bc1f9d99023630bac14_jah_shaka_surf_shop.jpg)

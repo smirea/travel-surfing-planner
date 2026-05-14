@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ9b1kP3Y40i0RMZRd-8nMZMI -->
 # Kuta / Canggu, Bali, Indonesia: Canggu Surf School
 
 ![Canggu Surf School](https://i0.wp.com/baliwaveexperience.com/wp-content/uploads/2024/05/baliwaveexperience-01.webp?fit=778%2C539&amp;ssl=1)

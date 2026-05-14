@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJh9UbRdpfsg0RJXNjZIYwCfg -->
 # Imsouane, Morocco: Imsouane Vibe Surf Camp
 
 ![Imsouane Vibe Surf Camp](https://imsouanevibe.com/wp-content/uploads/2026/04/DSC07349-1.jpg)

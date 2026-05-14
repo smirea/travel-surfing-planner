@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJY_2lRtvULZARMP2GRyezVu8 -->
 # Montanita, Ecuador: Balsa Surf Camp Guest House
 
 ![Balsa Surf Camp Guest House](https://www.balsasurfcamp.com/wp-content/uploads/2022/08/LOGO-FINAL.png)

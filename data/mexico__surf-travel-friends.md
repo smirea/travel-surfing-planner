@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJi0l6r8n5uIUR1JIJykSr-UA -->
 # Puerto Escondido, Mexico: Surf Travel Friends
 
 ![Surf Travel Friends](https://static.wixstatic.com/media/4d4cad_643f45cf9d024dc7859adb3882697c8f~mv2.png/v1/fill/w_53,h_9,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/output-onlinepngtools.png)

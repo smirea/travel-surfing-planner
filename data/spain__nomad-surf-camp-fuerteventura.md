@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJaWwMTwE1RgwRc1nhqEw21hc -->
 # Corralejo, Fuerteventura, Spain: Nomad Surf Camp Fuerteventura
 
 ![Nomad Surf Camp Fuerteventura](https://static.wixstatic.com/media/3b247c_267e150800464476a2aca87b2a6514d4%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/3b247c_267e150800464476a2aca87b2a6514d4%7Emv2.jpg)

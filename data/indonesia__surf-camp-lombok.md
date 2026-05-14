@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJuRGOmcEAzS0Rpxf4FFZhQZo -->
 # Kuta Lombok, Indonesia: Surf Camp Lombok
 
 ![Surf Camp Lombok](http://static1.squarespace.com/static/63774f7c71e7a557ffdc82d8/t/66051db1c2dfca53d945fd97/1729675534239/SCL+web+logo.png?format=1500w)

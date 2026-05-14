@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJvyCyhUg5no8R1-l9b6Zp-jY -->
 # Tamarindo, Costa Rica: Witch’s Rock Surf Camp
 
 ![Witch’s Rock Surf Camp](https://witchsrocksurfcamp.com/wp-content/uploads/2023/06/witchs-rock-surf-resort-tamarindo-costa-rica-3.webp)

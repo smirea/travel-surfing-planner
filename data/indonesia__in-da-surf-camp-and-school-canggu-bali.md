@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJM1rPInw40i0RwZ5WWgu_Nho -->
 # Kuta / Canggu, Bali, Indonesia: In Da Surf Camp & School Canggu Bali
 
 ![In Da Surf Camp & School Canggu Bali](https://www.indasurf.com/img/playlist-banner.jpg)

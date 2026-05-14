@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJxV0gRn5H0i0Rwd0N4edG11A -->
 # Kuta / Canggu, Bali, Indonesia: Dian Surf School Canggu Bali
 
 ![Dian Surf School Canggu Bali](https://diansurfschoolcanggu.com/wp-content/uploads/2024/09/dian-surf-logo.png)

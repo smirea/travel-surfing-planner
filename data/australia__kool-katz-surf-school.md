@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJXSyucjlikGsRYon50udaw4Y -->
 # Byron Bay, Australia: Kool Katz Surf School
 
 ![Kool Katz Surf School](https://img1.wsimg.com/isteam/ip/b06ad80b-f967-49ea-859a-84bf7c62e506/IMG_0158.JPG)

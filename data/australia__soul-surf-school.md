@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJFRUGRDpikGsRwjseG0HERlg -->
 # Byron Bay, Australia: Soul Surf School
 
 ![Soul Surf School](https://soulsurfschool.com.au/wp-content/uploads/2026/05/Screenshot-2026-05-13-at-11.06.44-am.png)

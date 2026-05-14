@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJFXIlMqeRNpARqVY9rrJReGk -->
 # Mancora, Peru: Escuela surf Mancora SurfPoint
 
 ![Escuela surf Mancora SurfPoint](https://scontent-mia3-3.cdninstagram.com/v/t51.2885-19/61367988_460836054463178_4689301725348102144_n.jpg?stp=dst-jpg_s100x100_tt6&amp;_nc_cat=110&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NTguQzMifQ%3D%3D&amp;_nc_ohc=IkkW-1p_PowQ7kNvwFmN1Gv&amp;_nc_oc=AdrBtisf5vblzgdZFgVEo_y0aqtOlZkoLX_CIRqbNOqXaKOWT0tsVH3-K1RGHkxy9-M&amp;_nc_zt=24&amp;_nc_ht=scontent-mia3-3.cdninstagram.com&amp;_nc_ss=7c689&amp;oh=00_Af6ogi5VpWs0f-hCYMi9jaQ06H9MV-AbjQdAd0sPfjqcew&amp;oe=6A0C060B)

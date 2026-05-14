@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJnT29aR8V4ToRJiGtfB6KNNY -->
 # Weligama, Sri Lanka: Ocean Tribe Surf Camp & Yoga Retreat
 
 ![Ocean Tribe Surf Camp & Yoga Retreat](https://oceantribesurfcamp.com/wp-content/uploads/2021/02/surfer-catch-wave-compressed.jpg)

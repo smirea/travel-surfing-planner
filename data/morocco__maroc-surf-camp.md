@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJp7xlzd-ysw0RkRfPjdO2lyw -->
 # Tamraght, Morocco: Maroc Surf Camp
 
 ![Maroc Surf Camp](http://static1.squarespace.com/static/626a91da704a882172ad115f/t/66f1a788f5018061f8bf852f/1727113097025/refined+%281%29.png?format=1500w)

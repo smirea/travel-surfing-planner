@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJEb_uMJxpk2sRgesUpz4AdME -->
 # Noosa, Australia: Go Ride a Wave - Noosa
 
 ![Go Ride a Wave - Noosa](https://gorideawave.com.au/wp-content/uploads/2020/10/two-girls-surfing-surfers-paradise-1024x683.jpeg)

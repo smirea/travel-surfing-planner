@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJI9TytHFNsg0R5sQscOKX66c -->
 # Taghazout, Morocco: Surf Coast Morocco - Surf & Yoga House
 
 ![Surf Coast Morocco - Surf & Yoga House](https://static.wixstatic.com/media/63a27d_3f5d410d4d904534a28ec37f00d1673e%7Emv2_d_2738_1825_s_2.jpg/v1/fit/w_2500,h_1330,al_c/63a27d_3f5d410d4d904534a28ec37f00d1673e%7Emv2_d_2738_1825_s_2.jpg)

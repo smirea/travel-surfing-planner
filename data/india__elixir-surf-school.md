@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJX8a9YvPvBTsRsAKNJkYhAes -->
 # Varkala, India: Elixir Surf School
 
 ![Elixir Surf School](https://elixircliff.com/images/fi_map-pin.svg)

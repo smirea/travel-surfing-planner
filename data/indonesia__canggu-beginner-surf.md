@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJTy_0nd1H0i0R3x9kk_aA4LU -->
 # Kuta / Canggu, Bali, Indonesia: Canggu Beginner Surf
 
 ![Canggu Beginner Surf](https://www.canggubeginnersurf.com/uploads/1/4/2/0/142081818/published/s-u-r-f-2.png?1654225219)

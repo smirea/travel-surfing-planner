@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ2dUROfJNGw0RAM25kqchKH0 -->
 # Sagres, Portugal: Surf Planet Surf School Sagres
 
 ![Surf Planet Surf School Sagres](https://surfplanetsurfschool.com/media/mod_falang/images/en_gb.gif)

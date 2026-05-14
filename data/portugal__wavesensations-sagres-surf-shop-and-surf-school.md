@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJmd9XqWRMGw0Rq9ILeNlceuI -->
 # Sagres, Portugal: Wavesensations - Sagres Surf Shop & Surf School
 
 ![Wavesensations - Sagres Surf Shop & Surf School](https://wavesensations.com/wp-content/uploads/2022/02/015-683x1024.jpg)

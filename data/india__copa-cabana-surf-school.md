@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJldvwNAHvBTsRty7JLpdJK00 -->
 # Varkala, India: Copa Cabana Surf School
 
 ![Copa Cabana Surf School](https://nexgendesignz.in/copacabana/assets/img/fbb.jpg)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJnfCMMUYV4ToRvAdWCJDcDSQ -->
 # Weligama, Sri Lanka: Lucky's Surf School
 
 Image: not captured during bulk evaluation.

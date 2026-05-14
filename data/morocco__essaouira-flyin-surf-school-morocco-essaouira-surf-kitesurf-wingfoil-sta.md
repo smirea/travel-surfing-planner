@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJdSt2BnibrQ0RWrfJhBivxu4 -->
 # Essaouira, Morocco: Essaouira Flyin' Surf School Morocco: Essaouira, Surf, Kitesurf, Wingfoil, Stand-Up Paddle, Maroc
 
 ![Essaouira Flyin' Surf School Morocco: Essaouira, Surf, Kitesurf, Wingfoil, Stand-Up Paddle, Maroc](https://flyinsurf.com/wp-content/uploads/2024/02/white-flyinsurf.png)

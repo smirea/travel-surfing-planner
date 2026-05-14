@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJxdEzkAAnHw0RnM02FWSh-uU -->
 # Ericeira, Portugal: Surf 365 Ericeira
 
 Image: not captured during bulk evaluation.

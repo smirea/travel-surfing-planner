@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJDU6giTBfsg0REQgArn62Mig -->
 # Imsouane, Morocco: Mystery Surf Camp
 
 ![Mystery Surf Camp](https://mysterysurfcamp.com/wp-content/uploads/2024/06/Surf-camp-Imsouane-e1720528300390.webp)

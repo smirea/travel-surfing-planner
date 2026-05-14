@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ-UcydkVNsg0Rt9DA5aB91aw -->
 # Taghazout, Morocco: Surf & Travel Camp Morocco
 
 ![Surf & Travel Camp Morocco](http://static1.squarespace.com/static/545377aae4b08fffb61630b7/t/6554bf4e4c1f95020fbbd5a5/1700052814950/IMG_1526.jpg?format=1500w)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ4TxvhBwxGw0RT8wOoRvzQeI -->
 # Lagos, Portugal: Salty Wave
 
 ![Salty Wave](https://saltywavesurf.com/wp-content/uploads/2026/01/img_OGIMAGE_SW_logo_F.jpg)

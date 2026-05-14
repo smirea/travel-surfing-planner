@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJx5K0imNMGw0ReVK9pFLDdtI -->
 # Sagres, Portugal: Sagres Surf School
 
 ![Sagres Surf School](https://sagressurfschool.com/images/praia-cordoama.png)

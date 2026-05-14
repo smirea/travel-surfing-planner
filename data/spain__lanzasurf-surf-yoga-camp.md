@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJAQvjpuEfRgwRSyw-k9HaKvk -->
 # Famara, Lanzarote, Spain: Lanzasurf Surf & Yoga Camp
 
 ![Lanzasurf Surf & Yoga Camp](https://lanzasurf.com/wp-content/uploads/2026/03/Lanzasurf-Surf-Yoga-Camps-surfers-.jpg)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ50kdT3b2Q4wRJ6h-n0VOXOU -->
 # Surfers Point, Barbados: Barrys Surf Barbados Surf School
 
 ![Barrys Surf Barbados Surf School](https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png)

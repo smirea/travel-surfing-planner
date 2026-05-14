@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJge7JYpb1Q4wR1MpBCs6ZCVM -->
 # Surfers Point, Barbados: Ride The Tide Surf School & Surfboard Rental
 
 Image: not captured during bulk evaluation.

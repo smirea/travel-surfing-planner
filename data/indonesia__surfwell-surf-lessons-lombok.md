@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJycQgF8OpzS0RpeTpQKfaNwU -->
 # Kuta Lombok, Indonesia: Surfwell - Surf Lessons Lombok
 
 ![Surfwell - Surf Lessons Lombok](https://surfwells.com/wp-content/uploads/2024/05/Surf-Lessons-Lombok-by-Surfwell-1.webp)

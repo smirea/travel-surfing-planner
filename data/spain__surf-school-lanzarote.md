@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJGU1Wn-ofRgwR3iZf6e7Ncrc -->
 # Lanzarote, Spain: Surf School Lanzarote
 
 ![Surf School Lanzarote](https://surfschoolanzarote.com/wp-content/uploads/2023/03/iamm.jpg)

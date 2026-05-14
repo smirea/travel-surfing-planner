@@ -17,6 +17,7 @@ High level: Find a place that offers daily surfing lessons for 2 weeks in a nice
 The final deliverable will be a `data/result.md` table of `name,country,city,ratings,period,price,with_housing,notes` sorted by desirability given the requirements (price = total per person, notes should include meaningful information if needed red/green flags) and a list of `data/[country]__[name-kebab-case].md` files with detailed information (the name of each business is linked to its detailed markdown). The detailed file for each offering should be of the following format:
 
 ```md
+<!-- google_maps_id: [Google Places placeId, e.g. ChIJ...] -->
 # [city, country]: [offering name]
 
 [one meaningful image it]
@@ -28,6 +29,8 @@ Rating: ...
 Things to do around: ...
 ... other details ...
 ```
+
+Each per-school detail file must start with the `google_maps_id` HTML comment. Use that Google Places ID as the canonical dedupe key across `data/result.md` and detail files because school names, websites, and Maps URLs can vary. Aggregate markdown files like `data/result.md`, `data/full_evaluation.md`, queue files, and audit files do not represent one school and do not carry a single `google_maps_id`.
 
 1. Find all the countries in the world that have good beach temperature in that period and have access to good surfing places. store the data under `data/queue_countries.md` as a checklist table that you'll work through
    1.1. Take each country one at a time and find business that offer surfing programs for beginners in each of those countries. store the data under `data/queue_country_[country].md` as a checklist table with basic info

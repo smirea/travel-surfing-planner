@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJTwceFQBNsg0Rf1roB524eXA -->
 # Taghazout, Morocco: Taghazout Surf Lessons & School – Surf with Reda
 
 ![Taghazout Surf Lessons & School – Surf with Reda](https://surfwithreda.com/wp-content/uploads/2025/08/WhatsApp_Image_2025-03-13_at_12.35.52_optimized-1.jpeg)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJwc6zVs6zsw0Rdr0uA1iMFfs -->
 # Tamraght, Morocco: Desert Surf Camp - Tamraght
 
 ![Desert Surf Camp - Tamraght](https://static.tildacdn.one/tild3331-6639-4565-b964-383266316164/imagepng.webp)

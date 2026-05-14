@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJjwshl7gxGw0RgfmNXnIh_fU -->
 # Lagos, Portugal: TSE
 
 ![TSE](https://thesurfexperience.eu/wp-content/uploads/2019/08/DSC3656-960x640-c-center.jpg)

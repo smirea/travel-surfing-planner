@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ7QfpSJs40i0Rq2lUp9OQjgI -->
 # Kuta / Canggu, Bali, Indonesia: SurfWG Bali Surfcamp
 
 ![SurfWG Bali Surfcamp](https://212.132.103.132/wp-content/uploads/2016/08/surf-camp-bali.png)

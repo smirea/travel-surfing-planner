@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJR5iJe8SbrQ0RGV-PrsdA1ck -->
 # Essaouira, Morocco: ESSAOUIRA WATERSPORTS: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco
 
 ![ESSAOUIRA WATERSPORTS: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco](https://www.essaouirawatersports.com/images/photos/B21I6958.webp)

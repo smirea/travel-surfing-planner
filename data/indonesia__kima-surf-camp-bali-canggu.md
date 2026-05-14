@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ_WdXV3k40i0RkMaL_4B9CFU -->
 # Kuta / Canggu, Bali, Indonesia: Kima Surf Camp Bali Canggu
 
 ![Kima Surf Camp Bali Canggu](https://cdn.kimasurfcdn.com/master/images/card-canggu.webp)

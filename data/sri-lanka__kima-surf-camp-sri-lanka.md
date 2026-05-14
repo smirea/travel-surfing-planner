@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJz-uUd4AV4ToRO5F0DPScR88 -->
 # Weligama, Sri Lanka: Kima Surf Camp Sri Lanka
 
 ![Kima Surf Camp Sri Lanka](https://kimasurfsrilanka.com/wp-content/uploads/2021/08/Kima_Surf_Sri_Lanka_Home_Header_resized.jpg)

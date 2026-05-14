@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJB9GpFYqpzS0R4jjTCoJfR4o -->
 # Kuta Lombok, Indonesia: Kuta Lombok Surf School
 
 Image: not captured during bulk evaluation.

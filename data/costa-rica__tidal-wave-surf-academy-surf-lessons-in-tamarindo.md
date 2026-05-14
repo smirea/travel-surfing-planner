@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJRX_kjNQ5no8RKDCPamk9ARw -->
 # Tamarindo, Costa Rica: Tidal Wave Surf Academy | Surf lessons in Tamarindo
 
 ![Tidal Wave Surf Academy | Surf lessons in Tamarindo](https://static.wixstatic.com/media/2bea76_947fe92bfde74e50bad012c03299a001~mv2.png/v1/fill/w_2500,h_2471,al_c/2bea76_947fe92bfde74e50bad012c03299a001~mv2.png)

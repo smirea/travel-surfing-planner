@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJt6wvM0yarQ0RJK9Nui6e2u0 -->
 # Essaouira, Morocco: Explora Watersports: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco
 
 ![Explora Watersports: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco](https://explorawatersports.com/wp-content/uploads/2024/03/532_613d184806b645bbb6c9a2765952fc38_1920.webp)

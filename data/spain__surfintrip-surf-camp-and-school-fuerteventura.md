@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ023NAOQ0RgwRoCxafVZC8oQ -->
 # Fuerteventura, Spain: Surfintrip – Surf Camp & School Fuerteventura
 
 ![Surfintrip – Surf Camp & School Fuerteventura](https://www.surfintrip.com/images/logo.png)

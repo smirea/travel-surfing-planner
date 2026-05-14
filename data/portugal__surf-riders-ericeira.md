@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJBUh_GQ8nHw0RjoH2sWkqzmE -->
 # Ericeira, Portugal: Surf Riders Ericeira
 
 ![Surf Riders Ericeira](https://static.wixstatic.com/media/db8529_282a25d2c03e40b0b73e6f7dfd7fde4b%7Emv2_d_5184_3456_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/db8529_282a25d2c03e40b0b73e6f7dfd7fde4b%7Emv2_d_5184_3456_s_4_2.jpg)

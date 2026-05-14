@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJof4uBtnzNpARjmW9xcprfXM -->
 # Mancora, Peru: Surf Racer House - Surf, Kitesurf & Skate Camp Peru
 
 ![Surf Racer House - Surf, Kitesurf & Skate Camp Peru](https://www.surf-racer.com/wp-content/uploads/2020/05/surf-racer-wave.png)

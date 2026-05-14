@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJDcij-g295ToRRcVLxkbvA9E -->
 # Arugam Bay, Sri Lanka: Surf & Yoga, Arugam Bay 〰 All Inclusive Surf Camp and Yoga Retreat in Sri Lanka
 
 ![Surf & Yoga, Arugam Bay 〰 All Inclusive Surf Camp and Yoga Retreat in Sri Lanka](https://surfnyogaarugambay.com/wp-content/uploads/2022/02/244556903_131056502598105_5534175113641697821_n.jpeg)

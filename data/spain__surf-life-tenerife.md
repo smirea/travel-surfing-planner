@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJVWM5gfCXagwRlB_ybbcinAA -->
 # Tenerife, Spain: Surf Life Tenerife
 
 ![Surf Life Tenerife](https://www.surflifetenerife.com/wp-content/uploads/2024/05/surf-life-tenerife-instructor-home-hero-bg-2.jpg)

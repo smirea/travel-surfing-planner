@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJieHDQ4QxGw0R5HoxE38qbFU -->
 # Lagos, Portugal: Lagos Surf Safari Surf School
 
 ![Lagos Surf Safari Surf School](https://lagossurfsafari.com/wp-content/uploads/2020/07/home1_02-3.png)

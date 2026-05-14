@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJPaf7gdEvdI8RnhdwtbChbzM -->
 # Popoyo, Nicaragua: Nicawaves Surf Resort
 
 ![Nicawaves Surf Resort](https://www.nicawaves.com/wp-content/uploads/2020/01/Pool-Terrace-528x352.jpg)

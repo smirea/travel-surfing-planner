@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJj0Rv9Z4dN2cRLlwzGAfDeFw -->
 # Taghazout, Morocco: Taghazout Surfers - Surf School
 
 ![Taghazout Surfers - Surf School](https://taghazoutsurfers.com/assets/imgs/surfers-logo-Horisontal.jpg)

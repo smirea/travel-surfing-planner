@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ7TzxxwMnHw0RWPBjZjbD_ZI -->
 # Ericeira, Portugal: Surf Center Ericeira
 
 ![Surf Center Ericeira](https://static.wixstatic.com/media/fb48f7_adb8a0a043094b088cf8a9b6ed0b4feb%7Emv2.png/v1/fit/w_2500,h_1330,al_c/fb48f7_adb8a0a043094b088cf8a9b6ed0b4feb%7Emv2.png)

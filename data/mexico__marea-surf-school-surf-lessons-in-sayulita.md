@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJU5j0JnAWIYQROM-uZfPQt1M -->
 # Sayulita, Mexico: Marea Surf School – Surf Lessons in Sayulita
 
 ![Marea Surf School – Surf Lessons in Sayulita](https://static.wixstatic.com/media/dec532_d3696f7443864bda8bde428a0369e87e~mv2.jpg/v1/fill/w_2500,h_1536,al_c/dec532_d3696f7443864bda8bde428a0369e87e~mv2.jpg)

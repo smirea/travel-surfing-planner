@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJrfZNiN6ysw0ReKahaWJItVQ -->
 # Tamraght, Morocco: Pro Surf Morocco
 
 ![Pro Surf Morocco](https://prosurfmorocco.com/wp-content/uploads/2025/06/d1e0865f-e8ee-48af-ae1e-7b1636d3b628.jpg)

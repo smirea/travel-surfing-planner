@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJWXe7IQAV4ToRughDroSCclU -->
 # Weligama, Sri Lanka: Chill & Surf Weligama
 
 ![Chill & Surf Weligama](https://chillandsurfcamp.com/images/beginner-lesson.jpg)

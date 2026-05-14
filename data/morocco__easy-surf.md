@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJb1L1996ysw0R0YjwASLbvQc -->
 # Tamraght, Morocco: Easy Surf
 
 ![Easy Surf](https://www.easysurfmaroc.com/wp-content/uploads/2021/12/surf-yoga-camp-morocco-easysurfmaroc-3.jpg)

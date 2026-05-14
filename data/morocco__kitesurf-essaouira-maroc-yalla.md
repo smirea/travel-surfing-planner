@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJcXG8KlebrQ0R3U8Xr1WvrJA -->
 # Essaouira, Morocco: Kitesurf Essaouira Maroc Yalla
 
 ![Kitesurf Essaouira Maroc Yalla](https://img1.wsimg.com/isteam/ip/357462de-3e2d-4c1a-8d7a-efc00f110df4/726157aa-63b0-4077-a33f-3516a54414ed.JPG)

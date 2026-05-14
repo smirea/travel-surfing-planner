@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJE0Dz-8n5uIURS8KntmDrBu8 -->
 # Puerto Escondido, Mexico: Puerto Surf House & School
 
 ![Puerto Surf House & School](https://www.puertosurf.com.mx/wp-content/uploads/2019/12/puerto-surf-clase-grupal-05-495x400.jpg)

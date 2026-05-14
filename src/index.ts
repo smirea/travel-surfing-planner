@@ -293,10 +293,15 @@ function addExternalLinkFields(
 	googleMapsUrl: string,
 	tripAdvisorUrl: string | undefined,
 ): DetailData {
+	const labels = new Set(detail.fields.map(field => normalizeText(field.label)));
 	const externalFields = [
-		{ label: 'Google Maps', value: googleMapsUrl },
-		{ label: 'Tripadvisor', value: tripAdvisorUrl ?? '-' },
+		...(labels.has('google maps') ? [] : [{ label: 'Google Maps', value: googleMapsUrl }]),
+		...(labels.has('tripadvisor') ? [] : [{ label: 'Tripadvisor', value: tripAdvisorUrl ?? '-' }]),
 	];
+	if (!externalFields.length) {
+		return detail;
+	}
+
 	const fields: DetailData['fields'] = [];
 	let inserted = false;
 

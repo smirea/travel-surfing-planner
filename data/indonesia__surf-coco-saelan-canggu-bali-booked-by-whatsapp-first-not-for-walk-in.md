@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJg6THgllH0i0ROxE6gMyP3H4 -->
 # Kuta / Canggu, Bali, Indonesia: Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!)
 
 ![Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!)](https://www.canggu-surfingclass.com/wp-content/uploads/2022/08/hook-ig.png)

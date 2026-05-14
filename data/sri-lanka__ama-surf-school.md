@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ8dAwkDwV4ToRVENvrSkBIoc -->
 # Weligama, Sri Lanka: Ama Surf School
 
 ![Ama Surf School](https://amasurfschool.com/wp-content/uploads/2022/11/cropped-iStock-1151161885-%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B8%CC%86-copy-7-1-copy-5.png)

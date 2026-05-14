@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJN9x1QwA1RgwRuEFrOBOy9SU -->
 # Fuerteventura, Spain: Corralejo Surf School RIP CURL
 
 ![Corralejo Surf School RIP CURL](https://www.corralejosurfschool.com/assets/images/curso-surf.jpg)

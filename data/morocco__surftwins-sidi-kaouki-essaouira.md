@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJb7DrMZCbrQ0RemSxoshYj-M -->
 # Essaouira, Morocco: Surftwins Sidi kaouki Essaouira
 
 ![Surftwins Sidi kaouki Essaouira](https://cdn.prod.website-files.com/617b6f00715044249cb2b8dc/69badae4fb77de4820cef45b_surftip%20with%20surftwins.jpg)

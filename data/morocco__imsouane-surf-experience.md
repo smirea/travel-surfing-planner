@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJdTtoQjZdsg0R-J4ItqiZkzQ -->
 # Imsouane, Morocco: Imsouane surf experience
 
 ![Imsouane surf experience](https://imsouanesurfexperience.com/uploads/20251205184437_69332815bae61.webp)

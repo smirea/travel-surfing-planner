@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJIQReD4mbrQ0RQX3nziCGCBY -->
 # Essaouira, Morocco: Kite Surf Wingfoil Essaouira - Olasurf Essaouira
 
 ![Kite Surf Wingfoil Essaouira - Olasurf Essaouira](https://olasurfessaouira.com/wp-content/uploads/2024/02/cropped-papi-104x88.png)

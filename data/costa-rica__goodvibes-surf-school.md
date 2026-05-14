@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJS_1dVtM5no8RoyQUcNYGs2k -->
 # Tamarindo, Costa Rica: GoodVibes Surf School
 
 ![GoodVibes Surf School](https://goodvibessurfschoolcr.com/wp-content/uploads/2023/09/cropped-logo.png)

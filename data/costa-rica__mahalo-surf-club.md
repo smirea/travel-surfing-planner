@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJu9tEJUanCE4R-kZBAOelMwk -->
 # Santa Teresa, Costa Rica: Mahalo Surf Club
 
 ![Mahalo Surf Club](https://static.wixstatic.com/media/46e08d_378257ce3e1345c286b4d9925589819e%7Emv2.png/v1/fit/w_2500,h_1330,al_c/46e08d_378257ce3e1345c286b4d9925589819e%7Emv2.png)

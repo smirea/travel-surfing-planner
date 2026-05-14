@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ71Grzz2xdY8RDFY_k0HWOtc -->
 # San Juan del Sur, Nicaragua: Hightide Surf School
 
 ![Hightide Surf School](https://img1.wsimg.com/isteam/ip/c3d3cb17-e893-4c74-9334-2efcb8ebf5b2/blob-3d98f08.png)

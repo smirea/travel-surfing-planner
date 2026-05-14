@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJudONrgxUno8RTKVSt1-hSdY -->
 # Nosara, Costa Rica: Surf Bikini Retreat
 
 ![Surf Bikini Retreat](https://surfbikininosara.com/wp-content/uploads/2021/10/saltysister3-1.jpg)

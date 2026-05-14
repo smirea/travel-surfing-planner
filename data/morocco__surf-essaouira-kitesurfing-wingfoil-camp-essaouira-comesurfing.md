@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ8xKhwwmbrQ0Rhnnck_jCmqI -->
 # Essaouira, Morocco: Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing
 
 ![Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing](https://www.comesurfing.com/wp-content/uploads/2026/03/surf-essaouira-comesurfing-.webp)

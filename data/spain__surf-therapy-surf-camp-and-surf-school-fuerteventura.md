@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJEzkeAwI1RgwRukAWT_Z53qg -->
 # Fuerteventura, Spain: Surf Therapy Surf Camp & Surf School Fuerteventura
 
 ![Surf Therapy Surf Camp & Surf School Fuerteventura](https://www.surftherapy.es/wp-content/uploads/2024/02/surf_camp_1.jpg)

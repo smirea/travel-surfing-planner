@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJmSxufVD2Q4wRdM1dUql4VD4 -->
 # Surfers Point, Barbados: Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS
 
 ![Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS](https://dreadordead.com/wp-content/uploads/2022/10/logo-big-dread.png)

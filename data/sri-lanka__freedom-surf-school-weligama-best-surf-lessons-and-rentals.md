@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJt0w8djgV4ToRrNRRp-Sa7Qo -->
 # Weligama, Sri Lanka: Freedom Surf School Weligama | Best Surf Lessons & Rentals
 
 ![Freedom Surf School Weligama | Best Surf Lessons & Rentals](https://freedomsrilanka.com/wp-content/uploads/2025/01/surfing-1.png)

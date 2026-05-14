@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJX1YqGCVPHw0RyGzsGULW-Yk -->
 # Peniche / Baleal, Portugal: Peniche Surfcamp
 
 ![Peniche Surfcamp](https://www.penichesurfcamp.com/wp-content/uploads/2021/12/Peniche-Surf-Camp.svg)

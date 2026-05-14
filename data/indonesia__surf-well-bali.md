@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJvxoWYd9H0i0RiOS4nthaetQ -->
 # Kuta / Canggu, Bali, Indonesia: Surf Well Bali
 
 Image: not captured during bulk evaluation.

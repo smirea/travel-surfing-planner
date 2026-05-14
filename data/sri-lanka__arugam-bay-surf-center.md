@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJdf7JDOu95ToRcvF_E_cLPgM -->
 # Arugam Bay, Sri Lanka: Arugam Bay Surf Center
 
 ![Arugam Bay Surf Center](https://arugambaysurfcenter.com/wp-content/uploads/2025/09/DSC04554.JPG-768x578.jpeg)

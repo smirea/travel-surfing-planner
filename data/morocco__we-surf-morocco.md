@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJg-592ZO3sw0RFB-Lt_MFw6E -->
 # Taghazout, Morocco: We Surf Morocco
 
 ![We Surf Morocco](https://wesurfmorocco.com/wp-content/uploads/2025/10/IMG_1046.png)

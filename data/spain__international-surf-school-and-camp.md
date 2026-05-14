@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJp0vnA-U0RgwRzFJqzL9EGDQ -->
 # Fuerteventura, Spain: International Surf School & Camp
 
 ![International Surf School & Camp](http://iss.surf/cdn/shop/files/iss02_b0885de6-1dae-4acf-8dfc-ece301f2046e.jpg?v=1738853261)

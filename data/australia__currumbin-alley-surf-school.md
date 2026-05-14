@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJJwYfIyoCkWsRptc27Nu1svc -->
 # Gold Coast, Australia: Currumbin Alley Surf School
 
 ![Currumbin Alley Surf School](https://currumbinalleysurfschool.com.au/wp-content/uploads/2024/08/CurrumbinAlley_Surf_School_A0035-1-scaled.jpg)

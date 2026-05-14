@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJv-LQIvoBkWsRO879x9qdNt8 -->
 # Gold Coast, Australia: Kirra Point Surf School
 
 ![Kirra Point Surf School](https://kirrapointsurfschool.com/wp-content/uploads/2026/01/expgc-1024x577.png)

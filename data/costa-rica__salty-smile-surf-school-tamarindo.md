@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJncYm2Dk5no8RvXtRFC5Q6gs -->
 # Tamarindo, Costa Rica: Salty Smile surf school Tamarindo
 
 ![Salty Smile surf school Tamarindo](https://static.wixstatic.com/media/d229a8_91089ad6520e46eb99bc676c8e4cda4c%7Emv2.png/v1/fit/w_2500,h_1330,al_c/d229a8_91089ad6520e46eb99bc676c8e4cda4c%7Emv2.png)

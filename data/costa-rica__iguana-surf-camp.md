@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJm7l4P0g5no8RsUui1nZ_9qU -->
 # Tamarindo, Costa Rica: Iguana Surf Camp
 
 ![Iguana Surf Camp](https://iguanasurf.net/wp-content/uploads/2025/02/IGUANA-SURF-SHOP_08-4K.00_00_44_00.Still017.jpg)

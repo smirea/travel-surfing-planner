@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJYe4jK59fsg0R_DeaNgd1Mdo -->
 # Imsouane, Morocco: Surf Camp Mubaradise
 
 ![Surf Camp Mubaradise](https://mubaradisesurfschool.com/mubaradisesurfschool.webp)

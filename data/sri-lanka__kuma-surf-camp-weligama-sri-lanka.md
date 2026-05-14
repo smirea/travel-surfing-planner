@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJgdsItkcV4ToRl87xaBIC_IY -->
 # Weligama, Sri Lanka: Kuma Surf Camp Weligama, Sri Lanka
 
 Image: not captured during bulk evaluation.

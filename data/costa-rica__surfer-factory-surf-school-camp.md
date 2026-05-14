@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJu4Gu2EDHoY8RP-B9FsP7pi0 -->
 # Jaco, Costa Rica: Surfer Factory Surf School / Camp
 
 ![Surfer Factory Surf School / Camp](https://static.wixstatic.com/media/08a2ca_b974969d3ad84c13be7462f5ba377bc4%7Emv2_d_4665_2641_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/08a2ca_b974969d3ad84c13be7462f5ba377bc4%7Emv2_d_4665_2641_s_4_2.jpg)

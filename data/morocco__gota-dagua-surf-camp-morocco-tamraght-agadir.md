@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJZcHcKPCzsw0RqxZ8UsYzy7g -->
 # Tamraght, Morocco: Gota Dagua Surf Camp Morocco - Tamraght, Agadir
 
 ![Gota Dagua Surf Camp Morocco - Tamraght, Agadir](https://gotadaguasurf.com/wp-content/uploads/2025/10/Surf-Camp-Tamraght-Morocco2.jpg)

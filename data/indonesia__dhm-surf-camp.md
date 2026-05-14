@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJe6TQuLapzS0R9WdftkfferY -->
 # Kuta Lombok, Indonesia: DHM surf camp
 
 ![DHM surf camp](https://dhm.co.id/wp-content/themes/dhm/assets/img/dhm/humbarge.png)

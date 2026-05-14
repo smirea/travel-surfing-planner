@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJl3weCwC95ToRbstpAuV9qDE -->
 # Arugam Bay, Sri Lanka: Surf Soul Camp & Yoga Retreat
 
 ![Surf Soul Camp & Yoga Retreat](https://surfsoulco.com/wp-content/uploads/2024/09/a004.jpg)

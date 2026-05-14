@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJY7-5PT0BzS0Ro30ay_wolr0 -->
 # Kuta Lombok, Indonesia: Nuna Surf Camp Kuta Lombok
 
 ![Nuna Surf Camp Kuta Lombok](https://nunasurf.com/wp-content/uploads/2025/12/Untitled-design-20.png)

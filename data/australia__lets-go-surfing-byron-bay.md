@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJs7ysBDlikGsRiLBmNrFpa4g -->
 # Byron Bay, Australia: Lets Go Surfing Byron Bay
 
 Image: not captured during bulk evaluation.

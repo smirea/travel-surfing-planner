@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJm810kO8SwQ4R52pkExUsNc0 -->
 # Dakar / Ngor, Senegal: Ngor Island Surf Camp
 
 ![Ngor Island Surf Camp](https://static.wixstatic.com/media/a078b3_c7361f80d29445349c12ace7277deb29~mv2.jpg/v1/fill/w_960,h_720,al_c/a078b3_c7361f80d29445349c12ace7277deb29~mv2.jpg)

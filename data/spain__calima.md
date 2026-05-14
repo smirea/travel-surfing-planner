@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJLYOMj-ofRgwRE1qDXriSoRQ -->
 # Lanzarote, Spain: Calima
 
 ![Calima](https://calimasurf.com/wp-content/uploads/2022/07/calima-surf-yoast.png)

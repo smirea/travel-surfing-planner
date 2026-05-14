@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJqw0rtnQnHw0RmRh98QEqgP4 -->
 # Ericeira, Portugal: 3Surfers
 
 ![3Surfers](https://www.3surfers.com/upload/PMGS170520161728_3surfers.png)

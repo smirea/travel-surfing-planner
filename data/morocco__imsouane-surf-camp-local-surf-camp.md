@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ6anPsb9dsg0RZEBb6L-zFaY -->
 # Imsouane, Morocco: Imsouane Surf Camp Local Surf Camp
 
 Image: not captured during bulk evaluation.

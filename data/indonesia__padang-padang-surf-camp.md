@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJw6EjDExF0i0RSs_qNonm50k -->
 # Uluwatu, Bali, Indonesia: Padang Padang Surf Camp
 
 ![Padang Padang Surf Camp](https://www.balisurfingcamp.com/wp-content/uploads/2024/01/superiorbanner-2-1024x379.jpg)

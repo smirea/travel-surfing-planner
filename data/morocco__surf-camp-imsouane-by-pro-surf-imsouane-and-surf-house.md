@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJw7rMtlCzsw0RLMFaT5qf5Ic -->
 # Imsouane, Morocco: Surf camp Imsouane By Pro Surf Imsouane & Surf House
 
 ![Surf camp Imsouane By Pro Surf Imsouane & Surf House](https://surfschoolmorocco.com/wp-content/uploads/2025/03/IMG_2056.jpg)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJQwvEU9ofRgwRv_8sQt4NixQ -->
 # Lanzarote, Spain: Escuela de Surf Famara - La Cabra Surf School - Surf & Surfskate
 
 ![Escuela de Surf Famara - La Cabra Surf School - Surf & Surfskate](https://lacabrasurfschool.com/wp-content/uploads/2025/08/7N5A8077-Grande.jpeg)

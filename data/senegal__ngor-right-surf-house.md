@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJjU-Hx44TwQ4RpGexDnUDIOI -->
 # Dakar / Ngor, Senegal: Ngor Right Surf House
 
 ![Ngor Right Surf House](https://senegalsurftrip.com/wp-content/uploads/2024/12/SST_Logo.png)

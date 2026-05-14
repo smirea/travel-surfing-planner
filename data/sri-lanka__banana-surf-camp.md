@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJLVy6LjC95ToRERRxZh2Wjy8 -->
 # Arugam Bay, Sri Lanka: Banana Surf Camp
 
 ![Banana Surf Camp](https://bananasurfcamp.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png)

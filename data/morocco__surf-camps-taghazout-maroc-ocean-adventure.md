@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJc0UH3UdNsg0RoQfqfpdlXkM -->
 # Taghazout, Morocco: Surf Camps Taghazout Maroc Ocean Adventure
 
 ![Surf Camps Taghazout Maroc Ocean Adventure](https://oceanadventure.surf/wp-content/uploads/2024/09/surfnfriends.jpg)

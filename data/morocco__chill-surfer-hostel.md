@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJ-7kyntyzsw0RC3nUuRPGxPE -->
 # Tamraght, Morocco: Chill Surfer Hostel
 
 ![Chill Surfer Hostel](https://www.chillsurfer.com/wp-content/uploads/2025/08/IMG_0007-scaled.jpg)

@@ -1,3 +1,4 @@
+<!-- google_maps_id: ChIJo6wpnc_vBTsR994puF8eMDg -->
 # Varkala, India: MOANA SURF CLUB
 
 ![MOANA SURF CLUB](https://moanasurfschool.in/images/main_banner.jpg)
