@@ -72,6 +72,10 @@ const server = Bun.serve({
 			return jsonResponse(await readResults());
 		}
 
+		if (url.pathname === '/favicon.svg') {
+			return fileResponse(path.join(rootDir, 'public/favicon.svg'), 'image/svg+xml; charset=utf-8');
+		}
+
 		return new Response('Not found', { status: 404 });
 	},
 });
@@ -99,6 +103,15 @@ function jsonResponse(value: unknown): Response {
 		headers: {
 			'content-type': 'application/json; charset=utf-8',
 			'cache-control': 'no-store',
+		},
+	});
+}
+
+async function fileResponse(filePath: string, contentType: string): Promise<Response> {
+	return new Response(await Bun.file(filePath).arrayBuffer(), {
+		headers: {
+			'content-type': contentType,
+			'cache-control': 'public, max-age=86400',
 		},
 	});
 }
@@ -214,7 +227,8 @@ function parseMarkdownLink(value: string): { text: string; href: string } | unde
 }
 
 function parseDetailMarkdown(markdown: string): DetailData {
-	const lines = markdown.split('\n');
+	const visibleMarkdown = stripHtmlComments(markdown);
+	const lines = visibleMarkdown.split('\n');
 	const title =
 		lines
 			.find(line => line.startsWith('# '))
@@ -259,8 +273,12 @@ function parseDetailMarkdown(markdown: string): DetailData {
 			: undefined,
 		fields,
 		sources,
-		raw: markdown,
+		raw: visibleMarkdown,
 	};
+}
+
+function stripHtmlComments(markdown: string): string {
+	return markdown.replace(/^<!--[\s\S]*?-->\n?/gm, '');
 }
 
 function findPlaceCandidate(
@@ -402,6 +420,7 @@ function renderPage(): string {
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 	<title>Surf Trip Results</title>
 	<style>
 		:root {
