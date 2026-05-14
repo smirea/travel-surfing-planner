@@ -2,6 +2,7 @@
 	"name": "travel-surfing-planner",
 	"private": true,
 	"scripts": {
+		"start": "bun src/index.ts",
 		"lint": "oxlint --fix && oxfmt",
 		"test": "bun test",
 		"dev": "bun --watch src/index.ts"
