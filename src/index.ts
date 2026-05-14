@@ -487,6 +487,12 @@ function renderPage(): string {
 			gap: 16px;
 		}
 
+		.header-actions {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+		}
+
 		.summary {
 			margin-top: 6px;
 			color: var(--muted);
@@ -515,17 +521,43 @@ function renderPage(): string {
 			padding: 6px 8px;
 		}
 
+		.github-button,
 		.export-button {
+			min-height: 38px;
 			border: 1px solid var(--accent);
-			background: var(--accent);
-			color: #ffffff;
 			border-radius: 6px;
-			padding: 8px 10px;
 			font-weight: 700;
 			white-space: nowrap;
 			cursor: pointer;
 		}
 
+		.github-button {
+			width: 38px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			background: #ffffff;
+			color: var(--accent);
+			text-decoration: none;
+		}
+
+		.github-button svg {
+			width: 20px;
+			height: 20px;
+			stroke-width: 2;
+		}
+
+		.github-button:hover {
+			background: var(--accent-soft);
+		}
+
+		.export-button {
+			background: var(--accent);
+			color: #ffffff;
+			padding: 8px 10px;
+		}
+
+		.github-button:focus-visible,
 		.export-button:focus-visible,
 		.detail-close:focus-visible {
 			outline: 2px solid var(--accent);
@@ -840,7 +872,15 @@ function renderPage(): string {
 					<h1>Surf Trip Results</h1>
 					<div id="summary" class="summary">Loading results...</div>
 				</div>
-				<button id="exportCsv" class="export-button" type="button">Export CSV</button>
+				<div class="header-actions">
+					<a class="github-button" href="https://github.com/smirea/travel-surfing-planner" target="_blank" rel="noreferrer" aria-label="Open GitHub repository" title="Open GitHub repository">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5a10.5 10.5 0 0 0-6 0C8 2 7 2 7 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 6 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+							<path d="M9 18c-4.51 2-5-2-7-2"/>
+						</svg>
+					</a>
+					<button id="exportCsv" class="export-button" type="button">Export CSV</button>
+				</div>
 			</div>
 			<div class="controls">
 				<input id="search" type="search" placeholder="Search schools, cities, notes, prices">
