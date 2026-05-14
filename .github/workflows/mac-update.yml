@@ -1,0 +1,25 @@
+name: Mac update
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send update request
+        env:
+          MAC_UPDATE_BEARER_KEY: ${{ secrets.MAC_UPDATE_BEARER_KEY }}
+        run: |
+          : "${MAC_UPDATE_BEARER_KEY:?MAC_UPDATE_BEARER_KEY secret is not set}"
+          curl --fail-with-body --show-error --silent --no-buffer --request POST \
+            --header "Authorization: Bearer ${MAC_UPDATE_BEARER_KEY}" \
+            https://mac.stf.lol/update/travel-surfing-planner | tee update.log
+          grep -q '^DEPLOY_OK repo=travel-surfing-planner$' update.log
