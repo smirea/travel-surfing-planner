@@ -1,16 +1,12 @@
 #!/usr/bin/env bun
-import { spawnSync } from 'node:child_process';
-import path from 'node:path';
 import yargs, { type Argv } from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
-import { writeEnvLocalValues } from './env-local';
-
 const PLACES_BASE_URL = 'https://places.googleapis.com/v1';
-const DEFAULT_LIMIT = 10;
+const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 20;
 const DEFAULT_RADIUS_METERS = 10_000;
-const DEFAULT_FIELD_MASK = [
+const DEFAULT_SEARCH_FIELD_MASK = [
 	'places.name',
 	'places.id',
 	'places.displayName',
@@ -26,8 +22,9 @@ const DEFAULT_FIELD_MASK = [
 	'places.websiteUri',
 	'places.nationalPhoneNumber',
 ].join(',');
-const DETAIL_FIELD_MASK = [
+const DEFAULT_DETAIL_FIELDS = [
 	'id',
+	'name',
 	'displayName',
 	'formattedAddress',
 	'location',
@@ -42,10 +39,7 @@ const DETAIL_FIELD_MASK = [
 	'nationalPhoneNumber',
 	'internationalPhoneNumber',
 	'regularOpeningHours',
-].join(',');
-const REVIEW_DETAIL_FIELD_MASK = `${DETAIL_FIELD_MASK},reviews`;
-const ENV_LOCAL_PATH = path.resolve(import.meta.dir, '..', '.env.local');
-const ENV_TS_PATH = path.resolve(import.meta.dir, '..', 'src', 'env.ts');
+];
 
 interface SearchOptions {
 	limit?: number;
@@ -54,21 +48,24 @@ interface SearchOptions {
 	minRating?: number;
 	rank?: string;
 	openNow?: boolean;
-}
-
-interface NearbyOptions {
-	limit?: number;
-	radius?: number;
-	rank?: string;
+	type?: string;
+	strictType?: boolean;
+	priceLevel?: string[] | string;
+	language?: string;
+	region?: string;
 }
 
 interface DetailsOptions {
+	near?: string;
+	radius?: number;
+	rank?: string;
+	type?: string;
+	strictType?: boolean;
 	reviews?: boolean;
-}
-
-interface SetupOptions {
-	project?: string;
-	displayName?: string;
+	photos?: boolean;
+	fields?: string[] | string;
+	language?: string;
+	region?: string;
 }
 
 interface Place {
@@ -88,21 +85,15 @@ interface Place {
 	nationalPhoneNumber?: string;
 	internationalPhoneNumber?: string;
 	regularOpeningHours?: unknown;
+	photos?: unknown[];
 	reviews?: unknown[];
 }
 
 interface SearchResponse {
 	places?: Place[];
+	nextPageToken?: string;
+	searchUri?: string;
 }
-
-const patterns: Record<string, (near: string) => string> = {
-	chargers: near => `Tesla Supercharger near ${near}`,
-	'surf-lessons': near => `beginner surf lessons surf school near ${near}`,
-	'surf-camps': near => `surf camp accommodation beginner lessons near ${near}`,
-	stays: near => `hotels guesthouses apartments near ${near}`,
-	food: near => `best restaurants cafes near ${near}`,
-	'things-to-do': near => `things to do attractions activities near ${near}`,
-};
 
 if (import.meta.main) {
 	run().catch(error => {
@@ -120,7 +111,7 @@ if (import.meta.main) {
 }
 
 async function run(): Promise<void> {
-	let cli = yargs(hideBin(process.argv))
+	await yargs(hideBin(process.argv))
 		.scriptName('google-maps')
 		.usage('$0 <command> [options]')
 		.parserConfiguration({
@@ -128,33 +119,7 @@ async function run(): Promise<void> {
 			'strip-dashed': true,
 		})
 		.command(
-			'setup-key',
-			'Create or reuse a restricted Google Places API key and save it with env-manager.',
-			command =>
-				command
-					.option('project', {
-						type: 'string',
-						describe: 'Google Cloud project id. Defaults to the active gcloud project.',
-					})
-					.option('display-name', {
-						type: 'string',
-						default: 'travel-surfing-trip Places API',
-						describe: 'Display name for the Google Cloud API key.',
-					}),
-			argv => {
-				renderJson(setupGoogleMapsKey(argv));
-			},
-		)
-		.command(
-			'patterns',
-			'List built-in query shortcuts.',
-			() => {},
-			() => {
-				renderJson(Object.keys(patterns));
-			},
-		)
-		.command(
-			['text <query...>', 'search <query...>'],
+			'search <query...>',
 			'Run a Google Places text search.',
 			command =>
 				addSearchOptions(
@@ -166,93 +131,27 @@ async function run(): Promise<void> {
 					}),
 				),
 			async argv => {
-				const places = await textSearch(joinPositionals(argv.query), argv);
-				renderJson(places);
-			},
-		)
-		.command(
-			'nearby <type>',
-			'Search for a place type near coordinates.',
-			command =>
-				addCommonOptions(
-					command
-						.positional('type', {
-							type: 'string',
-							demandOption: true,
-							describe: 'Google place type, for example restaurant or lodging.',
-						})
-						.option('lat', {
-							type: 'number',
-							demandOption: true,
-							describe: 'Latitude.',
-						})
-						.option('lng', {
-							type: 'number',
-							demandOption: true,
-							describe: 'Longitude.',
-						})
-						.option('radius', {
-							type: 'number',
-							default: DEFAULT_RADIUS_METERS,
-							describe: 'Search radius in meters.',
-						})
-						.option('rank', {
-							type: 'string',
-							choices: ['POPULARITY', 'DISTANCE', 'popularity', 'distance'] as const,
-							default: 'POPULARITY',
-							describe: 'Nearby ranking preference.',
-						}),
-				),
-			async argv => {
-				const places = await nearbySearch(String(argv.type), Number(argv.lat), Number(argv.lng), argv);
+				const places = await searchPlaces(joinPositionals(argv.query), argv);
 				renderJson(places);
 			},
 		)
 		.command(
 			'details <place...>',
-			'Fetch one place by id/resource name or exact text query.',
+			'Fetch one place by resource name, place id, or exact text query.',
 			command =>
-				command
-					.positional('place', {
+				addDetailsOptions(
+					command.positional('place', {
 						type: 'string',
 						array: true,
 						demandOption: true,
-						describe: 'Place id, places/... resource name, or exact text query.',
-					})
-					.option('reviews', {
-						type: 'boolean',
-						default: false,
-						describe: 'Include Google review summaries when available.',
+						describe: 'places/... resource name, place id, or exact text query.',
 					}),
+				),
 			async argv => {
 				const details = await placeDetails(joinPositionals(argv.place), argv);
 				renderJson(details);
 			},
-		);
-
-	for (const commandName of Object.keys(patterns)) {
-		cli = cli.command(
-			`${commandName} <near...>`,
-			`Run the ${commandName} query shortcut.`,
-			command =>
-				addSearchOptions(
-					command.positional('near', {
-						type: 'string',
-						array: true,
-						demandOption: true,
-						describe: 'Location to search near, for example a city, beach, address, or ZIP.',
-					}),
-					false,
-				),
-			async argv => {
-				const near = joinPositionals(argv.near);
-				const places = await textSearch(patterns[commandName](near), { ...argv, near });
-				renderJson(places);
-			},
-		);
-	}
-
-	await cli
+		)
 		.strict()
 		.demandCommand(1, 'Choose a command.')
 		.recommendCommands()
@@ -264,42 +163,99 @@ async function run(): Promise<void> {
 		.parseAsync();
 }
 
-function addSearchOptions<T>(argv: Argv<T>, includeNearOption = true): Argv<T & SearchOptions> {
-	let command = addCommonOptions(argv);
-	if (includeNearOption) {
-		command = command.option('near', {
-			type: 'string',
-			describe: 'Bias text search around this location.',
-		});
-	}
-	return command
-		.option('radius', {
+function addSearchOptions<T>(argv: Argv<T>): Argv<T & SearchOptions> {
+	return addLocationOptions(addLocaleOptions(argv))
+		.option('limit', {
 			type: 'number',
-			default: DEFAULT_RADIUS_METERS,
-			describe: 'Location bias radius in meters.',
+			default: DEFAULT_LIMIT,
+			describe: `Maximum results, capped at ${MAX_LIMIT}.`,
 		})
 		.option('min-rating', {
 			type: 'number',
-			describe: 'Minimum Google rating.',
+			describe: 'Minimum Google rating from 0 to 5.',
 		})
 		.option('rank', {
 			type: 'string',
-			choices: ['RELEVANCE', 'DISTANCE', 'relevance', 'distance'] as const,
+			choices: ['relevance', 'distance', 'RELEVANCE', 'DISTANCE'] as const,
 			describe: 'Text search ranking preference.',
 		})
 		.option('open-now', {
 			type: 'boolean',
 			default: false,
 			describe: 'Only include places Google reports as open now.',
+		})
+		.option('type', {
+			type: 'string',
+			describe: 'Google place type, for example lodging, restaurant, or school.',
+		})
+		.option('strict-type', {
+			type: 'boolean',
+			default: false,
+			describe: 'Only return results whose type matches --type.',
+		})
+		.option('price-level', {
+			type: 'string',
+			array: true,
+			describe: 'Allowed price levels: 0/free, 1/inexpensive, 2/moderate, 3/expensive, 4/very-expensive.',
 		});
 }
 
-function addCommonOptions<T>(argv: Argv<T>): Argv<T & { limit?: number } & DetailsOptions> {
-	return argv.option('limit', {
-		type: 'number',
-		default: DEFAULT_LIMIT,
-		describe: `Maximum results, capped at ${MAX_LIMIT}.`,
-	});
+function addDetailsOptions<T>(argv: Argv<T>): Argv<T & DetailsOptions> {
+	return addLocationOptions(addLocaleOptions(argv))
+		.option('rank', {
+			type: 'string',
+			choices: ['relevance', 'distance', 'RELEVANCE', 'DISTANCE'] as const,
+			describe: 'Ranking preference when resolving a text query to one place.',
+		})
+		.option('type', {
+			type: 'string',
+			describe: 'Google place type used when resolving a text query.',
+		})
+		.option('strict-type', {
+			type: 'boolean',
+			default: false,
+			describe: 'Only consider matching place types when resolving a text query.',
+		})
+		.option('reviews', {
+			type: 'boolean',
+			default: false,
+			describe: 'Include Google review summaries when available.',
+		})
+		.option('photos', {
+			type: 'boolean',
+			default: false,
+			describe: 'Include Google photo references when available.',
+		})
+		.option('fields', {
+			type: 'string',
+			array: true,
+			describe: 'Exact comma-separated field mask to use instead of the default details fields.',
+		});
+}
+
+function addLocationOptions<T>(argv: Argv<T>): Argv<T & Pick<SearchOptions, 'near' | 'radius'>> {
+	return argv
+		.option('near', {
+			type: 'string',
+			describe: 'Bias search, or text-query resolution, around this location.',
+		})
+		.option('radius', {
+			type: 'number',
+			default: DEFAULT_RADIUS_METERS,
+			describe: 'Location bias radius in meters.',
+		});
+}
+
+function addLocaleOptions<T>(argv: Argv<T>): Argv<T & Pick<SearchOptions, 'language' | 'region'>> {
+	return argv
+		.option('language', {
+			type: 'string',
+			describe: 'Preferred BCP-47 language code, for example en or pt-BR.',
+		})
+		.option('region', {
+			type: 'string',
+			describe: 'Two-character CLDR region code, for example PT or US.',
+		});
 }
 
 function joinPositionals(value: unknown): string {
@@ -309,66 +265,79 @@ function joinPositionals(value: unknown): string {
 	return typeof value === 'string' ? value.trim() : '';
 }
 
-async function textSearch(query: string, options: SearchOptions): Promise<Place[]> {
+async function searchPlaces(query: string, options: SearchOptions): Promise<Place[]> {
 	if (!query) {
 		throw new Error('Missing search query.');
 	}
-	const limit = getLimit(options);
-	const body: Record<string, unknown> = {
-		textQuery: query,
-		pageSize: limit,
-	};
-
-	if (options.openNow) {
-		body.openNow = true;
-	}
-	if (options.minRating !== undefined) {
-		body.minRating = options.minRating;
-	}
-	if (options.rank) {
-		body.rankPreference = options.rank.toUpperCase();
-	}
-
-	if (options.near) {
-		const location = await resolveLocation(options.near);
-		body.locationBias = {
-			circle: {
-				center: location,
-				radius: getRadius(options),
-			},
-		};
-	}
-
-	const response = await placesFetch<SearchResponse>('places:searchText', body, DEFAULT_FIELD_MASK);
-	return response.places ?? [];
-}
-
-async function nearbySearch(type: string, lat: number, lng: number, options: NearbyOptions): Promise<Place[]> {
-	const body = {
-		includedTypes: [type],
-		maxResultCount: getLimit(options),
-		locationRestriction: {
-			circle: {
-				center: {
-					latitude: lat,
-					longitude: lng,
-				},
-				radius: getRadius(options),
-			},
-		},
-		rankPreference: String(options.rank ?? 'POPULARITY').toUpperCase(),
-	};
-	const response = await placesFetch<SearchResponse>('places:searchNearby', body, DEFAULT_FIELD_MASK);
+	const response = await placesFetch<SearchResponse>(
+		'places:searchText',
+		await buildTextSearchBody(query, options),
+		DEFAULT_SEARCH_FIELD_MASK,
+	);
 	return response.places ?? [];
 }
 
 async function placeDetails(place: string, options: DetailsOptions): Promise<Place> {
 	if (!place) {
-		throw new Error('details requires a place id, places/... resource name, or exact text query.');
+		throw new Error('details requires a places/... resource name, place id, or exact text query.');
 	}
-	const resourceName = await resolvePlaceResourceName(place);
-	const fieldMask = options.reviews ? REVIEW_DETAIL_FIELD_MASK : DETAIL_FIELD_MASK;
-	return placesFetch<Place>(resourceName, undefined, fieldMask);
+	const resourceName = await resolvePlaceResourceName(place, options);
+	const params = new URLSearchParams();
+	if (options.language) {
+		params.set('languageCode', options.language);
+	}
+	if (options.region) {
+		params.set('regionCode', options.region);
+	}
+	return placesFetch<Place>(resourceName, undefined, getDetailFieldMask(options), params);
+}
+
+async function buildTextSearchBody(query: string, options: SearchOptions): Promise<Record<string, unknown>> {
+	const body: Record<string, unknown> = {
+		textQuery: query,
+		pageSize: getLimit(options),
+	};
+
+	if (options.language) {
+		body.languageCode = options.language;
+	}
+	if (options.region) {
+		body.regionCode = options.region;
+	}
+	if (options.openNow) {
+		body.openNow = true;
+	}
+	if (options.minRating !== undefined) {
+		body.minRating = getMinRating(options.minRating);
+	}
+	if (options.rank) {
+		body.rankPreference = String(options.rank).toUpperCase();
+	}
+	if (options.strictType && !options.type) {
+		throw new Error('--strict-type requires --type.');
+	}
+	if (options.type) {
+		body.includedType = options.type;
+	}
+	if (options.strictType) {
+		body.strictTypeFiltering = true;
+	}
+
+	const priceLevels = getPriceLevels(options.priceLevel);
+	if (priceLevels.length > 0) {
+		body.priceLevels = priceLevels;
+	}
+
+	if (options.near) {
+		body.locationBias = {
+			circle: {
+				center: await resolveLocation(options.near),
+				radius: getRadius(options),
+			},
+		};
+	}
+
+	return body;
 }
 
 async function resolveLocation(input: string): Promise<{ latitude: number; longitude: number }> {
@@ -384,18 +353,25 @@ async function resolveLocation(input: string): Promise<{ latitude: number; longi
 	return { latitude: location.latitude, longitude: location.longitude };
 }
 
-async function resolvePlaceResourceName(input: string): Promise<string> {
+async function resolvePlaceResourceName(input: string, options: DetailsOptions): Promise<string> {
 	if (input.startsWith('places/')) {
 		return input;
 	}
-	if (/^[A-Za-z0-9_-]+$/.test(input)) {
+	if (looksLikePlaceId(input)) {
 		return `places/${input}`;
 	}
-	const response = await placesFetch<SearchResponse>(
-		'places:searchText',
-		{ textQuery: input, pageSize: 1 },
-		'places.name',
-	);
+
+	const body = await buildTextSearchBody(input, {
+		limit: 1,
+		near: options.near,
+		radius: options.radius,
+		rank: options.rank,
+		type: options.type,
+		strictType: options.strictType,
+		language: options.language,
+		region: options.region,
+	});
+	const response = await placesFetch<SearchResponse>('places:searchText', body, 'places.name');
 	const name = response.places?.[0]?.name;
 	if (!name) {
 		throw new Error(`Could not resolve place: ${input}`);
@@ -403,9 +379,23 @@ async function resolvePlaceResourceName(input: string): Promise<string> {
 	return name;
 }
 
-async function placesFetch<T>(endpoint: string, body: unknown, fieldMask: string): Promise<T> {
+function looksLikePlaceId(input: string): boolean {
+	return /^[A-Za-z0-9_-]{20,}$/.test(input) || /^ChI[A-Za-z0-9_-]+$/.test(input);
+}
+
+async function placesFetch<T>(
+	endpoint: string,
+	body: unknown,
+	fieldMask: string,
+	params = new URLSearchParams(),
+): Promise<T> {
 	const apiKey = await readGoogleMapsApiKey();
-	const response = await fetch(`${PLACES_BASE_URL}/${endpoint}`, {
+	const url = new URL(`${PLACES_BASE_URL}/${endpoint}`);
+	for (const [name, value] of params) {
+		url.searchParams.set(name, value);
+	}
+
+	const response = await fetch(url, {
 		method: body === undefined ? 'GET' : 'POST',
 		headers: {
 			'Content-Type': 'application/json',
@@ -431,118 +421,55 @@ function renderJson(value: unknown): void {
 	console.log(JSON.stringify(value, null, 2));
 }
 
-interface SetupResult {
-	envLocalPath: string;
-	envTsPath: string;
-	keyName: string;
-	displayName: string;
-	project?: string;
-	synced: boolean;
+function getDetailFieldMask(options: DetailsOptions): string {
+	const customFields = getList(options.fields);
+	if (customFields.length > 0) {
+		return customFields.join(',');
+	}
+
+	const fields = new Set(DEFAULT_DETAIL_FIELDS);
+	if (options.photos) {
+		fields.add('photos');
+	}
+	if (options.reviews) {
+		fields.add('reviews');
+	}
+	return [...fields].join(',');
 }
 
-function setupGoogleMapsKey(options: SetupOptions): SetupResult {
-	const project = options.project;
-	const displayName = options.displayName ?? 'travel-surfing-trip Places API';
-	const projectArgs = project ? ['--project', project] : [];
-
-	runCommand('gcloud', ['services', 'enable', 'apikeys.googleapis.com', 'places.googleapis.com', ...projectArgs]);
-
-	const existingKeys = runJson<GoogleApiKey[]>('gcloud', [
-		'services',
-		'api-keys',
-		'list',
-		'--format=json',
-		`--filter=displayName="${displayName}"`,
-		...projectArgs,
+function getPriceLevels(value: string[] | string | undefined): string[] {
+	const levels = new Map([
+		['0', 'PRICE_LEVEL_FREE'],
+		['free', 'PRICE_LEVEL_FREE'],
+		['1', 'PRICE_LEVEL_INEXPENSIVE'],
+		['inexpensive', 'PRICE_LEVEL_INEXPENSIVE'],
+		['2', 'PRICE_LEVEL_MODERATE'],
+		['moderate', 'PRICE_LEVEL_MODERATE'],
+		['3', 'PRICE_LEVEL_EXPENSIVE'],
+		['expensive', 'PRICE_LEVEL_EXPENSIVE'],
+		['4', 'PRICE_LEVEL_VERY_EXPENSIVE'],
+		['very-expensive', 'PRICE_LEVEL_VERY_EXPENSIVE'],
+		['very_expensive', 'PRICE_LEVEL_VERY_EXPENSIVE'],
+		['very expensive', 'PRICE_LEVEL_VERY_EXPENSIVE'],
 	]);
 
-	const keyName =
-		existingKeys.find(key => key.displayName === displayName)?.name ?? createGoogleMapsKey(displayName, projectArgs);
-	const keyString = getKeyString(keyName, projectArgs);
-
-	writeEnvLocalValues(ENV_LOCAL_PATH, { GOOGLE_MAPS_API_KEY: keyString });
-	runCommand('env-manager', ['ts', 'src/env.ts', '--force']);
-	runCommand('env-manager', ['up']);
-	return {
-		envLocalPath: path.relative(process.cwd(), ENV_LOCAL_PATH),
-		envTsPath: path.relative(process.cwd(), ENV_TS_PATH),
-		keyName,
-		displayName,
-		project,
-		synced: true,
-	};
-}
-
-interface GoogleApiKey {
-	name?: string;
-	displayName?: string;
-}
-
-function createGoogleMapsKey(displayName: string, projectArgs: string[]): string {
-	const created = runJson<unknown>('gcloud', [
-		'services',
-		'api-keys',
-		'create',
-		'--display-name',
-		displayName,
-		'--api-target',
-		'service=places.googleapis.com',
-		'--format=json',
-		...projectArgs,
-	]);
-	const keyName = findKeyName(created);
-	if (!keyName) {
-		throw new Error('gcloud did not return a key resource name after creating the API key.');
-	}
-	return keyName;
-}
-
-function getKeyString(keyName: string, projectArgs: string[]): string {
-	const result = runJson<{ keyString?: string }>('gcloud', [
-		'services',
-		'api-keys',
-		'get-key-string',
-		keyName,
-		'--format=json',
-		...projectArgs,
-	]);
-	if (!result.keyString) {
-		throw new Error('gcloud did not return keyString.');
-	}
-	return result.keyString;
-}
-
-function findKeyName(value: unknown): string | null {
-	if (!value || typeof value !== 'object') {
-		return null;
-	}
-	const record = value as Record<string, unknown>;
-	if (typeof record.name === 'string' && record.name.includes('/keys/')) {
-		return record.name;
-	}
-	for (const child of Object.values(record)) {
-		const found = findKeyName(child);
-		if (found) {
-			return found;
+	return getList(value).map(rawLevel => {
+		const normalized = rawLevel.trim().toLowerCase();
+		const mapped = levels.get(normalized);
+		if (mapped) {
+			return mapped;
 		}
-	}
-	return null;
-}
-
-function runJson<T>(command: string, args: string[]): T {
-	const output = runCommand(command, args);
-	return JSON.parse(output) as T;
-}
-
-function runCommand(command: string, args: string[]): string {
-	const result = spawnSync(command, args, {
-		encoding: 'utf8',
-		stdio: ['ignore', 'pipe', 'pipe'],
+		const enumValue = rawLevel.trim().toUpperCase();
+		if (enumValue.startsWith('PRICE_LEVEL_')) {
+			return enumValue;
+		}
+		throw new Error(`Unsupported price level: ${rawLevel}`);
 	});
-	if (result.status !== 0) {
-		throw new Error(`${command} ${args.join(' ')} failed:\n${result.stderr || result.stdout}`);
-	}
-	return result.stdout.trim();
+}
+
+function getList(value: string[] | string | undefined): string[] {
+	const values = Array.isArray(value) ? value : value === undefined ? [] : [value];
+	return values.flatMap(item => item.split(',').map(part => part.trim())).filter(Boolean);
 }
 
 function getLimit(options: { limit?: number }): number {
@@ -552,5 +479,12 @@ function getLimit(options: { limit?: number }): number {
 
 function getRadius(options: { radius?: number }): number {
 	const requested = options.radius ?? DEFAULT_RADIUS_METERS;
-	return Math.max(1, requested);
+	return Math.max(1, Math.trunc(requested));
+}
+
+function getMinRating(value: number): number {
+	if (value < 0 || value > 5) {
+		throw new Error('--min-rating must be between 0 and 5.');
+	}
+	return value;
 }
