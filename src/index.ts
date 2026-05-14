@@ -501,7 +501,7 @@ function renderPage(): string {
 
 		.controls {
 			display: grid;
-			grid-template-columns: minmax(220px, 1fr) 180px 150px;
+			grid-template-columns: minmax(220px, 1fr) 120px 180px 150px;
 			gap: 10px;
 			margin-top: 14px;
 		}
@@ -884,11 +884,17 @@ function renderPage(): string {
 			</div>
 			<div class="controls">
 				<input id="search" type="search" placeholder="Search schools, cities, notes, prices">
+				<select id="statusFilter" multiple size="4" aria-label="Statuses">
+					<option value="yes" data-label="yes">yes</option>
+					<option value="no" data-label="no">no</option>
+					<option value="meh" data-label="meh">meh</option>
+					<option value="-" data-label="-">-</option>
+				</select>
 				<select id="country" multiple size="5" aria-label="Countries"></select>
 				<select id="housing">
-					<option value="">All housing</option>
-					<option value="yes">Housing likely</option>
-					<option value="unclear">Housing unclear</option>
+					<option value="" data-label="All housing">All housing</option>
+					<option value="yes" data-label="Housing likely">Housing likely</option>
+					<option value="unclear" data-label="Housing unclear">Housing unclear</option>
 				</select>
 			</div>
 		</header>
@@ -931,6 +937,7 @@ function renderPage(): string {
 		const detail = document.querySelector("#detail");
 		const summary = document.querySelector("#summary");
 		const search = document.querySelector("#search");
+		const statusFilter = document.querySelector("#statusFilter");
 		const country = document.querySelector("#country");
 		const housing = document.querySelector("#housing");
 		const exportCsvButton = document.querySelector("#exportCsv");
@@ -964,7 +971,7 @@ function renderPage(): string {
 				statuses[id] = next;
 			}
 			saveStatuses();
-			renderRows();
+			applyFilters();
 		}
 
 		function escapeHtml(value) {
@@ -999,18 +1006,77 @@ function renderPage(): string {
 			return true;
 		}
 
+		function selectedValues(select) {
+			return [...select.selectedOptions].map(option => option.value);
+		}
+
 		function selectedCountries() {
-			return [...country.selectedOptions].map(option => option.value);
+			return selectedValues(country);
+		}
+
+		function selectedStatuses() {
+			return selectedValues(statusFilter);
+		}
+
+		function resultMatches(result, options = {}) {
+			const query = search.value.trim().toLowerCase();
+			const statuses = selectedStatuses();
+			const countries = selectedCountries();
+			const includeStatus = options.status !== false;
+			const includeCountry = options.country !== false;
+			const includeHousing = options.housing !== false;
+
+			return (
+				textIncludes(result, query) &&
+				(!includeStatus || !statuses.length || statuses.includes(currentStatus(result.id))) &&
+				(!includeCountry || !countries.length || countries.includes(result.country)) &&
+				(!includeHousing || housingMatches(result, housing.value))
+			);
+		}
+
+		function countBy(items, read) {
+			const counts = new Map();
+			for (const item of items) {
+				const key = read(item);
+				counts.set(key, (counts.get(key) ?? 0) + 1);
+			}
+			return counts;
+		}
+
+		function setOptionCounts(select, counts) {
+			for (const option of select.options) {
+				const label = option.dataset.label || option.value;
+				option.textContent = \`\${label} (\${counts.get(option.value) ?? 0})\`;
+			}
+		}
+
+		function updateFilterCounts() {
+			setOptionCounts(
+				statusFilter,
+				countBy(allResults.filter(result => resultMatches(result, { status: false })), result => currentStatus(result.id)),
+			);
+			setOptionCounts(
+				country,
+				countBy(allResults.filter(result => resultMatches(result, { country: false })), result => result.country),
+			);
+			setOptionCounts(
+				housing,
+				new Map([
+					["", allResults.filter(result => resultMatches(result, { housing: false })).length],
+					[
+						"yes",
+						allResults.filter(result => resultMatches(result, { housing: false }) && housingMatches(result, "yes")).length,
+					],
+					[
+						"unclear",
+						allResults.filter(result => resultMatches(result, { housing: false }) && housingMatches(result, "unclear")).length,
+					],
+				]),
+			);
 		}
 
 		function applyFilters() {
-			const query = search.value.trim().toLowerCase();
-			const countries = selectedCountries();
-			visibleResults = sortResults(allResults.filter(result =>
-				textIncludes(result, query) &&
-				(!countries.length || countries.includes(result.country)) &&
-				housingMatches(result, housing.value)
-			));
+			visibleResults = sortResults(allResults.filter(result => resultMatches(result)));
 
 			if (detailOpen && !visibleResults.some(result => result.id === selectedId)) {
 				selectedId = visibleResults[0]?.id ?? "";
@@ -1018,6 +1084,7 @@ function renderPage(): string {
 				selectedId = "";
 			}
 
+			updateFilterCounts();
 			renderRows();
 			renderDetail();
 			renderSortIndicators();
@@ -1201,6 +1268,7 @@ function renderPage(): string {
 			});
 		}
 		search.addEventListener("input", applyFilters);
+		statusFilter.addEventListener("change", applyFilters);
 		country.addEventListener("change", applyFilters);
 		housing.addEventListener("change", applyFilters);
 		exportCsvButton.addEventListener("click", exportCsv);
