@@ -13,8 +13,20 @@ interface ResultRow {
 	price: string;
 	withHousing: string;
 	notes: string;
+	ratingValue: number | undefined;
+	websiteUrl: string | undefined;
+	googleMapsUrl: string;
+	tripAdvisorUrl: string | undefined;
 	detailFile: string;
 	detail: DetailData;
+}
+
+interface PlaceCandidate {
+	name: string;
+	country: string;
+	city?: string;
+	googleMaps?: string;
+	website?: string;
 }
 
 interface DetailData {
@@ -95,6 +107,7 @@ async function readResults(): Promise<ResultRow[]> {
 	const resultPath = path.join(rootDir, 'data/result.md');
 	const resultMarkdown = await Bun.file(resultPath).text();
 	const tableLines = resultMarkdown.split('\n').filter(line => line.startsWith('| ['));
+	const placeCandidates = await readPlaceCandidates();
 
 	const results: ResultRow[] = [];
 	for (const line of tableLines) {
@@ -115,23 +128,46 @@ async function readResults(): Promise<ResultRow[]> {
 					sources: [],
 					raw: `Missing detail file: ${detailFile}`,
 				};
+		const country = cells[1] ?? '';
+		const city = cells[2] ?? '';
+		const placeCandidate = findPlaceCandidate(placeCandidates, link.text, country, city);
+		const googleMapsUrl = placeCandidate?.googleMaps ?? googleMapsSearchUrl(link.text, city, country);
+		const tripAdvisorUrl = findTripAdvisorUrl(detail);
+		const websiteUrl = findWebsiteUrl(detail) ?? placeCandidate?.website;
+		const detailWithLinks = addExternalLinkFields(detail, googleMapsUrl, tripAdvisorUrl);
 
 		results.push({
 			id: detailFile.replace(/\.md$/, ''),
 			name: link.text,
-			country: cells[1] ?? '',
-			city: cells[2] ?? '',
+			country,
+			city,
 			rating: cells[3] ?? '',
 			period: cells[4] ?? '',
 			price: cells[5] ?? '',
 			withHousing: cells[6] ?? '',
 			notes: cells[7] ?? '',
+			ratingValue: parseRatingValue(cells[3] ?? ''),
+			websiteUrl,
+			googleMapsUrl,
+			tripAdvisorUrl,
 			detailFile,
-			detail,
+			detail: detailWithLinks,
 		});
 	}
 
 	return results;
+}
+
+async function readPlaceCandidates(): Promise<PlaceCandidate[]> {
+	const candidatesPath = path.join(rootDir, 'data/raw/google-places-candidates.json');
+	if (!existsSync(candidatesPath)) {
+		return [];
+	}
+
+	const raw = JSON.parse(await Bun.file(candidatesPath).text()) as {
+		candidates?: PlaceCandidate[];
+	};
+	return raw.candidates ?? [];
 }
 
 function splitMarkdownRow(line: string): string[] {
@@ -227,6 +263,134 @@ function parseDetailMarkdown(markdown: string): DetailData {
 	};
 }
 
+function findPlaceCandidate(
+	candidates: PlaceCandidate[],
+	name: string,
+	country: string,
+	city: string,
+): PlaceCandidate | undefined {
+	const normalizedName = compactName(name);
+	const normalizedCountry = normalizeText(country);
+	const normalizedCity = normalizeText(city);
+	const sameCountry = candidates.filter(candidate => normalizeText(candidate.country) === normalizedCountry);
+
+	return (
+		sameCountry.find(candidate => compactName(candidate.name) === normalizedName) ??
+		sameCountry.find(candidate => {
+			const candidateName = compactName(candidate.name);
+			return candidateName.includes(normalizedName) || normalizedName.includes(candidateName);
+		}) ??
+		sameCountry.find(candidate => {
+			const candidateName = normalizeText(candidate.name);
+			const candidateCity = normalizeText(candidate.city ?? '');
+			return candidateCity === normalizedCity && tokenOverlap(candidateName, normalizeText(name)) >= 0.55;
+		})
+	);
+}
+
+function addExternalLinkFields(
+	detail: DetailData,
+	googleMapsUrl: string,
+	tripAdvisorUrl: string | undefined,
+): DetailData {
+	const externalFields = [
+		{ label: 'Google Maps', value: googleMapsUrl },
+		{ label: 'Tripadvisor', value: tripAdvisorUrl ?? '-' },
+	];
+	const fields: DetailData['fields'] = [];
+	let inserted = false;
+
+	for (const field of detail.fields) {
+		fields.push(field);
+		if (!inserted && normalizeText(field.label) === 'website') {
+			fields.push(...externalFields);
+			inserted = true;
+		}
+	}
+
+	if (!inserted) {
+		fields.unshift(...externalFields);
+	}
+
+	return {
+		...detail,
+		fields,
+	};
+}
+
+function findWebsiteUrl(detail: DetailData): string | undefined {
+	const website = detail.fields.find(field => normalizeText(field.label) === 'website')?.value;
+	return findFirstUrl(website ?? '');
+}
+
+function findTripAdvisorUrl(detail: DetailData): string | undefined {
+	const values = [detail.raw, ...detail.sources];
+	for (const value of values) {
+		const url = findFirstUrl(value, url => {
+			const normalized = url.toLowerCase();
+			return normalized.includes('tripadvisor.') && !normalized.includes('/img/');
+		});
+		if (url) {
+			return url;
+		}
+	}
+	return undefined;
+}
+
+function findFirstUrl(value: string, predicate: (url: string) => boolean = () => true): string | undefined {
+	for (const match of value.matchAll(/https?:\/\/[^\s)\]>"]+/g)) {
+		const url = match[0]?.replace(/[.,;:]+$/, '');
+		if (url && predicate(url)) {
+			return url;
+		}
+	}
+	return undefined;
+}
+
+function googleMapsSearchUrl(name: string, city: string, country: string): string {
+	return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+		[name, city, country].filter(Boolean).join(' '),
+	)}`;
+}
+
+function parseRatingValue(value: string): number | undefined {
+	const match = value.match(/\d+(?:\.\d+)?/);
+	if (!match?.[0]) {
+		return undefined;
+	}
+	return Number(match[0]);
+}
+
+function compactName(value: string): string {
+	return normalizeText(value).replace(/[^a-z0-9]/g, '');
+}
+
+function normalizeText(value: string): string {
+	return value
+		.toLowerCase()
+		.normalize('NFKD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.replace(/&amp;/g, '&')
+		.replace(/[^a-z0-9]+/g, ' ')
+		.trim();
+}
+
+function tokenOverlap(left: string, right: string): number {
+	const leftTokens = new Set(left.split(' ').filter(Boolean));
+	const rightTokens = new Set(right.split(' ').filter(Boolean));
+	if (!leftTokens.size || !rightTokens.size) {
+		return 0;
+	}
+
+	let matches = 0;
+	for (const token of leftTokens) {
+		if (rightTokens.has(token)) {
+			matches++;
+		}
+	}
+	return matches / Math.max(leftTokens.size, rightTokens.size);
+}
+
 function renderPage(): string {
 	return `<!doctype html>
 <html lang="en">
@@ -246,6 +410,12 @@ function renderPage(): string {
 			--accent-soft: #e4f1ef;
 			--warn: #a16207;
 			--warn-soft: #fff4d6;
+			--yes: #0f766e;
+			--yes-soft: #dff4ee;
+			--no: #b42318;
+			--no-soft: #ffe7e3;
+			--maybe: #9a6700;
+			--maybe-soft: #fff3c4;
 		}
 
 		* {
@@ -286,6 +456,13 @@ function renderPage(): string {
 			letter-spacing: 0;
 		}
 
+		.header-top {
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-between;
+			gap: 16px;
+		}
+
 		.summary {
 			margin-top: 6px;
 			color: var(--muted);
@@ -309,10 +486,45 @@ function renderPage(): string {
 			padding: 9px 10px;
 		}
 
+		.controls select[multiple] {
+			min-height: 88px;
+			padding: 6px 8px;
+		}
+
+		.export-button {
+			border: 1px solid var(--accent);
+			background: var(--accent);
+			color: #ffffff;
+			border-radius: 6px;
+			padding: 8px 10px;
+			font-weight: 700;
+			white-space: nowrap;
+			cursor: pointer;
+		}
+
+		.export-button:focus-visible,
+		.detail-close:focus-visible {
+			outline: 2px solid var(--accent);
+			outline-offset: 2px;
+		}
+
 		main {
 			display: grid;
 			grid-template-columns: minmax(520px, 1fr) minmax(360px, 42vw);
+			align-items: start;
 			min-height: 0;
+		}
+
+		main.detail-closed {
+			grid-template-columns: 1fr;
+		}
+
+		main.detail-closed .detail {
+			display: none;
+		}
+
+		main.detail-closed .results {
+			border-right: 0;
 		}
 
 		.results {
@@ -376,8 +588,75 @@ function renderPage(): string {
 
 		.country,
 		.rating,
-		.housing {
+		.housing,
+		.status {
 			white-space: nowrap;
+		}
+
+		.status {
+			width: 54px;
+		}
+
+		.sort-button {
+			display: inline-flex;
+			align-items: center;
+			gap: 5px;
+			border: 0;
+			padding: 0;
+			background: transparent;
+			color: inherit;
+			font-weight: inherit;
+			cursor: pointer;
+		}
+
+		.sort-button:focus-visible,
+		.status-toggle:focus-visible,
+		.rating-link:focus-visible {
+			outline: 2px solid var(--accent);
+			outline-offset: 2px;
+			border-radius: 3px;
+		}
+
+		.sort-direction {
+			min-width: 10px;
+			color: var(--muted);
+		}
+
+		.status-toggle {
+			min-width: 46px;
+			border: 1px solid var(--line);
+			border-radius: 999px;
+			padding: 3px 7px;
+			background: #f0f1ec;
+			color: var(--muted);
+			font-size: 12px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		.status-yes {
+			border-color: var(--yes);
+			background: var(--yes-soft);
+			color: var(--yes);
+		}
+
+		.status-no {
+			border-color: var(--no);
+			background: var(--no-soft);
+			color: var(--no);
+		}
+
+		.status-meh {
+			border-color: var(--maybe);
+			background: var(--maybe-soft);
+			color: var(--maybe);
+		}
+
+		.rating-link {
+			color: var(--accent);
+			font-weight: 700;
+			text-decoration-thickness: 1px;
+			text-underline-offset: 2px;
 		}
 
 		.price,
@@ -391,7 +670,10 @@ function renderPage(): string {
 		}
 
 		.detail {
+			position: sticky;
+			top: 0;
 			min-width: 0;
+			max-height: 100vh;
 			overflow: auto;
 			background: #fbfbf8;
 		}
@@ -401,11 +683,35 @@ function renderPage(): string {
 			max-width: 900px;
 		}
 
+		.detail-title-row {
+			display: grid;
+			grid-template-columns: 1fr auto;
+			align-items: start;
+			gap: 12px;
+		}
+
 		.detail h2 {
 			margin: 0 0 12px;
 			font-size: 22px;
 			line-height: 1.2;
 			letter-spacing: 0;
+		}
+
+		.detail-close {
+			width: 26px;
+			height: 26px;
+			border: 1px solid var(--line);
+			border-radius: 999px;
+			background: var(--panel);
+			color: var(--muted);
+			font-size: 16px;
+			line-height: 1;
+			cursor: pointer;
+		}
+
+		.detail-close:hover {
+			color: var(--text);
+			border-color: var(--muted);
 		}
 
 		.hero-image {
@@ -477,6 +783,10 @@ function renderPage(): string {
 		}
 
 		@media (max-width: 980px) {
+			.header-top {
+				flex-wrap: wrap;
+			}
+
 			.controls {
 				grid-template-columns: 1fr;
 			}
@@ -491,6 +801,8 @@ function renderPage(): string {
 			}
 
 			.detail {
+				position: static;
+				max-height: none;
 				border-top: 1px solid var(--line);
 			}
 		}
@@ -499,13 +811,16 @@ function renderPage(): string {
 <body>
 	<div class="shell">
 		<header>
-			<h1>Surf Trip Results</h1>
-			<div id="summary" class="summary">Loading results...</div>
+			<div class="header-top">
+				<div>
+					<h1>Surf Trip Results</h1>
+					<div id="summary" class="summary">Loading results...</div>
+				</div>
+				<button id="exportCsv" class="export-button" type="button">Export CSV</button>
+			</div>
 			<div class="controls">
 				<input id="search" type="search" placeholder="Search schools, cities, notes, prices">
-				<select id="country">
-					<option value="">All countries</option>
-				</select>
+				<select id="country" multiple size="5" aria-label="Countries"></select>
 				<select id="housing">
 					<option value="">All housing</option>
 					<option value="yes">Housing likely</option>
@@ -513,15 +828,16 @@ function renderPage(): string {
 				</select>
 			</div>
 		</header>
-		<main>
+		<main id="layout">
 			<section class="results" aria-label="Results">
 				<table>
 					<thead>
 						<tr>
-							<th>Name</th>
-							<th>Country</th>
+							<th>Status</th>
+							<th><button class="sort-button" type="button" data-sort="name">Name <span class="sort-direction" data-sort-direction="name"></span></button></th>
+							<th><button class="sort-button" type="button" data-sort="country">Country <span class="sort-direction" data-sort-direction="country"></span></button></th>
 							<th>City</th>
-							<th>Rating</th>
+							<th><button class="sort-button" type="button" data-sort="rating">Rating <span class="sort-direction" data-sort-direction="rating"></span></button></th>
 							<th>Housing</th>
 							<th>Price</th>
 							<th>Period</th>
@@ -540,13 +856,52 @@ function renderPage(): string {
 		let allResults = [];
 		let visibleResults = [];
 		let selectedId = "";
+		let detailOpen = true;
+		const statusStorageKey = "travel-surfing-planner:school-status:v1";
+		const statusValues = ["yes", "no", "meh", "-"];
+		let sortState = { key: "", direction: "asc" };
+		let statuses = loadStatuses();
 
+		const layout = document.querySelector("#layout");
 		const rows = document.querySelector("#rows");
 		const detail = document.querySelector("#detail");
 		const summary = document.querySelector("#summary");
 		const search = document.querySelector("#search");
 		const country = document.querySelector("#country");
 		const housing = document.querySelector("#housing");
+		const exportCsvButton = document.querySelector("#exportCsv");
+		const sortButtons = document.querySelectorAll("[data-sort]");
+		const sortDirectionLabels = document.querySelectorAll("[data-sort-direction]");
+
+		function loadStatuses() {
+			try {
+				const saved = localStorage.getItem(statusStorageKey);
+				return saved ? JSON.parse(saved) : {};
+			} catch {
+				return {};
+			}
+		}
+
+		function saveStatuses() {
+			localStorage.setItem(statusStorageKey, JSON.stringify(statuses));
+		}
+
+		function currentStatus(id) {
+			if (statuses[id] === "maybe") return "meh";
+			return statusValues.includes(statuses[id]) ? statuses[id] : "-";
+		}
+
+		function toggleStatus(id) {
+			const currentIndex = statusValues.indexOf(currentStatus(id));
+			const next = statusValues[(currentIndex + 1) % statusValues.length];
+			if (next === "-") {
+				delete statuses[id];
+			} else {
+				statuses[id] = next;
+			}
+			saveStatuses();
+			renderRows();
+		}
 
 		function escapeHtml(value) {
 			return String(value ?? "")
@@ -580,39 +935,86 @@ function renderPage(): string {
 			return true;
 		}
 
+		function selectedCountries() {
+			return [...country.selectedOptions].map(option => option.value);
+		}
+
 		function applyFilters() {
 			const query = search.value.trim().toLowerCase();
-			visibleResults = allResults.filter(result =>
+			const countries = selectedCountries();
+			visibleResults = sortResults(allResults.filter(result =>
 				textIncludes(result, query) &&
-				(!country.value || result.country === country.value) &&
+				(!countries.length || countries.includes(result.country)) &&
 				housingMatches(result, housing.value)
-			);
+			));
 
-			if (!visibleResults.some(result => result.id === selectedId)) {
+			if (detailOpen && !visibleResults.some(result => result.id === selectedId)) {
 				selectedId = visibleResults[0]?.id ?? "";
+			} else if (!detailOpen && !visibleResults.some(result => result.id === selectedId)) {
+				selectedId = "";
 			}
 
 			renderRows();
 			renderDetail();
+			renderSortIndicators();
+		}
+
+		function sortResults(results) {
+			if (!sortState.key) return results;
+			const sorted = [...results];
+			const direction = sortState.direction === "desc" ? -1 : 1;
+
+			sorted.sort((left, right) => {
+				if (sortState.key === "rating") {
+					const leftRating = Number.isFinite(left.ratingValue) ? left.ratingValue : -1;
+					const rightRating = Number.isFinite(right.ratingValue) ? right.ratingValue : -1;
+					return (leftRating - rightRating) * direction;
+				}
+
+				const leftValue = String(left[sortState.key] ?? "").toLowerCase();
+				const rightValue = String(right[sortState.key] ?? "").toLowerCase();
+				return leftValue.localeCompare(rightValue) * direction;
+			});
+
+			return sorted;
+		}
+
+		function renderSortIndicators() {
+			for (const label of sortDirectionLabels) {
+				label.textContent = label.dataset.sortDirection === sortState.key
+					? (sortState.direction === "asc" ? "▲" : "▼")
+					: "";
+			}
 		}
 
 		function renderRows() {
 			summary.textContent = \`\${visibleResults.length} of \${allResults.length} schools shown\`;
-			rows.innerHTML = visibleResults.map(result => \`
-				<tr class="\${result.id === selectedId ? "selected" : ""}" data-id="\${escapeHtml(result.id)}">
-					<td><button class="name-button" type="button" data-id="\${escapeHtml(result.id)}">\${escapeHtml(result.name)}</button></td>
-					<td class="country">\${escapeHtml(result.country)}</td>
-					<td>\${escapeHtml(result.city)}</td>
-					<td class="rating">\${escapeHtml(result.rating)}</td>
-					<td class="housing">\${escapeHtml(result.withHousing)}</td>
-					<td class="price">\${escapeHtml(result.price)}</td>
-					<td class="period">\${escapeHtml(result.period)}</td>
-					<td class="notes">\${escapeHtml(result.notes)}</td>
-				</tr>
-			\`).join("");
+			rows.innerHTML = visibleResults.map(result => {
+				const status = currentStatus(result.id);
+				const statusClass = status === "-" ? "empty" : status;
+				const rating = result.googleMapsUrl
+					? \`<a class="rating-link" href="\${escapeHtml(result.googleMapsUrl)}" target="_blank" rel="noreferrer">\${escapeHtml(result.rating)}</a>\`
+					: escapeHtml(result.rating);
+				return \`
+					<tr class="\${result.id === selectedId ? "selected" : ""}" data-id="\${escapeHtml(result.id)}">
+						<td class="status"><button class="status-toggle status-\${statusClass}" type="button" data-status-id="\${escapeHtml(result.id)}">\${escapeHtml(status)}</button></td>
+						<td><button class="name-button" type="button" data-id="\${escapeHtml(result.id)}">\${escapeHtml(result.name)}</button></td>
+						<td class="country">\${escapeHtml(result.country)}</td>
+						<td>\${escapeHtml(result.city)}</td>
+						<td class="rating">\${rating}</td>
+						<td class="housing">\${escapeHtml(result.withHousing)}</td>
+						<td class="price">\${escapeHtml(result.price)}</td>
+						<td class="period">\${escapeHtml(result.period)}</td>
+						<td class="notes">\${escapeHtml(result.notes)}</td>
+					</tr>
+				\`;
+			}).join("");
 		}
 
 		function renderDetail() {
+			layout.classList.toggle("detail-closed", !detailOpen);
+			if (!detailOpen) return;
+
 			const result = allResults.find(item => item.id === selectedId);
 			if (!result) {
 				detail.className = "detail-inner empty";
@@ -638,7 +1040,10 @@ function renderPage(): string {
 
 			detail.className = "detail-inner";
 			detail.innerHTML = \`
-				<h2>\${escapeHtml(result.detail.title || result.name)}</h2>
+				<div class="detail-title-row">
+					<h2>\${escapeHtml(result.detail.title || result.name)}</h2>
+					<button class="detail-close" type="button" data-close-detail aria-label="Close detail panel"><span aria-hidden="true">&times;</span></button>
+				</div>
 				\${warning}
 				\${image}
 				<div class="field-grid">
@@ -658,18 +1063,83 @@ function renderPage(): string {
 
 		function selectResult(id) {
 			selectedId = id;
+			detailOpen = true;
 			history.replaceState(null, "", "#" + encodeURIComponent(id));
 			renderRows();
 			renderDetail();
 		}
 
+		function closeDetail() {
+			selectedId = "";
+			detailOpen = false;
+			history.replaceState(null, "", location.pathname + location.search);
+			renderRows();
+			renderDetail();
+		}
+
+		function exportCsv() {
+			const columns = [
+				["status", result => currentStatus(result.id)],
+				["name", result => result.name],
+				["country", result => result.country],
+				["city", result => result.city],
+				["rating", result => result.rating],
+				["period", result => result.period],
+				["price", result => result.price],
+				["housing", result => result.withHousing],
+				["notes", result => result.notes],
+				["website", result => result.websiteUrl],
+				["google_maps", result => result.googleMapsUrl],
+				["tripadvisor", result => result.tripAdvisorUrl],
+				["detail_file", result => result.detailFile],
+			];
+			const csv = [
+				columns.map(([label]) => csvCell(label)).join(","),
+				...visibleResults.map(result => columns.map(([, read]) => csvCell(read(result))).join(",")),
+			].join("\\n");
+			const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+			const url = URL.createObjectURL(blob);
+			const link = document.createElement("a");
+			link.href = url;
+			link.download = \`surf-trip-results-\${new Date().toISOString().slice(0, 10)}.csv\`;
+			link.click();
+			URL.revokeObjectURL(url);
+		}
+
+		function csvCell(value) {
+			const text = String(value ?? "");
+			return /[",\\n\\r]/.test(text) ? \`"\${text.replace(/"/g, '""')}"\` : text;
+		}
+
+		detail.addEventListener("click", event => {
+			if (event.target.closest("[data-close-detail]")) closeDetail();
+		});
 		rows.addEventListener("click", event => {
+			const statusButton = event.target.closest("[data-status-id]");
+			if (statusButton) {
+				toggleStatus(statusButton.dataset.statusId);
+				return;
+			}
+			if (event.target.closest("a")) return;
 			const target = event.target.closest("[data-id]");
 			if (target) selectResult(target.dataset.id);
 		});
+		for (const button of sortButtons) {
+			button.addEventListener("click", () => {
+				const key = button.dataset.sort;
+				const defaultDirection = key === "rating" ? "desc" : "asc";
+				const nextDirection =
+					sortState.key === key
+						? (sortState.direction === "asc" ? "desc" : "asc")
+						: defaultDirection;
+				sortState = { key, direction: nextDirection };
+				applyFilters();
+			});
+		}
 		search.addEventListener("input", applyFilters);
 		country.addEventListener("change", applyFilters);
 		housing.addEventListener("change", applyFilters);
+		exportCsvButton.addEventListener("click", exportCsv);
 
 		fetch("/api/results")
 			.then(response => response.json())
