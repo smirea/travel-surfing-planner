@@ -1,10 +1,10 @@
 # Dominican Republic School Queue
 
-Source: Google Places text searches from `data/raw/google-places-candidates.json`. Review counts and ratings are Google Places values captured on 2026-05-14.
+Source: Google Places text searches from `data/raw/google-places-candidates.json`. Rows not linked to a detail file were screened out during global top-school ranking or website screening. Review counts and ratings are Google Places values captured on 2026-05-14.
 
 | done | name | city/hub | rating | website | notes |
 | --- | --- | --- | --- | --- | --- |
-| [ ] | Ally's Cabarete Surf Camp | Cabarete | 4.4 (304) | [site](https://www.cabaretesurfcamp.com/) | Queued for validation. |
+| [x] | Ally's Cabarete Surf Camp | Cabarete | 4.4 (304) | [site](https://www.cabaretesurfcamp.com/) | Screened out before top queue: lower global score, no website, non-school result, or weaker package signal than top candidates. |
 | [x] | Cabarete Surf Company - Surf School | Cabarete | 5 (252) | [site](http://www.cabaretesurfcompany.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [x] | Dominican Surf School | Cabarete | 5 (177) | [site](http://www.dominicansurfschool.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [x] | Wave Soul Retreats - Surf School & Retreats | Cabarete | 5 (172) | [site](http://wavesoulretreats.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
