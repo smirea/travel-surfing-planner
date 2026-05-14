@@ -4,12 +4,13 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 
 | done | name | city/hub | rating | website | notes |
 | --- | --- | --- | --- | --- | --- |
+| [x] | Chill & Surf Weligama | Weligama | 4.7 (302) | [site](https://chillandsurfcamp.com/) | Detailed -> sri-lanka__chill-and-surf-weligama.md |
 | [ ] | Ama Surf School | Weligama | 4.9 (1912) | [site](http://www.amasurfschool.com/) | Queued for validation. |
 | [ ] | Lucky's Surf School | Weligama | 4.9 (1759) | [site](https://www.luckyssurfweligama.com/) | Queued for validation. |
 | [x] | The Surfer Surf Camps Sri Lanka - Your Best Surf camp in Sri Lanka Weligama - Surf and Yoga Camp Weligama | Weligama | 4.9 (1608) | [site](http://www.thesurferweligama.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [ ] | Kima Surf Camp Sri Lanka | Weligama | 4.9 (618) | [site](https://kimasurfsrilanka.com/) | Queued for validation. |
 | [x] | Be Cool Surf School Weligama Sri Lanka \| Surf Lessons · Surfboard Rental · Beginner Surf | Weligama | 4.8 (508) | [site](http://www.becoolsrilanka.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
-| [ ] | Layback \| Surf Camp in Sri Lanka 〰 Surf Camps + Surf & Yoga Retreats in Weligama | Weligama | 4.9 (425) | [site](https://www.layback.lk/) | Queued for validation. |
+| [x] | Layback \| Surf Camp in Sri Lanka 〰 Surf Camps + Surf & Yoga Retreats in Weligama | Weligama | 4.9 (425) | [site](https://www.layback.lk/) | Detailed -> sri-lanka__layback-surf-camp.md |
 | [ ] | Ocean Tribe Surf Camp & Yoga Retreat | Weligama | 4.9 (331) | [site](https://oceantribesurfcamp.com/) | Queued for validation. |
 | [ ] | Freedom Surf School Weligama \| Best Surf Lessons & Rentals | Weligama | 4.9 (286) | [site](http://www.freedomsrilanka.com/) | Queued for validation. |
 | [ ] | Arugam Bay Surf Center | Arugam Bay | 5 (272) | [site](http://arugambaysurfcenter.com/) | Queued for validation. |

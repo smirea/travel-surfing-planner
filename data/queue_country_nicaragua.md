@@ -5,7 +5,7 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 | done | name | city/hub | rating | website | notes |
 | --- | --- | --- | --- | --- | --- |
 | [x] | Magnific Rock - Surf Resort & Yoga Retreat Nicaragua | Popoyo | 4.5 (729) | [site](https://magnificrock.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
-| [ ] | Dreamsea Surf Resort Nicaragua | San Juan del Sur | 4.6 (286) | [site](https://www.dreamsea.com/nicaragua-sanjuandelsur/) | Queued for validation. |
+| [x] | Dreamsea Surf Resort Nicaragua | San Juan del Sur | 4.6 (286) | [site](https://www.dreamsea.com/nicaragua-sanjuandelsur/) | Detailed -> nicaragua__dreamsea-surf-resort.md |
 | [ ] | Hightide Surf School | San Juan del Sur | 5 (228) | [site](http://hightidesurfnica.com/) | Queued for validation. |
 | [ ] | Popoyo Surfcamp | Popoyo | 4.9 (210) | [site](http://www.popoyosurfcamp.com/) | Queued for validation. |
 | [ ] | Nicawaves Surf Resort | Popoyo | 4.5 (196) | [site](http://nicawaves.com/) | Queued for validation. |

@@ -4,12 +4,13 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 
 | done | name | city/hub | rating | website | notes |
 | --- | --- | --- | --- | --- | --- |
+| [x] | Ericeira Surf Camp | Ericeira | 4.6 (120) | [site](https://ericeirasurfcamp.com/) | Detailed -> portugal__ericeira-surf-camp.md |
 | [x] | Praia do Baleal Norte | Peniche / Baleal | 4.6 (2876) | [site](https://oceanadventure.surf/surfcamp-peniche/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [ ] | JAH SHAKA SURF SHOP | Lagos | 4.9 (2108) | [site](http://jahshakasurf.com/) | Queued for validation. |
 | [ ] | Wavy SurfCamp | Sagres | 4.8 (751) | [site](https://www.wavysurfcamp.com/) | Queued for validation. |
 | [ ] | Surf School, Rentals & Shop Ericeira Activity Surf Center | Ericeira | 4.9 (720) | [site](http://www.activitysurfcenter.com/) | Queued for validation. |
 | [ ] | Surf Riders Ericeira | Ericeira | 5 (681) | [site](http://www.surfriders.pt/) | Queued for validation. |
-| [ ] | Algarve Watersport Kite- Surf- Windsurf School and Camp | Lagos | 4.9 (669) | [site](https://www.algarvewatersport.com/en/) | Queued for validation. |
+| [x] | Algarve Watersport Kite- Surf- Windsurf School and Camp | Lagos | 4.9 (669) | [site](https://www.algarvewatersport.com/en/) | Detailed -> portugal__algarve-watersport-surf-camp.md |
 | [x] | Sagres Sun Stay - Hostel & Surf Camp | Sagres | 4.5 (451) | [site](https://sagressunstay.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [ ] | Wavesensations - Sagres Surf Shop & Surf School | Sagres | 4.8 (422) | [site](http://www.wavesensations.com/) | Queued for validation. |
 | [ ] | Surf 365 Ericeira | Ericeira | 4.9 (408) | [site](http://www.surf365ericeira.pt/) | Queued for validation. |

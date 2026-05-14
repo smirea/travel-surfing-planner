@@ -6,28 +6,28 @@ Candidate count: 140. Source breadth: 41 Google Places text searches across 22 c
 
 | done | country | city | name | rating | website | notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | Indonesia | Kuta / Canggu, Bali | Elsewhere Surf Camp Bali Canggu | 5 (1942) | [site](https://elsewheresurfcamps.com/bali) | Queued. |
-| [ ] | Costa Rica | Tamarindo | Iguana Surf Camp & Surf Shop | 4.9 (1667) | [site](https://www.iguanasurf.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb) | Queued. |
-| [ ] | Spain | Fuerteventura | Nomad Surf Camp Fuerteventura | 4.9 (855) | [site](https://www.nomadsurfcamp.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16818523694287513788) | Queued. |
+| [x] | Indonesia | Kuta / Canggu, Bali | Elsewhere Surf Camp Bali Canggu | 5 (1942) | [site](https://elsewheresurfcamps.com/bali) | Validated -> indonesia__elsewhere-surf-camp-bali.md |
+| [x] | Costa Rica | Tamarindo | Iguana Surf Camp & Surf Shop | 4.9 (1667) | [site](https://www.iguanasurf.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb) | Validated -> costa-rica__iguana-surf-camp.md |
+| [x] | Spain | Fuerteventura | Nomad Surf Camp Fuerteventura | 4.9 (855) | [site](https://www.nomadsurfcamp.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16818523694287513788) | Validated -> spain__nomad-surf-camp-fuerteventura.md |
 | [ ] | Indonesia | Kuta / Canggu, Bali | Kima Surf Camp Bali Canggu | 4.9 (761) | [site](https://kimasurf.com/canggu-surfresort/) | Queued. |
 | [ ] | Portugal | Lagos | JAH SHAKA SURF SHOP | 4.9 (2108) | [site](http://jahshakasurf.com/) | Queued. |
 | [ ] | Sri Lanka | Weligama | Ama Surf School | 4.9 (1912) | [site](http://www.amasurfschool.com/) | Queued. |
-| [ ] | Portugal | Lagos | Algarve Watersport Kite- Surf- Windsurf School and Camp | 4.9 (669) | [site](https://www.algarvewatersport.com/en/) | Queued. |
+| [x] | Portugal | Lagos | Algarve Watersport Kite- Surf- Windsurf School and Camp | 4.9 (669) | [site](https://www.algarvewatersport.com/en/) | Validated -> portugal__algarve-watersport-surf-camp.md |
 | [ ] | Portugal | Sagres | Wavy SurfCamp | 4.8 (751) | [site](https://www.wavysurfcamp.com/) | Queued. |
-| [ ] | Spain | Lanzarote | Lanzasurf Surf & Yoga Camp | 4.9 (643) | [site](https://www.lanzasurf.com/) | Queued. |
+| [x] | Spain | Lanzarote | Lanzasurf Surf & Yoga Camp | 4.9 (643) | [site](https://www.lanzasurf.com/) | Validated -> spain__lanzasurf-surf-yoga-camp.md |
 | [ ] | Sri Lanka | Weligama | Lucky's Surf School | 4.9 (1759) | [site](https://www.luckyssurfweligama.com/) | Queued. |
 | [ ] | Sri Lanka | Weligama | Kima Surf Camp Sri Lanka | 4.9 (618) | [site](https://kimasurfsrilanka.com/) | Queued. |
-| [ ] | Morocco | Imsouane | Surf Camp Imsouane & Surf Imsouane - MYSTERY SURF CAMP | 5 (495) | [site](https://www.mysterysurfcamp.com/) | Queued. |
+| [x] | Morocco | Imsouane | Surf Camp Imsouane & Surf Imsouane - MYSTERY SURF CAMP | 5 (495) | [site](https://www.mysterysurfcamp.com/) | Validated -> morocco__mystery-surf-camp.md |
 | [ ] | Spain | Lanzarote | Calima | 4.9 (1517) | [site](https://calimasurf.com/) | Queued. |
 | [ ] | Morocco | Essaouira | Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing | 5 (390) | [site](http://www.comesurfing.com/) | Queued. |
-| [ ] | Sri Lanka | Weligama | Layback \| Surf Camp in Sri Lanka 〰 Surf Camps + Surf & Yoga Retreats in Weligama | 4.9 (425) | [site](https://www.layback.lk/) | Queued. |
-| [ ] | Indonesia | Kuta Lombok | LMBK Surf House | 4.9 (420) | [site](https://lmbksurfhouse.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp) | Queued. |
-| [ ] | Spain | Lanzarote | Red Star Surf & Yoga Camp | 4.8 (446) | [site](https://www.redstarsurf.com/?utm_source=gmb&utm_medium=organic&utm_campaign=google-my-business) | Queued. |
+| [x] | Sri Lanka | Weligama | Layback \| Surf Camp in Sri Lanka 〰 Surf Camps + Surf & Yoga Retreats in Weligama | 4.9 (425) | [site](https://www.layback.lk/) | Validated -> sri-lanka__layback-surf-camp.md |
+| [x] | Indonesia | Kuta Lombok | LMBK Surf House | 4.9 (420) | [site](https://lmbksurfhouse.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp) | Validated -> indonesia__lmbk-surf-house.md |
+| [x] | Spain | Lanzarote | Red Star Surf & Yoga Camp | 4.8 (446) | [site](https://www.redstarsurf.com/?utm_source=gmb&utm_medium=organic&utm_campaign=google-my-business) | Validated -> spain__red-star-surf-yoga-camp.md |
 | [ ] | Morocco | Essaouira | Kitesurf Essaouira Maroc Yalla | 5 (866) | [site](https://yalla-surf-kite.com/) | Queued. |
 | [ ] | Indonesia | Kuta Lombok | DHM surf camp | 4.9 (340) | [site](https://dhm.co.id/) | Queued. |
 | [ ] | Spain | Fuerteventura | Surfintrip – Surf Camp & School Fuerteventura | 4.9 (333) | [site](https://surfintrip.com/) | Queued. |
 | [ ] | Sri Lanka | Weligama | Ocean Tribe Surf Camp & Yoga Retreat | 4.9 (331) | [site](https://oceantribesurfcamp.com/) | Queued. |
-| [ ] | Morocco | Tamraght | Pro Surf Morocco Yoga & Surf Camp Tamraght | 4.8 (378) | [site](https://www.prosurfmorocco.com/) | Queued. |
+| [x] | Morocco | Tamraght | Pro Surf Morocco Yoga & Surf Camp Tamraght | 4.8 (378) | [site](https://www.prosurfmorocco.com/) | Validated -> morocco__pro-surf-morocco.md |
 | [ ] | Indonesia | Kuta / Canggu, Bali | SurfWG Bali Surfcamp | 4.8 (374) | [site](https://www.surfwg.com/) | Queued. |
 | [ ] | Morocco | Essaouira | Naneakite : Kitesurf camp - Kitesurf school in Essaouira | 5 (274) | [site](https://naneakite.com/) | Queued. |
 | [ ] | Australia | Byron Bay | Lets Go Surfing Byron Bay | 5 (1391) | [site](https://letsgosurfing.com.au/lessons/byron-bay/) | Queued. |
@@ -55,7 +55,7 @@ Candidate count: 140. Source breadth: 41 Google Places text searches across 22 c
 | [ ] | Indonesia | Kuta / Canggu, Bali | Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!) | 4.9 (519) | [site](https://www.canggu-surfingclass.com/) | Queued. |
 | [ ] | Morocco | Essaouira | Loving Surf, Kite & Surf School Surf Shop | 4.9 (501) | [site](http://www.lovingsurf.com/) | Queued. |
 | [ ] | Costa Rica | Tamarindo | Witch’s Rock Surf Camp | 4.6 (533) | [site](https://www.witchsrocksurfcamp.com/) | Queued. |
-| [ ] | Mexico | Sayulita | Lunazul Surf School & Shop | 5 (784) | [site](http://www.lunazulsurf.com/) | Queued. |
+| [x] | Mexico | Sayulita | Lunazul Surf School & Shop | 5 (784) | [site](http://www.lunazulsurf.com/) | Validated -> mexico__lunazul-surf-school.md |
 | [ ] | Brazil | Florianopolis | Campeche Surf School | 4.9 (325) | [site](http://www.campechesurfschool.com.br/) | Queued. |
 | [ ] | Morocco | Taghazout | Surf Coast Morocco - Surf & Yoga House | 4.8 (554) | [site](https://www.surfcoastmorocco.com/) | Queued. |
 | [ ] | Spain | Lanzarote | Lanzarote Surf - Famara surf camp | 4.9 (162) | [site](https://www.lanzarotesurf.com/) | Queued. |
@@ -85,7 +85,7 @@ Candidate count: 140. Source breadth: 41 Google Places text searches across 22 c
 | [ ] | Indonesia | Kuta Lombok | Rama surf lombok | 4.8 (320) | [site](https://ramasurflombok.com/) | Queued. |
 | [ ] | Barbados | Surfers Point | Barrys Surf Barbados Surf School | 5 (232) | [site](https://www.surfing-barbados.com/) | Queued. |
 | [ ] | Mexico | Sayulita | WildMex Surf School & Adventure Center, Sayulita | 4.9 (512) | [site](https://wildmex.com/) | Queued. |
-| [ ] | Nicaragua | San Juan del Sur | Dreamsea Surf Resort Nicaragua | 4.6 (286) | [site](https://www.dreamsea.com/nicaragua-sanjuandelsur/) | Queued. |
+| [x] | Nicaragua | San Juan del Sur | Dreamsea Surf Resort Nicaragua | 4.6 (286) | [site](https://www.dreamsea.com/nicaragua-sanjuandelsur/) | Validated -> nicaragua__dreamsea-surf-resort.md |
 | [ ] | Sri Lanka | Arugam Bay | Ocean Surf Arugam Bay | 4.9 (261) | [site](https://oceansurfarugambay.com/) | Queued. |
 | [ ] | Morocco | Imsouane | Surf camp Imsouane By Pro Surf Imsouane & Surf House | 4.7 (125) | [site](https://www.surfschoolmorocco.com/) | Queued. |
 | [ ] | Spain | Fuerteventura | Surf School Corralejo - Cotillo BlueAdventure | 5 (217) | [site](https://www.blueadventuresurf.com/surf) | Queued. |

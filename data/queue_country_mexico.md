@@ -4,7 +4,7 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 
 | done | name | city/hub | rating | website | notes |
 | --- | --- | --- | --- | --- | --- |
-| [ ] | Lunazul Surf School & Shop | Sayulita | 5 (784) | [site](http://www.lunazulsurf.com/) | Queued for validation. |
+| [x] | Lunazul Surf School & Shop | Sayulita | 5 (784) | [site](http://www.lunazulsurf.com/) | Detailed -> mexico__lunazul-surf-school.md |
 | [x] | La Salidita Surf | La Saladita | 4.5 (725) | [site](http://www.lasaladitasurfmx.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [ ] | WildMex Surf School & Adventure Center, Sayulita | Sayulita | 4.9 (512) | [site](https://wildmex.com/) | Queued for validation. |
 | [ ] | Marea Surf School – Surf Lessons in Sayulita | Sayulita | 4.9 (406) | [site](http://www.mareasayulita.com/) | Queued for validation. |

@@ -4,7 +4,7 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 
 | done | name | city/hub | rating | website | notes |
 | --- | --- | --- | --- | --- | --- |
-| [ ] | Iguana Surf Camp & Surf Shop | Tamarindo | 4.9 (1667) | [site](https://www.iguanasurf.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb) | Queued for validation. |
+| [x] | Iguana Surf Camp & Surf Shop | Tamarindo | 4.9 (1667) | [site](https://www.iguanasurf.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb) | Detailed -> costa-rica__iguana-surf-camp.md |
 | [ ] | Surf Every Day Academy ‍ ️ ‍ ️ | Tamarindo | 5 (620) | [site](https://www.surfeverydayacademy.com/) | Queued for validation. |
 | [ ] | Witch’s Rock Surf Camp | Tamarindo | 4.6 (533) | [site](https://www.witchsrocksurfcamp.com/) | Queued for validation. |
 | [ ] | Salty Smile surf school Tamarindo | Tamarindo | 5 (454) | [site](https://www.saltysmilesurf.com/) | Queued for validation. |

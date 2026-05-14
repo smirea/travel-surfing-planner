@@ -9,13 +9,13 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 | [x] | Franz Surf School | Tenerife | 4.9 (1337) | [site](https://surfschooltenerife.es/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [x] | Kontraola - Tenerife Surf School powered by Quiksilver and Roxy | Tenerife | 4.9 (1275) | [site](https://www.kontraolasurftenerife.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [x] | Ika Ika Surf Camp & Surf School Tenerife | Tenerife | 4.8 (1182) | [site](https://ikaikasurfschooltenerife.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
-| [ ] | Nomad Surf Camp Fuerteventura | Fuerteventura | 4.9 (855) | [site](https://www.nomadsurfcamp.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16818523694287513788) | Queued for validation. |
+| [x] | Nomad Surf Camp Fuerteventura | Fuerteventura | 4.9 (855) | [site](https://www.nomadsurfcamp.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16818523694287513788) | Detailed -> spain__nomad-surf-camp-fuerteventura.md |
 | [x] | Friends of the Ocean - Tenerife Surf School/ Rentals / Paddle Boards | Tenerife | 4.9 (789) | [site](https://www.tenerifesurfing.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [x] | Ocean Life Tenerife Surf School - Playa De Las Americas | Tenerife | 5 (743) | [site](http://www.oceanlifesurfschool.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [x] | Surf School Tilegit Tenerife | Tenerife | 5 (647) | [site](http://www.tilegitsurf.es/) | Low-priority/non-school-looking Places result; skip unless needed. |
-| [ ] | Lanzasurf Surf & Yoga Camp | Lanzarote | 4.9 (643) | [site](https://www.lanzasurf.com/) | Queued for validation. |
+| [x] | Lanzasurf Surf & Yoga Camp | Lanzarote | 4.9 (643) | [site](https://www.lanzasurf.com/) | Detailed -> spain__lanzasurf-surf-yoga-camp.md |
 | [ ] | Surf Life Tenerife | Tenerife | 5 (537) | [site](http://www.surflifetenerife.com/) | Queued for validation. |
-| [ ] | Red Star Surf & Yoga Camp | Lanzarote | 4.8 (446) | [site](https://www.redstarsurf.com/?utm_source=gmb&utm_medium=organic&utm_campaign=google-my-business) | Queued for validation. |
+| [x] | Red Star Surf & Yoga Camp | Lanzarote | 4.8 (446) | [site](https://www.redstarsurf.com/?utm_source=gmb&utm_medium=organic&utm_campaign=google-my-business) | Detailed -> spain__red-star-surf-yoga-camp.md |
 | [x] | K16 SURF SCHOOL TENERIFE | Tenerife | 4.8 (360) | [site](https://k16surfschooltenerife.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [x] | Wave Rituals surf school | Lanzarote | 5 (336) | [site](http://www.waverituals.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [ ] | Surfintrip – Surf Camp & School Fuerteventura | Fuerteventura | 4.9 (333) | [site](https://surfintrip.com/) | Queued for validation. |

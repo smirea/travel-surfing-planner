@@ -4,6 +4,8 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 
 | done | name | city/hub | rating | website | notes |
 | --- | --- | --- | --- | --- | --- |
+| [x] | Mystery Surf Camp | Imsouane | 5 (495) | [site](https://mysterysurfcamp.com/) | Detailed -> morocco__mystery-surf-camp.md |
+| [x] | Chillsurfer Hostel | Tamraght | 4.8 (122) | [site](https://www.chillsurfer.com/) | Detailed -> morocco__chill-surfer-hostel.md |
 | [x] | Kite And Surf Essaouira - KSE - Kitesurf Essaouira & Surf Essaouira Centre | Essaouira | 5 (1002) | [site](https://kiteandsurfessaouira.com/) | Low-priority/non-school-looking Places result; skip unless needed. |
 | [ ] | Kitesurf Essaouira Maroc Yalla | Essaouira | 5 (866) | [site](https://yalla-surf-kite.com/) | Queued for validation. |
 | [ ] | Essaouira Flyin' Surf School Morocco: Essaouira, Surf, Kitesurf, Wingfoil, Stand-Up Paddle, Maroc | Essaouira | 5 (595) | [site](https://flyinsurf.com/) | Queued for validation. |
@@ -16,7 +18,7 @@ Source: Google Places text searches from `data/raw/google-places-candidates.json
 | [ ] | Surf Berbere | Taghazout | 4.2 (393) | [site](https://surfberbere.com/) | Queued for validation. |
 | [ ] | Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing | Essaouira | 5 (390) | [site](http://www.comesurfing.com/) | Queued for validation. |
 | [ ] | Travel Surf Morocco | Imsouane | 5 (382) | [site](http://www.travelsurfmorocco.com/) | Queued for validation. |
-| [ ] | Pro Surf Morocco Yoga & Surf Camp Tamraght | Tamraght | 4.8 (378) | [site](https://www.prosurfmorocco.com/) | Queued for validation. |
+| [x] | Pro Surf Morocco Yoga & Surf Camp Tamraght | Tamraght | 4.8 (378) | [site](https://www.prosurfmorocco.com/) | Detailed -> morocco__pro-surf-morocco.md |
 | [ ] | Kite Surf Wingfoil Essaouira - Olasurf Essaouira | Essaouira | 5 (330) | [site](https://www.olasurfessaouira.com/) | Queued for validation. |
 | [ ] | Taghazout Surfers - Surf School | Taghazout | 4.9 (295) | [site](https://taghazoutsurfers.com/) | Queued for validation. |
 | [ ] | Naneakite : Kitesurf camp - Kitesurf school in Essaouira | Essaouira | 5 (274) | [site](https://naneakite.com/) | Queued for validation. |
