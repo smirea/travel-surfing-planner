@@ -5,7 +5,7 @@
 
 Duration: Two-week package with 13 surf days, plus shorter 5/7/10-night options.
 
-Price: EUR 850 pp shared / EUR 980 pp private-share for 2 weeks / 13 surf days
+Price: USD 996 pp shared / USD 1,148 pp private-share for 2 weeks / 13 surf days
 
 Website: https://www.chillsurfer.com/surf-packages/
 

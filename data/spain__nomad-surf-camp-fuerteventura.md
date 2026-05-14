@@ -5,7 +5,7 @@
 
 Duration: 7-day surf-and-stay packages; two weeks gives 10 surf lesson days unless extra lessons are added.
 
-Price: From EUR 510 pp for two shared-room weeks; private two-person room about EUR 538 pp for two weeks
+Price: From USD 597 pp for two shared-room weeks; private two-person room about USD 630 pp for two weeks
 
 Website: https://www.nomadsurfcamp.com/packages
 

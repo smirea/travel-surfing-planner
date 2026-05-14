@@ -5,7 +5,7 @@
 
 Duration: 7-night Sunday-to-Sunday packages; repeat for two weeks.
 
-Price: EUR 698 pp basic / EUR 798 pp standard for two 7-night weeks; premium EUR 1,398
+Price: USD 818 pp basic / USD 935 pp standard for two 7-night weeks; premium USD 1,638
 
 Website: https://www.layback.lk/surf-retreat
 

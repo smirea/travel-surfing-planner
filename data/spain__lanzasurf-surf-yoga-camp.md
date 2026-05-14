@@ -5,7 +5,7 @@
 
 Duration: 14-night adult beginner camp option, 12 surf lessons / 24 hours total. Custom flexible camp also listed.
 
-Price: EUR 870 pp for 14 nights / 12 lessons when booked by 2 people; EUR 1,060 solo
+Price: USD 1,019 pp for 14 nights / 12 lessons when booked by 2 people; USD 1,242 solo
 
 Website: https://lanzasurf.com/surf-camp/
 

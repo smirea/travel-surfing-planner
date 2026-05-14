@@ -5,7 +5,7 @@
 
 Duration: 8 days / 7 nights full surf package; repeat or request longer stay for two weeks.
 
-Price: EUR 1,198 pp if doubling the EUR 599 8-day/7-night full surf package
+Price: USD 1,403 pp if doubling the USD 702 8-day/7-night full surf package
 
 Website: https://mysterysurfcamp.com/
 

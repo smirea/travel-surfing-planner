@@ -5,7 +5,7 @@
 
 Duration: Short surf camp packages from 3 nights; flexible arrival dates advertised.
 
-Price: From EUR 240 pp / 3 nights; 14-night quote needed
+Price: From USD 281 pp / 3 nights; 14-night quote needed
 
 Website: https://www.redstarsurf.com/surfcamp/
 

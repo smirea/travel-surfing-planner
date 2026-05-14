@@ -5,7 +5,7 @@
 
 Duration: 3-, 5-, and 7-lesson packages; 5-day progression includes final La Lancha session.
 
-Price: MXN 11,092 pp for two 5-day progressions at 2-person rate; lodging/food separate
+Price: USD 645 pp for two 5-day progressions at 2-person rate; lodging/food separate
 
 Website: https://lunazulsurf.com/lessons
 
@@ -13,7 +13,7 @@ Housing: No current official accommodation package found; Sayulita.com describes
 
 Rating: 5.0 Google (784)
 
-Lessons: 90-minute lessons plus 1 hour practice after each lesson. 5-day two-person rate MXN 5,546 pp.
+Lessons: 90-minute lessons plus 1 hour practice after each lesson. 5-day two-person rate USD 323 pp.
 
 Period fit: Warm-weather fallback; lessons bookable, lodging separate
 

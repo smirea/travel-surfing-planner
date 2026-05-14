@@ -5,7 +5,7 @@
 
 Duration: Daily/nightly package or weekly Sunday package; 14+ nights unlocks airport transfer on Sri Lanka side and Bali has weekly/nightly options.
 
-Price: IDR 17,800,000 pp for two 8,900,000 IDR weekly packages, or about IDR 18,200,000 for 14 nightly packages
+Price: USD 1,017 pp for two weekly packages (USD 508 each), or about USD 1,040 for 14 nightly packages
 
 Website: https://elsewheresurfcamps.com/bali-surf/
 

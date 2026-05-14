@@ -14,7 +14,7 @@ High level: Find a place that offers daily surfing lessons for 2 weeks in a nice
 
 # Methodology
 
-The final deliverable will be a `data/result.md` table of `name,country,city,ratings,period,price,with_housing,notes` sorted by desirability given the requirements (price = total per person, notes should include meaningful information if needed red/green flags) and a list of `data/[country]__[name-kebab-case].md` files with detailed information (the name of each business is linked to its detailed markdown). The detailed file for each offering should be of the following format:
+The final deliverable will be a `data/result.md` table of `name,country,city,ratings,period,price,with_housing,notes` sorted by desirability given the requirements (price = total per person in USD when a price is known, notes should include meaningful information if needed red/green flags) and a list of `data/[country]__[name-kebab-case].md` files with detailed information (the name of each business is linked to its detailed markdown). The detailed file for each offering should be of the following format:
 
 ```md
 <!-- google_maps_id: [Google Places placeId, e.g. ChIJ...] -->

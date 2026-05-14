@@ -5,7 +5,7 @@
 
 Duration: Flexible room booking; lessons booked as add-ons per day/session.
 
-Price: About GBP 1,470-1,610 pp for 2 weeks in standard room plus 10-14 days of two-session lessons
+Price: About USD 1,987-USD 2,177 pp for 2 weeks in standard room plus 10-14 days of two-session lessons
 
 Website: https://www.balisurfingcamp.com/booking
 
@@ -13,7 +13,7 @@ Housing: Private rooms only; weekly package includes airport transfers, breakfas
 
 Rating: 4.6 Google (318)
 
-Lessons: Beginner/intermediate lessons are optional add-ons: GBP 35/day for two sessions for guests, equipment included.
+Lessons: Beginner/intermediate lessons are optional add-ons: USD 47/day for two sessions for guests, equipment included.
 
 Period fit: Good for Sep-Oct; October warm but seasonal transition
 

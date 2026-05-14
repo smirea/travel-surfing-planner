@@ -5,7 +5,7 @@
 
 Duration: 7 nights / 5 surf days beginner package; can be repeated for two weeks.
 
-Price: EUR 1,560-EUR 1,760 pp for two weeks depending on Oct half; shared dorm base
+Price: USD 1,827-USD 2,062 pp for two weeks depending on Oct half; shared dorm base
 
 Website: https://algarvewatersport.com/en/surf-camp-lagos-portugal/
 

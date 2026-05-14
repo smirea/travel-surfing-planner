@@ -5,7 +5,7 @@
 
 Duration: 7-night beginner surf pack with 5 lessons; can be repeated for two weeks.
 
-Price: EUR 819 pp for two mid-season beginner packs (7 nights + 5 lessons each)
+Price: USD 959 pp for two mid-season beginner packs (7 nights + 5 lessons each)
 
 Website: https://ericeirasurfcamp.com/prices/
 

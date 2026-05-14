@@ -5,7 +5,7 @@
 
 Duration: 7-night all-inclusive package can be booked back-to-back; 6 coaching days per week.
 
-Price: EUR 940 pp for two 7-night shared-room weeks; double/shared-bath EUR 998 pp
+Price: USD 1,101 pp for two 7-night shared-room weeks; double/shared-bath USD 1,169 pp
 
 Website: https://prosurfmorocco.com/surf-coaching-package/
 
