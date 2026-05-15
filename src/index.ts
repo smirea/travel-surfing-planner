@@ -713,6 +713,82 @@ function renderPage(): string {
 			display: none;
 		}
 
+		.cluster-popup {
+			width: min(320px, 72vw);
+			max-height: 360px;
+			display: grid;
+			gap: 8px;
+			color: var(--text);
+		}
+
+		.cluster-popup-zoom {
+			width: 100%;
+			border: 1px solid var(--accent);
+			border-radius: 6px;
+			background: var(--accent);
+			color: #ffffff;
+			padding: 7px 10px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		.cluster-popup-list {
+			display: grid;
+			gap: 4px;
+			max-height: 300px;
+			overflow: auto;
+			padding-right: 2px;
+		}
+
+		.cluster-popup-item {
+			display: grid;
+			grid-template-columns: auto minmax(0, 1fr) auto;
+			align-items: center;
+			gap: 8px;
+			width: 100%;
+			border: 1px solid var(--line);
+			border-radius: 6px;
+			background: #ffffff;
+			color: var(--text);
+			padding: 7px 8px;
+			text-align: left;
+			cursor: pointer;
+		}
+
+		.cluster-popup-item:hover,
+		.cluster-popup-item:focus-visible {
+			border-color: var(--accent);
+			background: var(--accent-soft);
+			outline: 0;
+		}
+
+		.cluster-popup-status {
+			min-width: 32px;
+			border: 1px solid var(--line);
+			border-radius: 999px;
+			padding: 2px 6px;
+			font-size: 11px;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		.cluster-popup-name,
+		.cluster-popup-rating {
+			min-width: 0;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.cluster-popup-name {
+			font-weight: 700;
+		}
+
+		.cluster-popup-rating {
+			color: var(--muted);
+			font-size: 12px;
+		}
+
 		table {
 			width: 100%;
 			min-width: 1360px;
@@ -1221,7 +1297,7 @@ function renderPage(): string {
 		let allResults = [];
 		let visibleResults = [];
 		let selectedId = "";
-		let detailOpen = true;
+		let detailOpen = false;
 		let viewMode = "table";
 		const statusStorageKey = "travel-surfing-planner:school-status:v1";
 		const googleMapsBrowserApiKey = ${JSON.stringify(Bun.env.GOOGLE_MAPS_BROWSER_API_KEY?.trim() ?? '')};
@@ -1232,8 +1308,7 @@ function renderPage(): string {
 		let mapScriptPromise;
 		let markerClustererScriptPromise;
 		let markerClusterManager;
-		let activeMapMarkers = [];
-		let expandedClusterMarkers = [];
+		let clusterInfoWindow;
 		const mapMarkers = new Map();
 
 		const layout = document.querySelector("#layout");
@@ -1389,8 +1464,10 @@ function renderPage(): string {
 			visibleResults = sortResults(allResults.filter(result => resultMatches(result)));
 
 			if (detailOpen && !visibleResults.some(result => result.id === selectedId)) {
-				selectedId = visibleResults[0]?.id ?? "";
-			} else if (!detailOpen && !visibleResults.some(result => result.id === selectedId)) {
+				closeDetail();
+				return;
+			}
+			if (!detailOpen && !visibleResults.some(result => result.id === selectedId)) {
 				selectedId = "";
 			}
 
@@ -1398,7 +1475,7 @@ function renderPage(): string {
 			renderViewMode();
 			renderRows();
 			renderDetail();
-			collapseExpandedCluster();
+			closeClusterInfoWindow();
 			updateMap({ fitBounds: true });
 			renderSortIndicators();
 		}
@@ -1559,13 +1636,11 @@ function renderPage(): string {
 				fullscreenControl: true,
 				streetViewControl: false,
 			});
-			map.addListener("click", () => collapseExpandedCluster());
 		}
 
 		function renderMapMarkers(options = {}) {
 			if (!map || !window.markerClusterer?.MarkerClusterer) return;
 
-			collapseExpandedCluster();
 			const locatedResults = mapResults();
 			const locatedIds = new Set(locatedResults.map(result => result.id));
 			for (const [id, marker] of mapMarkers) {
@@ -1586,7 +1661,6 @@ function renderPage(): string {
 					});
 				marker.resultId = result.id;
 				marker.setPosition(position);
-				marker.actualPosition = position;
 				marker.setIcon(markerIcon(status, result.id === selectedId));
 				marker.setZIndex(result.id === selectedId ? 1000 : status === "yes" ? 300 : status === "meh" ? 200 : 100);
 				if (!mapMarkers.has(result.id)) {
@@ -1596,7 +1670,6 @@ function renderPage(): string {
 				activeMarkers.push(marker);
 				bounds.extend(position);
 			}
-			activeMapMarkers = activeMarkers;
 			updateMarkerClusterer(activeMarkers);
 
 			const blockedByStatus = visibleResults.filter(result => currentStatus(result.id) === "no").length;
@@ -1638,8 +1711,8 @@ function renderPage(): string {
 							});
 						},
 					},
-					onClusterClick(_event, cluster) {
-						expandCluster(cluster);
+					onClusterClick(event, cluster) {
+						showClusterInfoWindow(event, cluster);
 					},
 				});
 			}
@@ -1648,54 +1721,74 @@ function renderPage(): string {
 			markerClusterManager.addMarkers(markers);
 		}
 
-		function expandCluster(cluster) {
+		function showClusterInfoWindow(event, cluster) {
 			const markers = cluster.markers ?? [];
 			const center = cluster.position;
 			if (markers.length <= 1 || !center) return;
 
-			collapseExpandedCluster();
-			markerClusterManager.clearMarkers();
-
-			const expandedMarkerSet = new Set(markers);
-			const remainingMarkers = activeMapMarkers.filter(marker => !expandedMarkerSet.has(marker));
-			markerClusterManager.addMarkers(remainingMarkers);
-
 			const centerPosition = typeof center.toJSON === "function" ? center.toJSON() : center;
-			const radius = clusterExpansionRadiusDegrees();
-			markers.forEach((marker, index) => {
-				const ring = Math.floor(index / 12);
-				const ringIndex = index % 12;
-				const ringSize = Math.min(12, markers.length - ring * 12);
-				const angle = (Math.PI * 2 * ringIndex) / ringSize;
-				const ringRadius = radius * (1 + ring * 0.75);
-				const position = {
-					lat: centerPosition.lat + Math.sin(angle) * ringRadius,
-					lng: centerPosition.lng + Math.cos(angle) * ringRadius,
-				};
-				marker.setPosition(position);
-				marker.setMap(map);
-			});
-			expandedClusterMarkers = markers;
-		}
+			if (!clusterInfoWindow) {
+				clusterInfoWindow = new google.maps.InfoWindow();
+			}
 
-		function collapseExpandedCluster() {
-			if (!expandedClusterMarkers.length) return;
-			for (const marker of expandedClusterMarkers) {
-				if (marker.actualPosition) {
-					marker.setPosition(marker.actualPosition);
+			clusterInfoWindow.setContent(clusterInfoWindowContent(markers));
+			clusterInfoWindow.setPosition(event?.latLng ?? centerPosition);
+			clusterInfoWindow.open({ map, shouldFocus: false });
+
+			google.maps.event.addListenerOnce(clusterInfoWindow, "domready", () => {
+				const root = document.querySelector(".cluster-popup");
+				if (!root) return;
+				root.querySelector("[data-cluster-zoom]")?.addEventListener("click", () => zoomToCluster(markers));
+				for (const button of root.querySelectorAll("[data-cluster-result-id]")) {
+					button.addEventListener("click", () => selectResult(button.dataset.clusterResultId, { keepClusterPopup: true }));
 				}
-				marker.setMap(null);
+			});
+		}
+
+		function clusterInfoWindowContent(markers) {
+			const items = markers
+				.map(marker => allResults.find(result => result.id === marker.resultId))
+				.filter(Boolean)
+				.sort((left, right) => left.name.localeCompare(right.name));
+			return \`
+				<div class="cluster-popup">
+					<button class="cluster-popup-zoom" type="button" data-cluster-zoom>Zoom</button>
+					<div class="cluster-popup-list">
+						\${items.map(result => \`
+							<button class="cluster-popup-item" type="button" data-cluster-result-id="\${escapeHtml(result.id)}">
+								<span class="cluster-popup-status status-\${escapeHtml(currentStatus(result.id) === "-" ? "empty" : currentStatus(result.id))}">\${escapeHtml(currentStatus(result.id))}</span>
+								<span class="cluster-popup-name">\${escapeHtml(result.name)}</span>
+								<span class="cluster-popup-rating">\${escapeHtml(tableRatingLabel(result.rating))}</span>
+							</button>
+						\`).join("")}
+					</div>
+				</div>
+			\`;
+		}
+
+		function zoomToCluster(markers) {
+			const bounds = new google.maps.LatLngBounds();
+			for (const marker of markers) {
+				const position = marker.getPosition();
+				if (position) bounds.extend(position);
 			}
-			expandedClusterMarkers = [];
-			if (markerClusterManager && activeMapMarkers.length) {
-				markerClusterManager.clearMarkers();
-				markerClusterManager.addMarkers(activeMapMarkers);
+			if (!bounds.isEmpty()) {
+				map.fitBounds(bounds, 52);
 			}
 		}
 
-		function clusterExpansionRadiusDegrees() {
-			const zoom = map?.getZoom() ?? 2;
-			return 0.00012 * 2 ** Math.max(0, 15 - zoom);
+		function closeClusterInfoWindow() {
+			clusterInfoWindow?.close();
+		}
+
+		function shouldKeepClusterInfoWindow(options) {
+			return options?.keepClusterPopup === true;
+		}
+
+		function maybeCloseClusterInfoWindow(options) {
+			if (!shouldKeepClusterInfoWindow(options)) {
+				closeClusterInfoWindow();
+			}
 		}
 
 		function setMapMessage(message) {
@@ -1736,8 +1829,7 @@ function renderPage(): string {
 
 			const result = allResults.find(item => item.id === selectedId);
 			if (!result) {
-				detail.className = "detail-inner empty";
-				detail.textContent = "No matching schools.";
+				closeDetail();
 				return;
 			}
 
@@ -1780,7 +1872,8 @@ function renderPage(): string {
 			return value.replace(/(https?:\\/\\/[^\\s]+)/g, '<a href="$1" target="_blank" rel="noreferrer">$1</a>');
 		}
 
-		function selectResult(id) {
+		function selectResult(id, options = {}) {
+			maybeCloseClusterInfoWindow(options);
 			selectedId = id;
 			detailOpen = true;
 			history.replaceState(null, "", "#" + encodeURIComponent(id));
@@ -1877,10 +1970,7 @@ function renderPage(): string {
 				const hashId = decodeURIComponent(location.hash.slice(1));
 				if (hashId) {
 					selectedId = hashId;
-				} else if (narrowScreen.matches) {
-					detailOpen = false;
-				} else {
-					selectedId = results[0]?.id || "";
+					detailOpen = true;
 				}
 				applyFilters();
 			})
