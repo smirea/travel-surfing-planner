@@ -587,11 +587,12 @@ function renderPage(): string {
 			min-width: 0;
 			border-right: 1px solid var(--line);
 			overflow-y: auto;
-			overflow-x: hidden;
+			overflow-x: auto;
 		}
 
 		table {
 			width: 100%;
+			min-width: 1360px;
 			table-layout: fixed;
 			border-collapse: collapse;
 			background: var(--panel);
@@ -602,24 +603,28 @@ function renderPage(): string {
 		}
 
 		.name-column {
-			width: 24%;
+			width: 220px;
 		}
 
 		.location-column {
-			width: 16%;
+			width: 170px;
 		}
 
 		.rating-column {
-			width: 82px;
+			width: 130px;
 		}
 
 		.housing-column {
-			width: 130px;
+			width: 240px;
 		}
 
 		.price-column,
 		.period-column {
 			width: 180px;
+		}
+
+		.notes-column {
+			width: 236px;
 		}
 
 		th {
@@ -670,9 +675,7 @@ function renderPage(): string {
 			border-radius: 3px;
 		}
 
-		.location,
 		.rating,
-		.housing,
 		.status {
 			white-space: nowrap;
 		}
@@ -937,6 +940,10 @@ function renderPage(): string {
 			tbody {
 				display: block;
 				width: 100%;
+			}
+
+			table {
+				min-width: 0;
 			}
 
 			tr {
