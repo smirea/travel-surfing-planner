@@ -1774,6 +1774,7 @@ function renderPage(): string {
 			}
 			if (!bounds.isEmpty()) {
 				map.fitBounds(bounds, 52);
+				closeClusterInfoWindow();
 			}
 		}
 
