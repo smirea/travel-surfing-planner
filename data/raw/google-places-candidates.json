@@ -8919,6 +8919,87 @@
 					}
 				}
 			]
+		},
+		{
+			"search": {
+				"country": "Manual coordinate backfill",
+				"city": "Multiple",
+				"query": "result map coordinate backfill for Places IDs missing from original raw cache"
+			},
+			"places": [
+				{
+					"name": "places/ChIJ-7kyntyzsw0RC3nUuRPGxPE",
+					"id": "ChIJ-7kyntyzsw0RC3nUuRPGxPE",
+					"formattedAddress": "Tamraght, 80000 Tamraght Ouzdar, Morocco",
+					"location": {
+						"latitude": 30.513371,
+						"longitude": -9.682168
+					},
+					"rating": 4.8,
+					"googleMapsUri": "https://www.google.com/maps/search/?api=1&query=Chill%20Surfer%20Hostel%20Tamraght%20Morocco&query_place_id=ChIJ-7kyntyzsw0RC3nUuRPGxPE",
+					"websiteUri": "https://www.chillsurfer.com/surf-packages/",
+					"businessStatus": "OPERATIONAL",
+					"userRatingCount": 122,
+					"displayName": {
+						"text": "Chill Surfer Hostel",
+						"languageCode": "en"
+					}
+				},
+				{
+					"name": "places/ChIJIbfLaQsnHw0RzSpdoU2TKq4",
+					"id": "ChIJIbfLaQsnHw0RzSpdoU2TKq4",
+					"formattedAddress": "Rua Doutor Eduardo Burnay 28, 2655-370 Ericeira, Portugal",
+					"location": {
+						"latitude": 38.962169,
+						"longitude": -9.41615884034
+					},
+					"rating": 4.6,
+					"googleMapsUri": "https://www.google.com/maps/search/?api=1&query=Ericeira%20Surf%20Camp%20Ericeira%20Portugal&query_place_id=ChIJIbfLaQsnHw0RzSpdoU2TKq4",
+					"websiteUri": "https://www.ericeirasurfcamp.com/",
+					"businessStatus": "OPERATIONAL",
+					"userRatingCount": 120,
+					"displayName": {
+						"text": "Ericeira Surf Camp",
+						"languageCode": "en"
+					}
+				},
+				{
+					"name": "places/ChIJw6EjDExF0i0RSs_qNonm50k",
+					"id": "ChIJw6EjDExF0i0RSs_qNonm50k",
+					"formattedAddress": "Jl. Labuansait, Pecatu, South Kuta, Bali 80361, Indonesia",
+					"location": {
+						"latitude": -8.815265566,
+						"longitude": 115.1094422
+					},
+					"rating": 4.6,
+					"googleMapsUri": "https://www.google.com/maps/search/?api=1&query=Padang%20Padang%20Surf%20Camp%20Uluwatu%20Bali&query_place_id=ChIJw6EjDExF0i0RSs_qNonm50k",
+					"websiteUri": "https://www.balisurfingcamp.com/",
+					"businessStatus": "OPERATIONAL",
+					"userRatingCount": 318,
+					"displayName": {
+						"text": "Padang Padang Surf Camp",
+						"languageCode": "en"
+					}
+				},
+				{
+					"name": "places/ChIJWXe7IQAV4ToRughDroSCclU",
+					"id": "ChIJWXe7IQAV4ToRughDroSCclU",
+					"formattedAddress": "Beach Road, Surfing Point, Weligama 81700, Sri Lanka",
+					"location": {
+						"latitude": 5.972547609351873,
+						"longitude": 80.43410052475421
+					},
+					"rating": 4.7,
+					"googleMapsUri": "https://www.google.com/maps/search/?api=1&query=Chill%20%26%20Surf%20Weligama%20Sri%20Lanka&query_place_id=ChIJWXe7IQAV4ToRughDroSCclU",
+					"websiteUri": "https://chillandsurfcamp.com/",
+					"businessStatus": "OPERATIONAL",
+					"userRatingCount": 302,
+					"displayName": {
+						"text": "Chill & Surf Weligama",
+						"languageCode": "en"
+					}
+				}
+			]
 		}
 	],
 	"candidates": [

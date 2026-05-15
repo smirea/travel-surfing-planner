@@ -16,17 +16,26 @@ interface ResultRow {
 	ratingValue: number | undefined;
 	websiteUrl: string | undefined;
 	googleMapsUrl: string;
+	googleMapsId: string | undefined;
+	location: PlaceLocation | undefined;
 	tripAdvisorUrl: string | undefined;
 	detailFile: string;
 	detail: DetailData;
+}
+
+interface PlaceLocation {
+	latitude: number;
+	longitude: number;
 }
 
 interface PlaceCandidate {
 	name: string;
 	country: string;
 	city?: string;
+	placeId?: string;
 	googleMaps?: string;
 	website?: string;
+	location?: PlaceLocation;
 }
 
 interface DetailData {
@@ -133,8 +142,9 @@ async function readResults(): Promise<ResultRow[]> {
 
 		const detailFile = link.href;
 		const detailPath = path.join(rootDir, 'data', detailFile);
-		const detail = existsSync(detailPath)
-			? parseDetailMarkdown(await Bun.file(detailPath).text())
+		const detailMarkdown = existsSync(detailPath) ? await Bun.file(detailPath).text() : undefined;
+		const detail = detailMarkdown
+			? parseDetailMarkdown(detailMarkdown)
 			: {
 					title: link.text,
 					fields: [],
@@ -143,8 +153,15 @@ async function readResults(): Promise<ResultRow[]> {
 				};
 		const country = cells[1] ?? '';
 		const city = cells[2] ?? '';
-		const placeCandidate = findPlaceCandidate(placeCandidates, link.text, country, city);
-		const googleMapsUrl = placeCandidate?.googleMaps ?? googleMapsSearchUrl(link.text, city, country);
+		const googleMapsId = detailMarkdown ? parseGoogleMapsId(detailMarkdown) : undefined;
+		const placeCandidate =
+			(googleMapsId ? placeCandidates.find(candidate => candidate.placeId === googleMapsId) : undefined) ??
+			findPlaceCandidate(placeCandidates, link.text, country, city);
+		const googleMapsUrl =
+			placeCandidate?.googleMaps ??
+			(googleMapsId
+				? googleMapsPlaceUrl(link.text, city, country, googleMapsId)
+				: googleMapsSearchUrl(link.text, city, country));
 		const tripAdvisorUrl = findTripAdvisorUrl(detail);
 		const websiteUrl = findWebsiteUrl(detail) ?? placeCandidate?.website;
 		const detailWithLinks = addExternalLinkFields(detail, googleMapsUrl, tripAdvisorUrl);
@@ -162,6 +179,8 @@ async function readResults(): Promise<ResultRow[]> {
 			ratingValue: parseRatingValue(cells[3] ?? ''),
 			websiteUrl,
 			googleMapsUrl,
+			googleMapsId,
+			location: placeCandidate?.location,
 			tripAdvisorUrl,
 			detailFile,
 			detail: detailWithLinks,
@@ -179,8 +198,49 @@ async function readPlaceCandidates(): Promise<PlaceCandidate[]> {
 
 	const raw = JSON.parse(await Bun.file(candidatesPath).text()) as {
 		candidates?: PlaceCandidate[];
+		raw?: Array<{
+			search?: { country?: string; city?: string; query?: string };
+			places?: Array<{
+				id?: string;
+				displayName?: { text?: string };
+				googleMapsUri?: string;
+				websiteUri?: string;
+				location?: { latitude?: number; longitude?: number };
+			}>;
+		}>;
 	};
-	return raw.candidates ?? [];
+	const candidates = new Map<string, PlaceCandidate>();
+
+	for (const candidate of raw.candidates ?? []) {
+		const key = candidate.placeId ?? candidateKey(candidate.country, candidate.name);
+		candidates.set(key, candidate);
+	}
+
+	for (const rawSearch of raw.raw ?? []) {
+		for (const place of rawSearch.places ?? []) {
+			if (!place.id || !place.displayName?.text) {
+				continue;
+			}
+
+			const existing = candidates.get(place.id);
+			candidates.set(place.id, {
+				...existing,
+				name: existing?.name ?? place.displayName.text,
+				country: existing?.country ?? rawSearch.search?.country ?? '',
+				city: existing?.city ?? rawSearch.search?.city,
+				placeId: place.id,
+				googleMaps: existing?.googleMaps ?? place.googleMapsUri,
+				website: existing?.website ?? place.websiteUri,
+				location: existing?.location ?? parsePlaceLocation(place.location),
+			});
+		}
+	}
+
+	return [...candidates.values()];
+}
+
+function candidateKey(country: string, name: string): string {
+	return `${normalizeText(country)}:${compactName(name)}`;
 }
 
 function splitMarkdownRow(line: string): string[] {
@@ -274,6 +334,22 @@ function parseDetailMarkdown(markdown: string): DetailData {
 		fields,
 		sources,
 		raw: visibleMarkdown,
+	};
+}
+
+function parseGoogleMapsId(markdown: string): string | undefined {
+	return markdown.match(/^<!--\s*google_maps_id:\s*([^>]+?)\s*-->/i)?.[1]?.trim();
+}
+
+function parsePlaceLocation(
+	location: { latitude?: number; longitude?: number } | undefined,
+): PlaceLocation | undefined {
+	if (location?.latitude === undefined || location.longitude === undefined) {
+		return undefined;
+	}
+	return {
+		latitude: location.latitude,
+		longitude: location.longitude,
 	};
 }
 
@@ -376,6 +452,13 @@ function googleMapsSearchUrl(name: string, city: string, country: string): strin
 	)}`;
 }
 
+function googleMapsPlaceUrl(name: string, city: string, country: string, placeId: string): string {
+	const query = [name, city, country].filter(Boolean).join(' ');
+	return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}&query_place_id=${encodeURIComponent(
+		placeId,
+	)}`;
+}
+
 function parseRatingValue(value: string): number | undefined {
 	const match = value.match(/\d+(?:\.\d+)?/);
 	if (!match?.[0]) {
@@ -468,6 +551,8 @@ function renderPage(): string {
 		}
 
 		header {
+			position: relative;
+			z-index: 20;
 			padding: 16px 20px 14px;
 			border-bottom: 1px solid var(--line);
 			background: var(--panel);
@@ -501,7 +586,7 @@ function renderPage(): string {
 
 		.controls {
 			display: grid;
-			grid-template-columns: minmax(220px, 1fr) 120px 180px 150px;
+			grid-template-columns: minmax(220px, 1fr) 120px 180px 150px auto;
 			gap: 10px;
 			margin-top: 14px;
 		}
@@ -522,7 +607,8 @@ function renderPage(): string {
 		}
 
 		.github-button,
-		.export-button {
+		.export-button,
+		.view-button {
 			min-height: 38px;
 			border: 1px solid var(--accent);
 			border-radius: 6px;
@@ -557,8 +643,19 @@ function renderPage(): string {
 			padding: 8px 10px;
 		}
 
+		.view-button {
+			background: #ffffff;
+			color: var(--accent);
+			padding: 8px 14px;
+		}
+
+		.view-button[aria-pressed="true"] {
+			background: var(--accent-soft);
+		}
+
 		.github-button:focus-visible,
 		.export-button:focus-visible,
+		.view-button:focus-visible,
 		.detail-close:focus-visible {
 			outline: 2px solid var(--accent);
 			outline-offset: 2px;
@@ -576,6 +673,44 @@ function renderPage(): string {
 			min-width: 0;
 			overflow-y: auto;
 			overflow-x: auto;
+		}
+
+		.results.map-active {
+			overflow: hidden;
+			background: var(--panel);
+		}
+
+		.results.map-active table {
+			display: none;
+		}
+
+		.map-view {
+			position: relative;
+			min-height: calc(100vh - 135px);
+			background: #e7e3da;
+		}
+
+		.map-canvas {
+			width: 100%;
+			min-height: calc(100vh - 135px);
+		}
+
+		.map-empty {
+			position: absolute;
+			inset: 16px auto auto 16px;
+			z-index: 2;
+			max-width: min(420px, calc(100% - 32px));
+			padding: 10px 12px;
+			border: 1px solid var(--line);
+			border-radius: 6px;
+			background: rgb(255 255 255 / 94%);
+			color: var(--muted);
+			box-shadow: 0 8px 24px rgb(30 37 39 / 12%);
+		}
+
+		.map-empty[hidden],
+		.map-view[hidden] {
+			display: none;
 		}
 
 		table {
@@ -909,6 +1044,7 @@ function renderPage(): string {
 
 			main:not(.detail-closed) .detail {
 				inset: 0;
+				z-index: 30;
 				width: auto;
 				height: auto;
 				max-height: none;
@@ -920,6 +1056,11 @@ function renderPage(): string {
 			.results {
 				border-right: 0;
 				max-height: none;
+			}
+
+			.map-view,
+			.map-canvas {
+				min-height: calc(100vh - 270px);
 			}
 
 			table,
@@ -1036,10 +1177,11 @@ function renderPage(): string {
 					<option value="yes" data-label="Housing likely">Housing likely</option>
 					<option value="unclear" data-label="Housing unclear">Housing unclear</option>
 				</select>
+				<button id="viewToggle" class="view-button" type="button" aria-pressed="false">Map</button>
 			</div>
 		</header>
 		<main id="layout">
-			<section class="results" aria-label="Results">
+			<section id="resultsPane" class="results" aria-label="Results">
 				<table>
 					<colgroup>
 						<col class="status-column">
@@ -1065,6 +1207,10 @@ function renderPage(): string {
 					</thead>
 					<tbody id="rows"></tbody>
 				</table>
+				<div id="mapView" class="map-view" hidden>
+					<div id="mapCanvas" class="map-canvas" role="application" aria-label="Filtered school map"></div>
+					<div id="mapEmpty" class="map-empty" hidden></div>
+				</div>
 			</section>
 			<aside class="detail" aria-label="School details">
 				<div id="detail" class="detail-inner empty">Select a school to see the details.</div>
@@ -1076,12 +1222,18 @@ function renderPage(): string {
 		let visibleResults = [];
 		let selectedId = "";
 		let detailOpen = true;
+		let viewMode = "table";
 		const statusStorageKey = "travel-surfing-planner:school-status:v1";
+		const googleMapsApiKey = ${JSON.stringify(Bun.env.GOOGLE_MAPS_API_KEY?.trim() ?? '')};
 		const statusValues = ["yes", "no", "meh", "-"];
 		let sortState = { key: "", direction: "asc" };
 		let statuses = loadStatuses();
+		let map;
+		let mapScriptPromise;
+		const mapMarkers = new Map();
 
 		const layout = document.querySelector("#layout");
+		const resultsPane = document.querySelector("#resultsPane");
 		const rows = document.querySelector("#rows");
 		const detail = document.querySelector("#detail");
 		const summary = document.querySelector("#summary");
@@ -1089,6 +1241,10 @@ function renderPage(): string {
 		const statusFilter = document.querySelector("#statusFilter");
 		const country = document.querySelector("#country");
 		const housing = document.querySelector("#housing");
+		const viewToggle = document.querySelector("#viewToggle");
+		const mapView = document.querySelector("#mapView");
+		const mapCanvas = document.querySelector("#mapCanvas");
+		const mapEmpty = document.querySelector("#mapEmpty");
 		const exportCsvButton = document.querySelector("#exportCsv");
 		const sortButtons = document.querySelectorAll("[data-sort]");
 		const sortDirectionLabels = document.querySelectorAll("[data-sort-direction]");
@@ -1235,8 +1391,10 @@ function renderPage(): string {
 			}
 
 			updateFilterCounts();
+			renderViewMode();
 			renderRows();
 			renderDetail();
+			updateMap();
 			renderSortIndicators();
 		}
 
@@ -1303,6 +1461,147 @@ function renderPage(): string {
 			}).join("");
 		}
 
+		function renderViewMode() {
+			const isMap = viewMode === "map";
+			resultsPane.classList.toggle("map-active", isMap);
+			mapView.hidden = !isMap;
+			viewToggle.setAttribute("aria-pressed", String(isMap));
+			viewToggle.textContent = isMap ? "Table" : "Map";
+		}
+
+		function toggleViewMode() {
+			viewMode = viewMode === "map" ? "table" : "map";
+			renderViewMode();
+			updateMap();
+		}
+
+		function mapResults() {
+			return visibleResults.filter(result => currentStatus(result.id) !== "no" && hasLocation(result));
+		}
+
+		function hasLocation(result) {
+			return Number.isFinite(result.location?.latitude) && Number.isFinite(result.location?.longitude);
+		}
+
+		function updateMap() {
+			if (viewMode !== "map") return;
+
+			if (!googleMapsApiKey) {
+				setMapMessage("Set GOOGLE_MAPS_API_KEY in .env.local to load the Google Maps view.");
+				return;
+			}
+
+			ensureMap()
+				.then(() => renderMapMarkers())
+				.catch(error => setMapMessage(error instanceof Error ? error.message : String(error)));
+		}
+
+		function ensureMap() {
+			if (map) return Promise.resolve();
+			if (window.google?.maps) {
+				initializeMap();
+				return Promise.resolve();
+			}
+			if (!mapScriptPromise) {
+				mapScriptPromise = new Promise((resolve, reject) => {
+					window.initGoogleResultsMap = () => {
+						initializeMap();
+						resolve();
+					};
+					const script = document.createElement("script");
+					script.src = \`https://maps.googleapis.com/maps/api/js?key=\${encodeURIComponent(googleMapsApiKey)}&callback=initGoogleResultsMap&v=weekly\`;
+					script.async = true;
+					script.defer = true;
+					script.onerror = () => reject(new Error("Google Maps could not be loaded."));
+					document.head.append(script);
+				});
+			}
+			return mapScriptPromise;
+		}
+
+		function initializeMap() {
+			if (map) return;
+			map = new google.maps.Map(mapCanvas, {
+				center: { lat: 12, lng: 20 },
+				zoom: 2,
+				mapTypeControl: false,
+				fullscreenControl: true,
+				streetViewControl: false,
+			});
+		}
+
+		function renderMapMarkers() {
+			if (!map) return;
+
+			const locatedResults = mapResults();
+			const locatedIds = new Set(locatedResults.map(result => result.id));
+			for (const [id, marker] of mapMarkers) {
+				if (!locatedIds.has(id)) {
+					marker.setMap(null);
+					mapMarkers.delete(id);
+				}
+			}
+
+			const bounds = new google.maps.LatLngBounds();
+			for (const result of locatedResults) {
+				const status = currentStatus(result.id);
+				const position = { lat: result.location.latitude, lng: result.location.longitude };
+				const marker =
+					mapMarkers.get(result.id) ??
+					new google.maps.Marker({
+						map,
+						title: result.name,
+					});
+				marker.setPosition(position);
+				marker.setIcon(markerIcon(status, result.id === selectedId));
+				marker.setZIndex(result.id === selectedId ? 1000 : status === "yes" ? 300 : status === "meh" ? 200 : 100);
+				if (!mapMarkers.has(result.id)) {
+					marker.addListener("click", () => selectResult(result.id));
+					mapMarkers.set(result.id, marker);
+				}
+				bounds.extend(position);
+			}
+
+			const blockedByStatus = visibleResults.filter(result => currentStatus(result.id) === "no").length;
+			const missingLocations = visibleResults.filter(result => currentStatus(result.id) !== "no" && !hasLocation(result)).length;
+			const parts = [
+				\`\${locatedResults.length} map pins\`,
+				blockedByStatus ? \`\${blockedByStatus} hidden by no status\` : "",
+				missingLocations ? \`\${missingLocations} missing coordinates\` : "",
+			].filter(Boolean);
+			setMapMessage(parts.join(" · "));
+
+			if (locatedResults.length === 0) return;
+			if (locatedResults.length === 1) {
+				map.setCenter(bounds.getCenter());
+				map.setZoom(12);
+				return;
+			}
+			map.fitBounds(bounds, 44);
+		}
+
+		function setMapMessage(message) {
+			mapEmpty.hidden = !message;
+			mapEmpty.textContent = message;
+		}
+
+		function markerIcon(status, selected) {
+			const colors = {
+				yes: "#0f766e",
+				meh: "#9a6700",
+				"-": "#657174",
+			};
+			const fill = colors[status] ?? colors["-"];
+			const stroke = selected ? "#1e2527" : "#ffffff";
+			const strokeWidth = selected ? 3 : 2;
+			const svg = \`<svg xmlns="http://www.w3.org/2000/svg" width="34" height="44" viewBox="0 0 34 44"><path fill="\${fill}" stroke="\${stroke}" stroke-width="\${strokeWidth}" d="M17 2C8.7 2 2 8.7 2 17c0 11.2 15 25 15 25s15-13.8 15-25C32 8.7 25.3 2 17 2Z"/><circle cx="17" cy="17" r="5.5" fill="#fff"/></svg>\`;
+			return {
+				url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
+				scaledSize: new google.maps.Size(selected ? 40 : 34, selected ? 52 : 44),
+				anchor: new google.maps.Point(selected ? 20 : 17, selected ? 50 : 42),
+			};
+		}
+
 		function renderDetail() {
 			layout.classList.toggle("detail-closed", !detailOpen);
 			if (!detailOpen) return;
@@ -1359,6 +1658,7 @@ function renderPage(): string {
 			history.replaceState(null, "", "#" + encodeURIComponent(id));
 			renderRows();
 			renderDetail();
+			updateMap();
 		}
 
 		function closeDetail() {
@@ -1367,6 +1667,7 @@ function renderPage(): string {
 			history.replaceState(null, "", location.pathname + location.search);
 			renderRows();
 			renderDetail();
+			updateMap();
 		}
 
 		function exportCsv() {
@@ -1432,6 +1733,7 @@ function renderPage(): string {
 		statusFilter.addEventListener("change", applyFilters);
 		country.addEventListener("change", applyFilters);
 		housing.addEventListener("change", applyFilters);
+		viewToggle.addEventListener("click", toggleViewMode);
 		exportCsvButton.addEventListener("click", exportCsv);
 
 		fetch("/api/results")

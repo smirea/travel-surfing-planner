@@ -31,7 +31,7 @@ Things to do around: ...
 ... other details ...
 ```
 
-Each per-school detail file must start with the `google_maps_id` HTML comment. Use that Google Places ID as the canonical dedupe key across `data/result.md` and detail files because school names, websites, and Maps URLs can vary. Aggregate markdown files like `data/result.md`, `data/full_evaluation.md`, queue files, and audit files do not represent one school and do not carry a single `google_maps_id`.
+Each per-school detail file must start with the `google_maps_id` HTML comment. Use that Google Places ID as the canonical dedupe key across `data/result.md` and detail files because school names, websites, and Maps URLs can vary. The local results map also needs coordinates; keep each result row's Places details cached in `data/raw/google-places-candidates.json` with `location.latitude` and `location.longitude`. The Places ID alone is enough for dedupe and Google links, but not for rendering all browser markers without extra Places API calls. Aggregate markdown files like `data/result.md`, `data/full_evaluation.md`, queue files, and audit files do not represent one school and do not carry a single `google_maps_id`.
 
 1. Find all the countries in the world that have good beach temperature in that period and have access to good surfing places. store the data under `data/queue_countries.md` as a checklist table that you'll work through
    1.1. Take each country one at a time and find business that offer surfing programs for beginners in each of those countries. store the data under `data/queue_country_[country].md` as a checklist table with basic info
