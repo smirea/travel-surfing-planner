@@ -881,7 +881,7 @@ function renderPage(): string {
 			position: fixed;
 			top: 0;
 			right: 0;
-			z-index: 10;
+			z-index: 40;
 			width: min(620px, 42vw);
 			min-width: 0;
 			height: 100vh;
@@ -1230,6 +1230,8 @@ function renderPage(): string {
 		let statuses = loadStatuses();
 		let map;
 		let mapScriptPromise;
+		let markerClustererScriptPromise;
+		let markerClusterManager;
 		const mapMarkers = new Map();
 
 		const layout = document.querySelector("#layout");
@@ -1492,6 +1494,7 @@ function renderPage(): string {
 			}
 
 			ensureMap()
+				.then(() => ensureMarkerClusterer())
 				.then(() => renderMapMarkers())
 				.catch(error => setMapMessage(error instanceof Error ? error.message : String(error)));
 		}
@@ -1526,6 +1529,22 @@ function renderPage(): string {
 			return mapScriptPromise;
 		}
 
+		function ensureMarkerClusterer() {
+			if (window.markerClusterer?.MarkerClusterer) return Promise.resolve();
+			if (!markerClustererScriptPromise) {
+				markerClustererScriptPromise = new Promise((resolve, reject) => {
+					const script = document.createElement("script");
+					script.src = "https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js";
+					script.async = true;
+					script.defer = true;
+					script.onload = () => resolve();
+					script.onerror = () => reject(new Error("Google Maps marker clustering could not be loaded."));
+					document.head.append(script);
+				});
+			}
+			return markerClustererScriptPromise;
+		}
+
 		function initializeMap() {
 			if (map) return;
 			map = new google.maps.Map(mapCanvas, {
@@ -1538,25 +1557,24 @@ function renderPage(): string {
 		}
 
 		function renderMapMarkers() {
-			if (!map) return;
+			if (!map || !window.markerClusterer?.MarkerClusterer) return;
 
 			const locatedResults = mapResults();
 			const locatedIds = new Set(locatedResults.map(result => result.id));
 			for (const [id, marker] of mapMarkers) {
 				if (!locatedIds.has(id)) {
-					marker.setMap(null);
 					mapMarkers.delete(id);
 				}
 			}
 
 			const bounds = new google.maps.LatLngBounds();
+			const activeMarkers = [];
 			for (const result of locatedResults) {
 				const status = currentStatus(result.id);
 				const position = { lat: result.location.latitude, lng: result.location.longitude };
 				const marker =
 					mapMarkers.get(result.id) ??
 					new google.maps.Marker({
-						map,
 						title: result.name,
 					});
 				marker.setPosition(position);
@@ -1566,8 +1584,10 @@ function renderPage(): string {
 					marker.addListener("click", () => selectResult(result.id));
 					mapMarkers.set(result.id, marker);
 				}
+				activeMarkers.push(marker);
 				bounds.extend(position);
 			}
+			updateMarkerClusterer(activeMarkers);
 
 			const blockedByStatus = visibleResults.filter(result => currentStatus(result.id) === "no").length;
 			const missingLocations = visibleResults.filter(result => currentStatus(result.id) !== "no" && !hasLocation(result)).length;
@@ -1585,6 +1605,33 @@ function renderPage(): string {
 				return;
 			}
 			map.fitBounds(bounds, 44);
+		}
+
+		function updateMarkerClusterer(markers) {
+			if (!markerClusterManager) {
+				markerClusterManager = new window.markerClusterer.MarkerClusterer({
+					map,
+					markers: [],
+					renderer: {
+						render({ count, position }) {
+							return new google.maps.Marker({
+								position,
+								icon: clusterIcon(count),
+								label: {
+									text: String(count),
+									color: "#ffffff",
+									fontSize: "12px",
+									fontWeight: "700",
+								},
+								zIndex: Number(google.maps.Marker.MAX_ZINDEX) + count,
+							});
+						},
+					},
+				});
+			}
+
+			markerClusterManager.clearMarkers();
+			markerClusterManager.addMarkers(markers);
 		}
 
 		function setMapMessage(message) {
@@ -1606,6 +1653,16 @@ function renderPage(): string {
 				url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
 				scaledSize: new google.maps.Size(selected ? 40 : 34, selected ? 52 : 44),
 				anchor: new google.maps.Point(selected ? 20 : 17, selected ? 50 : 42),
+			};
+		}
+
+		function clusterIcon(count) {
+			const size = count >= 100 ? 48 : count >= 10 ? 42 : 36;
+			const svg = \`<svg xmlns="http://www.w3.org/2000/svg" width="\${size}" height="\${size}" viewBox="0 0 \${size} \${size}"><circle cx="\${size / 2}" cy="\${size / 2}" r="\${size / 2 - 2}" fill="#1e2527" fill-opacity="0.92" stroke="#ffffff" stroke-width="3"/><circle cx="\${size / 2}" cy="\${size / 2}" r="\${size / 2 - 8}" fill="#0f766e" fill-opacity="0.95"/></svg>\`;
+			return {
+				url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
+				scaledSize: new google.maps.Size(size, size),
+				anchor: new google.maps.Point(size / 2, size / 2),
 			};
 		}
 
