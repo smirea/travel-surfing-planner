@@ -1232,6 +1232,8 @@ function renderPage(): string {
 		let mapScriptPromise;
 		let markerClustererScriptPromise;
 		let markerClusterManager;
+		let activeMapMarkers = [];
+		let expandedClusterMarkers = [];
 		const mapMarkers = new Map();
 
 		const layout = document.querySelector("#layout");
@@ -1396,7 +1398,8 @@ function renderPage(): string {
 			renderViewMode();
 			renderRows();
 			renderDetail();
-			updateMap();
+			collapseExpandedCluster();
+			updateMap({ fitBounds: true });
 			renderSortIndicators();
 		}
 
@@ -1474,7 +1477,9 @@ function renderPage(): string {
 		function toggleViewMode() {
 			viewMode = viewMode === "map" ? "table" : "map";
 			renderViewMode();
-			updateMap();
+			if (viewMode === "map") {
+				updateMap({ fitBounds: true });
+			}
 		}
 
 		function mapResults() {
@@ -1485,7 +1490,7 @@ function renderPage(): string {
 			return Number.isFinite(result.location?.latitude) && Number.isFinite(result.location?.longitude);
 		}
 
-		function updateMap() {
+		function updateMap(options = {}) {
 			if (viewMode !== "map") return;
 
 			if (!googleMapsBrowserApiKey) {
@@ -1495,7 +1500,7 @@ function renderPage(): string {
 
 			ensureMap()
 				.then(() => ensureMarkerClusterer())
-				.then(() => renderMapMarkers())
+				.then(() => renderMapMarkers(options))
 				.catch(error => setMapMessage(error instanceof Error ? error.message : String(error)));
 		}
 
@@ -1554,11 +1559,13 @@ function renderPage(): string {
 				fullscreenControl: true,
 				streetViewControl: false,
 			});
+			map.addListener("click", () => collapseExpandedCluster());
 		}
 
-		function renderMapMarkers() {
+		function renderMapMarkers(options = {}) {
 			if (!map || !window.markerClusterer?.MarkerClusterer) return;
 
+			collapseExpandedCluster();
 			const locatedResults = mapResults();
 			const locatedIds = new Set(locatedResults.map(result => result.id));
 			for (const [id, marker] of mapMarkers) {
@@ -1577,7 +1584,9 @@ function renderPage(): string {
 					new google.maps.Marker({
 						title: result.name,
 					});
+				marker.resultId = result.id;
 				marker.setPosition(position);
+				marker.actualPosition = position;
 				marker.setIcon(markerIcon(status, result.id === selectedId));
 				marker.setZIndex(result.id === selectedId ? 1000 : status === "yes" ? 300 : status === "meh" ? 200 : 100);
 				if (!mapMarkers.has(result.id)) {
@@ -1587,6 +1596,7 @@ function renderPage(): string {
 				activeMarkers.push(marker);
 				bounds.extend(position);
 			}
+			activeMapMarkers = activeMarkers;
 			updateMarkerClusterer(activeMarkers);
 
 			const blockedByStatus = visibleResults.filter(result => currentStatus(result.id) === "no").length;
@@ -1599,6 +1609,7 @@ function renderPage(): string {
 			setMapMessage(parts.join(" · "));
 
 			if (locatedResults.length === 0) return;
+			if (!options.fitBounds) return;
 			if (locatedResults.length === 1) {
 				map.setCenter(bounds.getCenter());
 				map.setZoom(12);
@@ -1627,11 +1638,64 @@ function renderPage(): string {
 							});
 						},
 					},
+					onClusterClick(_event, cluster) {
+						expandCluster(cluster);
+					},
 				});
 			}
 
 			markerClusterManager.clearMarkers();
 			markerClusterManager.addMarkers(markers);
+		}
+
+		function expandCluster(cluster) {
+			const markers = cluster.markers ?? [];
+			const center = cluster.position;
+			if (markers.length <= 1 || !center) return;
+
+			collapseExpandedCluster();
+			markerClusterManager.clearMarkers();
+
+			const expandedMarkerSet = new Set(markers);
+			const remainingMarkers = activeMapMarkers.filter(marker => !expandedMarkerSet.has(marker));
+			markerClusterManager.addMarkers(remainingMarkers);
+
+			const centerPosition = typeof center.toJSON === "function" ? center.toJSON() : center;
+			const radius = clusterExpansionRadiusDegrees();
+			markers.forEach((marker, index) => {
+				const ring = Math.floor(index / 12);
+				const ringIndex = index % 12;
+				const ringSize = Math.min(12, markers.length - ring * 12);
+				const angle = (Math.PI * 2 * ringIndex) / ringSize;
+				const ringRadius = radius * (1 + ring * 0.75);
+				const position = {
+					lat: centerPosition.lat + Math.sin(angle) * ringRadius,
+					lng: centerPosition.lng + Math.cos(angle) * ringRadius,
+				};
+				marker.setPosition(position);
+				marker.setMap(map);
+			});
+			expandedClusterMarkers = markers;
+		}
+
+		function collapseExpandedCluster() {
+			if (!expandedClusterMarkers.length) return;
+			for (const marker of expandedClusterMarkers) {
+				if (marker.actualPosition) {
+					marker.setPosition(marker.actualPosition);
+				}
+				marker.setMap(null);
+			}
+			expandedClusterMarkers = [];
+			if (markerClusterManager && activeMapMarkers.length) {
+				markerClusterManager.clearMarkers();
+				markerClusterManager.addMarkers(activeMapMarkers);
+			}
+		}
+
+		function clusterExpansionRadiusDegrees() {
+			const zoom = map?.getZoom() ?? 2;
+			return 0.00012 * 2 ** Math.max(0, 15 - zoom);
 		}
 
 		function setMapMessage(message) {
