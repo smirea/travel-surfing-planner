@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJjR4_j-ofRgwRzPTnrU00oa0 -->
+
 # Famara, Lanzarote, Spain: Red Star Surf & Yoga Camp
 
 ![Red Star Surf & Yoga Camp](https://www.redstarsurf.com/wp-content/uploads/2025/01/surf_lessons_famara.webp)
@@ -22,4 +23,5 @@ Things to do around: Famara beach, Timanfaya, volcanic landscapes, cafes, tapas,
 Notes: Good backup to Lanzasurf in the same village. Needs direct quote for exact 10-14 day pricing.
 
 Sources:
+
 - https://www.redstarsurf.com/surfcamp/

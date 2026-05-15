@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJ8xKhwwmbrQ0Rhnnck_jCmqI -->
+
 # Essaouira, Morocco: Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing
 
 ![Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing](https://www.comesurfing.com/wp-content/uploads/2026/03/surf-essaouira-comesurfing-.webp)
@@ -15,13 +16,18 @@ Rating: 5 (390)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Essaouira area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
+- https://www.comesurfing.com/surf-accommodation/
+- https://www.comesurfing.com/7-days-wingfoil-camp-in-essaouira/
+- https://www.comesurfing.com/8-days-surf-and-yoga-camp-in-essaouira/
+- https://www.comesurfing.com/4-days-surf-and-yoga-camp-with-horse-riding-in-essaouira/
 - https://www.comesurfing.com/
 - https://www.comesurfing.com/surf-essaouira/
 - https://www.comesurfing.com/kitesurfing-essaouira/

@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJTwceFQBNsg0Rf1roB524eXA -->
+
 # Taghazout, Morocco: Taghazout Surf Lessons & School – Surf with Reda
 
 ![Taghazout Surf Lessons & School – Surf with Reda](https://surfwithreda.com/wp-content/uploads/2025/08/WhatsApp_Image_2025-03-13_at_12.35.52_optimized-1.jpeg)
@@ -15,13 +16,17 @@ Rating: 5 (189)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Taghazout area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
+- https://surfwithreda.com/best-surf-lessons-in-taghazout/#booking
+- https://surfwithreda.com/surfing-in-morocco/
+- https://surfwithreda.com/best-surf-lessons-in-taghazout/#happy-surfers
 - https://surfwithreda.com/
 - https://surfwithreda.com/best-surf-lessons-in-taghazout/
 - https://surfwithreda.com/sandboarding-agadir-timlaline/

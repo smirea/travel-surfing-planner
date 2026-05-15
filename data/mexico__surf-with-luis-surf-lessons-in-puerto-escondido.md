@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJPcGpbBz3uIUR-mgKqdSaU3w -->
+
 # Puerto Escondido, Mexico: Surf with Luis - Surf Lessons in Puerto Escondido
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Puerto Escondido; not deeply researched in this catch-up pa
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - https://instagram.com/surf_with_luis?igshid=YmMyMTA2M2Y=
 - https://maps.google.com/?cid=8958674321929824506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

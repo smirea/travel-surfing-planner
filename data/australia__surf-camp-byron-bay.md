@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJLe75PjxikGsRbxbD4tybpC8 -->
+
 # Byron Bay, Australia: Surf Camp Byron Bay
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: Surf Camp Byron Bay History Packages After School Kids Surf Courses &#8211; Wednesday Wipeout Weekender Sundekker 3 Days
 
 Price: Quote required / not found in stored research
 
@@ -11,18 +12,28 @@ Google Maps: https://maps.google.com/?cid=3433040188962707055&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: possible / needs direct confirmation
+Housing: yes / official site references camp stay inclusions.
 
 Rating: 5 Google (5)
 
 Lessons: Raw discovery matched "beginner surf lessons Byron Bay Australia". Direct confirmation is still needed for complete-beginner English instruction.
 
-Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains included because the stored data has no affirmative evidence that it does not offer beginner English surf instruction during the target period.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Byron Bay; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://surfcampbyronbay.com.au/surfing-life-1-3months/
+- https://surfcampbyronbay.com.au/soul-surfer-10-days/
+- https://surfcampbyronbay.com.au/surferoo-5-days/
+- https://surfcampbyronbay.com.au/after-school-surfing/
+- https://surfcampbyronbay.com.au/packages/
+- https://surfcampbyronbay.com.au/about-surf-camp-byron-bay/
+- https://surfcampbyronbay.com.au/surf-lessons-byron-bay-surf-school-2/
+- https://surfcampbyronbay.com.au/surfcampbyronbay-backyard/
+- https://surfcampbyronbay.com.au/
 - http://www.surfcampbyronbay.com.au/
 - https://maps.google.com/?cid=3433040188962707055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

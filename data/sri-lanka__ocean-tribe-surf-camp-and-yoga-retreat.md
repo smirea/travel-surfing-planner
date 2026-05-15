@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJnT29aR8V4ToRJiGtfB6KNNY -->
+
 # Weligama, Sri Lanka: Ocean Tribe Surf Camp & Yoga Retreat
 
 ![Ocean Tribe Surf Camp & Yoga Retreat](https://oceantribesurfcamp.com/wp-content/uploads/2021/02/surfer-catch-wave-compressed.jpg)
@@ -15,13 +16,14 @@ Rating: 4.9 (331)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Weligama area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
 - https://oceantribesurfcamp.com/
 - https://oceantribesurfcamp.com/surf-camp/
 - https://oceantribesurfcamp.com/rooms/

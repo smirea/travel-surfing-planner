@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJrRP8hZOlAowRZFilN_B6Z2Q -->
+
 # Rincon, Puerto Rico: La Casa del Surfer
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: 90 minutes in water surfing Equipment (appropriate board & leash) Gentle, beginner friendly wave Surf
 
 Price: Quote required / not found in stored research
 
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=7234886498538313828&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
 
 Rating: 4.9 Google (36)
 
@@ -21,8 +22,14 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Rincon; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://www.lacasadelsurfer.com/contact
+- https://www.lacasadelsurfer.com/events
+- https://www.lacasadelsurfer.com/gallery
+- https://www.lacasadelsurfer.com/about
+- https://www.lacasadelsurfer.com/
 - http://www.lacasadelsurfer.com/
 - https://maps.google.com/?cid=7234886498538313828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

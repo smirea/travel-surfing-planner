@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJn0vqpMuWNpAR61BQABXqd_U -->
+
 # Mancora, Peru: Psygon Surf Camp
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Mancora; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - https://www.instagram.com/psygonsurfcamp/
 - https://maps.google.com/?cid=17687863437441388779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

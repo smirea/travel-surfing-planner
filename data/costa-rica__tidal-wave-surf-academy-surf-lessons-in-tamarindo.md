@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJRX_kjNQ5no8RKDCPamk9ARw -->
+
 # Tamarindo, Costa Rica: Tidal Wave Surf Academy | Surf lessons in Tamarindo
 
 ![Tidal Wave Surf Academy | Surf lessons in Tamarindo](https://static.wixstatic.com/media/2bea76_947fe92bfde74e50bad012c03299a001~mv2.png/v1/fill/w_2500,h_2471,al_c/2bea76_947fe92bfde74e50bad012c03299a001~mv2.png)
@@ -22,6 +23,7 @@ Things to do around: Tamarindo area; not deeply researched in the bulk pass.
 Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
 
 Sources:
+
 - https://www.tidalwavesurfacademy.com/
 - https://www.tidalwavesurfacademy.com/
 - https://www.tidalwavesurfacademy.com/abouttidalwavesurfacademyintamarindocostarica

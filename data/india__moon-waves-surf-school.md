@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJLbJNER7vBTsRRrTkTpOJOU4 -->
+
 # Varkala, India: Moon Waves Surf School
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=5636687674407695430&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: yes / official site references camp stay inclusions.
 
 Rating: 4.9 Google (236)
 
@@ -21,8 +22,11 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Varkala; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://www.moonwaves.in/contact
+- https://www.moonwaves.in/
 - http://moonwaves.in/
 - https://maps.google.com/?cid=5636687674407695430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

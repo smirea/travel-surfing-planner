@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJHzXb-YpBzB0RNXft0pFTF44 -->
+
 # Cape Town / Muizenberg, South Africa: Paul's surfing lessons
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,4 +25,5 @@ Things to do around: Cape Town / Muizenberg; not deeply researched in this catch
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - https://maps.google.com/?cid=10238744163624253237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

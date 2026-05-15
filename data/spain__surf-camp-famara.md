@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJywzo8hgfRgwRbwyweTBWul8 -->
+
 # Lanzarote, Spain: Surf Camp Famara
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=6897920545471335535&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: possible / needs direct confirmation
+Housing: yes / official site references camp stay inclusions.
 
 Rating: 5 Google (1)
 
@@ -21,8 +22,13 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Lanzarote; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://www.surfcampfamara.com/surfcamp-habitaciones
+- https://www.surfcampfamara.com/habitaciones-compartidas
+- https://www.surfcampfamara.com/fr
+- https://www.surfcampfamara.com/en
 - https://www.surfcampfamara.com/
 - https://maps.google.com/?cid=6897920545471335535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJF-uTTJpvk2sR4aYUErr1Mk0 -->
+
 # Noosa, Australia: Surfskate Noosa Surf School
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: 6 weeks course
 
 Price: Quote required / not found in stored research
 
@@ -21,8 +22,17 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Noosa; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://surfskatenoosa.com/contact/
+- https://surfskatenoosa.com/the-surfskate-noosa-method/
+- https://surfskatenoosa.com/surfskate-training/
+- https://surfskatenoosa.com/surfskate-surf-workshops/
+- https://surfskatenoosa.com/school-term-surf-program/
+- https://surfskatenoosa.com/group-surf-coaching/
+- https://surfskatenoosa.com/private-surf-coaching/
+- https://surfskatenoosa.com/surf-coaching/
 - https://surfskatenoosa.com/
 - https://maps.google.com/?cid=5562778669272049377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJ-T4_WM2pzS0RQpTzOMeftrU -->
+
 # Kuta Lombok, Indonesia: LoTide Surf Camp
 
 ![LoTide Surf Camp](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/AMqagZNoLeIoZLjv/logo-lotide-Yg2LK61pL3FEKoWO.png)
@@ -22,6 +23,7 @@ Things to do around: Kuta Lombok area; not deeply researched in the bulk pass.
 Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=false.
 
 Sources:
+
 - https://lotidecamps.com/
 - https://lotidecamps.com/
 - https://lotidecamps.com/lombok

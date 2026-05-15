@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJRTlH30ePsgcRPA6-j0dzikE -->
+
 # Pipa, Brazil: Escola de Surf Iniciantes
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Pipa; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - https://aitsurf.wixstudio.com/surfiniciantespipa
 - https://maps.google.com/?cid=4722713910442855996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

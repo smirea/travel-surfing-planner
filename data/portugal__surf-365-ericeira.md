@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJxdEzkAAnHw0RnM02FWSh-uU -->
+
 # Ericeira, Portugal: Surf 365 Ericeira
 
 Image: not captured during bulk evaluation.
@@ -22,4 +23,5 @@ Things to do around: Ericeira area; not deeply researched in the bulk pass.
 Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=false, beginner=false, english=false, recurring_or_period=false, housing=false, price=false.
 
 Sources:
+
 - Website unavailable or blocked during bulk evaluation; use Google Places/website manually before booking.

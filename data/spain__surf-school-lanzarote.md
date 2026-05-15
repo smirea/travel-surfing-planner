@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJGU1Wn-ofRgwR3iZf6e7Ncrc -->
+
 # Lanzarote, Spain: Surf School Lanzarote
 
 ![Surf School Lanzarote](https://surfschoolanzarote.com/wp-content/uploads/2023/03/iamm.jpg)
@@ -15,13 +16,14 @@ Rating: 5 (276)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Target-period evidence found for Sep 20-Oct 31, 2026 in accessible official-site text.
 
 Things to do around: Lanzarote area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
 - https://surfschoolanzarote.com/
 - https://surfschoolanzarote.com/
 - https://surfschoolanzarote.com/beginner-surf-lessons/

@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJxzTP03pMGw0ROoiv_685tkk -->
+
 # Sagres, Portugal: Sagres Natura Surf Camp & Hostel
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: surf & stay package Accommodation 7 nights
 
 Price: Quote required / not found in stored research
 
@@ -11,18 +12,28 @@ Google Maps: https://maps.google.com/?cid=5311496238601832506&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: possible / needs direct confirmation
+Housing: yes / official site references camp stay inclusions.
 
 Rating: 4.8 Google (201)
 
 Lessons: Raw discovery matched "beginner surf camp Sagres Portugal". Direct confirmation is still needed for complete-beginner English instruction.
 
-Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains included because the stored data has no affirmative evidence that it does not offer beginner English surf instruction during the target period.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Sagres; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://sagresnatura.com/surf-school/for-advanced-surfers/
+- https://sagresnatura.com/surf-school/for-beginnersteenagers/
+- https://sagresnatura.com/surf-school/
+- https://sagresnatura.com/surf-camp/surf-sagres/
+- https://sagresnatura.com/surf-camp/the-camp/
+- https://sagresnatura.com/surf-camp/packages/
+- https://sagresnatura.com/surf-camp/
+- https://sagresnatura.com/book-now/
+- https://sagresnatura.com/
 - http://www.sagresnatura.com/
 - https://maps.google.com/?cid=5311496238601832506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

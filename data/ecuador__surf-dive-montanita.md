@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJQc3evsLULZAR2O9LXPBN9H4 -->
+
 # Montanita, Ecuador: Surf&Dive Montanita
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Montanita; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - http://montanitasurfdive.wixsite.com/webside
 - https://maps.google.com/?cid=9148022437832290264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

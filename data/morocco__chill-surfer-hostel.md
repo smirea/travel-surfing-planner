@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJ-7kyntyzsw0RC3nUuRPGxPE -->
+
 # Tamraght, Morocco: Chill Surfer Hostel
 
 ![Chill Surfer Hostel](https://www.chillsurfer.com/wp-content/uploads/2025/08/IMG_0007-scaled.jpg)
@@ -22,4 +23,5 @@ Things to do around: Taghazout cafes, Agadir day trips, Paradise Valley, Essaoui
 Notes: Best value on paper because it publishes the exact 2-week price and includes lessons, meals, gear, accommodation, and transport.
 
 Sources:
+
 - https://www.chillsurfer.com/surf-packages/

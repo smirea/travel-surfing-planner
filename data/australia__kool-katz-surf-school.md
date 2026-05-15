@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJXSyucjlikGsRYon50udaw4Y -->
+
 # Byron Bay, Australia: Kool Katz Surf School
 
 ![Kool Katz Surf School](https://img1.wsimg.com/isteam/ip/b06ad80b-f967-49ea-859a-84bf7c62e506/IMG_0158.JPG)
@@ -22,6 +23,7 @@ Things to do around: Byron Bay area; not deeply researched in the bulk pass.
 Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
 
 Sources:
+
 - https://koolkatzsurf.com/
 - https://koolkatzsurf.com/surf-lessons
 - https://koolkatzsurf.com/testimonials

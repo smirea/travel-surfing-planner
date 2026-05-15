@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJge7JYpb1Q4wR1MpBCs6ZCVM -->
+
 # Surfers Point, Barbados: Ride The Tide Surf School & Surfboard Rental
 
 Image: not captured during bulk evaluation.
@@ -15,13 +16,16 @@ Rating: 4.7 (219)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Surfers Point area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
+- https://ridethetidebarbados.com/book-now/private-group-surfing
+- https://ridethetidebarbados.com/contact-us
 - https://ridethetidebarbados.com/
 - https://ridethetidebarbados.com/about-ride-the-tide-surf-school
 - https://ridethetidebarbados.com/book-now/surfboard-rental

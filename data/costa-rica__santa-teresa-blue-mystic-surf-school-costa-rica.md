@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJFa3tZuNtn48RmZ_5kBrQfVg -->
+
 # Santa Teresa, Costa Rica: Santa Teresa| Blue Mystic Surf School |Costa Rica
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: Surf School (about $60–$75, 90 minutes
 
 Price: Quote required / not found in stored research
 
@@ -11,18 +12,26 @@ Google Maps: https://maps.google.com/?cid=6376481459946495897&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: yes / official site references stay or camp accommodation.
 
 Rating: 4.9 Google (392)
 
 Lessons: Raw discovery matched "beginner surf camp Santa Teresa Costa Rica". Direct confirmation is still needed for complete-beginner English instruction.
 
-Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains included because the stored data has no affirmative evidence that it does not offer beginner English surf instruction during the target period.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Santa Teresa; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://www.bluemysticsurf.com/booking-calendar/group-surf-lesson
+- https://www.bluemysticsurf.com/group-surf-lesson-in-santa-teresa
+- https://www.bluemysticsurf.com/private-surf-lessons
+- https://www.bluemysticsurf.com/contact
+- https://www.bluemysticsurf.com/about
+- https://www.bluemysticsurf.com/blog-feed.xml
+- https://www.bluemysticsurf.com/
 - http://bluemysticsurf.com/
 - https://maps.google.com/?cid=6376481459946495897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

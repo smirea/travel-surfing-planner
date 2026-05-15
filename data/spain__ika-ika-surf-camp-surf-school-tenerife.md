@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJ9woMrn6XagwRXc6ep7gQf1k -->
+
 # Tenerife, Spain: Ika Ika Surf Camp & Surf School Tenerife
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: 1 day to 2 weeks. Contact us for a quote! Contact Us Contact via WhatsApp IKA IKA SURF
 
 Price: Quote required / not found in stored research
 
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=6448891576690069085&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: possible / needs direct confirmation
+Housing: yes / official site references camp stay inclusions.
 
 Rating: 4.8 Google (1182)
 
@@ -21,8 +22,17 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Tenerife; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://ikaikasurfschooltenerife.com/contact-us/
+- https://ikaikasurfschooltenerife.com/product/1-on-1-surf-lessons/
+- https://ikaikasurfschooltenerife.com/product/private-group-surf-lessons/
+- https://ikaikasurfschooltenerife.com/product/surf-lesson/
+- https://ikaikasurfschooltenerife.com/surf-lessons/
+- https://ikaikasurfschooltenerife.com/fr/
+- https://ikaikasurfschooltenerife.com/es/
+- https://ikaikasurfschooltenerife.com/it/
 - https://ikaikasurfschooltenerife.com/
 - https://maps.google.com/?cid=6448891576690069085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

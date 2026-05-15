@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJm7l4P0g5no8RsUui1nZ_9qU -->
+
 # Tamarindo, Costa Rica: Iguana Surf Camp
 
 ![Iguana Surf Camp](https://iguanasurf.net/wp-content/uploads/2025/02/IGUANA-SURF-SHOP_08-4K.00_00_44_00.Still017.jpg)
@@ -22,6 +23,7 @@ Things to do around: Tamarindo restaurants/nightlife, wildlife tours, beaches, e
 Notes: Strong school and easy from Miami, but late Sep-Oct is rainy season and can push beginners into less predictable conditions.
 
 Sources:
+
 - https://iguanasurf.net/product/the-weekly-surf-camp-package/
 - https://iguanasurf.net/costa-rica-surf-camp/
 - https://www.costaricadaytrip.com/guides/tamarindo-surf-lessons

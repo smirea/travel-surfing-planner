@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJlW2LZUYXIYQR5WKy_2qACTo -->
+
 # Sayulita, Mexico: Mentally Surfing In Sayulita
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Sayulita; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - http://www.sayulitasurfcosteno.com/
 - https://maps.google.com/?cid=4182014926034985701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJBbOJ5sazsw0RcihBNE8bB9M -->
+
 # Tamraght, Morocco: Solyra Surf Morocco | Surf & Yoga Camp in Tamraght
 
 ![Solyra Surf Morocco | Surf & Yoga Camp in Tamraght](https://solyrasurfmorocco.com/wp-content/uploads/2026/02/fun.jpeg)
@@ -15,13 +16,18 @@ Rating: 5 (71)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Tamraght area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Warning found in accessible text, but not treated as school-level rejection without clearer context: Not suitable for beginners. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Warning found in accessible text, but not treated as school-level rejection without clearer context: Not suitable for beginners. Bulk evidence flags: surf=true, beginner=true, englis
 
 Sources:
+
+- https://solyrasurfmorocco.com/booking-form/
+- https://solyrasurfmorocco.com/surf-lessons/
+- https://solyrasurfmorocco.com/surf-house/
+- https://solyrasurfmorocco.com/bed-breakfast-package/
 - https://solyrasurfmorocco.com/
 - https://solyrasurfmorocco.com/about-us/
 - https://solyrasurfmorocco.com/surf-packages/

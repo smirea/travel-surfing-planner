@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJI_SsehL1Q4wROlYFlyOSbu8 -->
+
 # Surfers Point, Barbados, Barbados: Zed's Surfing Adventures
 
 ![Zed's Surfing Adventures](https://static.wixstatic.com/media/9ee854_73adc5897faf4edebb62f3b2ee7edea6~mv2.png/v1/fill/w_2500,h_1654,al_c/9ee854_73adc5897faf4edebb62f3b2ee7edea6~mv2.png)
@@ -22,5 +23,6 @@ Things to do around: English-speaking island, warm water, south coast beaches, B
 Notes: Great warm-water lesson fallback, especially for Miami-based traveler, but not a packaged two-week course.
 
 Sources:
+
 - https://www.zedssurfing.com/surf-lessons-in-barbados
 - https://www.barbadospocketguide.com/sports-in-barbados/watersports/surfing/zeds-surfing-adventures.html

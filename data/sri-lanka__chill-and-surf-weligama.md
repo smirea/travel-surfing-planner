@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJWXe7IQAV4ToRughDroSCclU -->
+
 # Weligama, Sri Lanka: Chill & Surf Weligama
 
 ![Chill & Surf Weligama](https://chillandsurfcamp.com/images/beginner-lesson.jpg)
@@ -22,5 +23,6 @@ Things to do around: Weligama/Mirissa/Galle, cafes, beaches, wildlife trips; Oct
 Notes: Best as a DIY/custom cheap Weligama plan rather than a fully priced package.
 
 Sources:
+
 - https://chillandsurfcamp.com/programs
 - https://www.chillandsurfcamp.com/

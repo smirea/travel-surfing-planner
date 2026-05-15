@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJrfZNiN6ysw0ReKahaWJItVQ -->
+
 # Tamraght, Morocco: Pro Surf Morocco
 
 ![Pro Surf Morocco](https://prosurfmorocco.com/wp-content/uploads/2025/06/d1e0865f-e8ee-48af-ae1e-7b1636d3b628.jpg)
@@ -22,5 +23,6 @@ Things to do around: Agadir, Taghazout, Tamraght cafes, Paradise Valley, Essaoui
 Notes: Very strong all-rounder: good price, flexible arrival, included transfer, and Morocco has the best distance/value blend for Berlin plus acceptable Miami routing.
 
 Sources:
+
 - https://prosurfmorocco.com/surf-coaching-package/
 - https://prosurfmorocco.com/surf-camp/

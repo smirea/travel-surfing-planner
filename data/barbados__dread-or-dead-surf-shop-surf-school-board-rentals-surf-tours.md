@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJmSxufVD2Q4wRdM1dUql4VD4 -->
+
 # Surfers Point, Barbados: Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS
 
 ![Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS](https://dreadordead.com/wp-content/uploads/2022/10/logo-big-dread.png)
@@ -22,6 +23,7 @@ Things to do around: Surfers Point area; not deeply researched in the bulk pass.
 Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
 
 Sources:
+
 - https://dreadordead.com/
 - https://dreadordead.com/surf-services/
 - https://dreadordead.com/surfboard-rentals/

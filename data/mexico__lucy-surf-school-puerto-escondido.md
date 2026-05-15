@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJTfpPrj_3uIUR4hNFARmsfqs -->
+
 # Puerto Escondido, Mexico: Lucy Surf School Puerto Escondido
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=12357503650946683874&g_mp=Cidnb29nbGUu
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
 
 Rating: 5 Google (385)
 
@@ -21,8 +22,11 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Puerto Escondido; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://lucysurfschool.com/contact/
+- https://lucysurfschool.com/clases-de-surf/
 - https://lucysurfschool.com/
 - https://maps.google.com/?cid=12357503650946683874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJAQvjpuEfRgwRSyw-k9HaKvk -->
+
 # Famara, Lanzarote, Spain: Lanzasurf Surf & Yoga Camp
 
 ![Lanzasurf Surf & Yoga Camp](https://lanzasurf.com/wp-content/uploads/2026/03/Lanzasurf-Surf-Yoga-Camps-surfers-.jpg)
@@ -22,5 +23,6 @@ Things to do around: Famara village, long sandy beach, Timanfaya National Park, 
 Notes: Best direct match: exact two-week product, reasonable price, warm Canary weather, English-friendly surf tourism, and enough non-surf activity for rest days.
 
 Sources:
+
 - https://lanzarotesurf.com/en/surf-camp/
 - https://lanzasurf.com/surf-camp/

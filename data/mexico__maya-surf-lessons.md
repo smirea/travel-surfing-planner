@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJq70fA-T5uIURJiQ_FWiARMs -->
+
 # Puerto Escondido, Mexico: Maya Surf Lessons
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: surf with You! OUR COURSES Get on Board PRIVATE LESSON One student / one instructor , 2 hours
 
 Price: Quote required / not found in stored research
 
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=14646973072637109286&g_mp=Cidnb29nbGUu
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: yes / official site references accommodation/rooms.
 
 Rating: 4.9 Google (72)
 
@@ -21,8 +22,12 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Puerto Escondido; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://turfandsurfpxm.wixsite.com/mayasurf/lesson-photos
+- https://turfandsurfpxm.wixsite.com/mayasurf/about
+- https://turfandsurfpxm.wixsite.com/mayasurf
 - http://surfmaya.com/
 - https://maps.google.com/?cid=14646973072637109286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

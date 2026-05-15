@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJz481VB4dro4R0d_pBkNYh8Y -->
+
 # Cabarete, Dominican Republic: Riki Wingfoil Cabarete
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Cabarete; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - https://rikiwingcabarete.com/
 - https://maps.google.com/?cid=14305499786267713489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

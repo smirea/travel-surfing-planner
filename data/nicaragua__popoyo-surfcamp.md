@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJkRNQRLsvdI8R0qWDo_fVMhc -->
+
 # Popoyo, Nicaragua: Popoyo Surfcamp
 
 ![Popoyo Surfcamp](https://cdn.prod.website-files.com/6785971439e53f4bb4e84c80/6785971539e53f4bb4e84cf5_bell_dark.svg)
@@ -15,13 +16,19 @@ Rating: 4.9 (210)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Popoyo area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
+- https://www.popoyosurfcamp.com/accomodation/dorm-room
+- https://www.popoyosurfcamp.com/accomodation/private-rooms
+- https://www.popoyosurfcamp.com/book-now
+- https://www.popoyosurfcamp.com/board-rentals
+- https://www.popoyosurfcamp.com/fishing-adventures
 - https://www.popoyosurfcamp.com/
 - https://www.popoyosurfcamp.com/surf-packages
 - https://www.popoyosurfcamp.com/the-camp

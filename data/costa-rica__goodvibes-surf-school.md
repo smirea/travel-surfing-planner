@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJS_1dVtM5no8RoyQUcNYGs2k -->
+
 # Tamarindo, Costa Rica: GoodVibes Surf School
 
 ![GoodVibes Surf School](https://goodvibessurfschoolcr.com/wp-content/uploads/2023/09/cropped-logo.png)
@@ -22,6 +23,7 @@ Things to do around: Tamarindo area; not deeply researched in the bulk pass.
 Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
 
 Sources:
+
 - https://goodvibessurfschoolcr.com/
 - https://goodvibessurfschoolcr.com/
 - https://goodvibessurfschoolcr.com/about/

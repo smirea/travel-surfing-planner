@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJw1lxFWA50i0Rwj3OJ_Ohwc4 -->
+
 # Canggu, Bali, Indonesia: Elsewhere Surf Camp Bali
 
 ![Elsewhere Surf Camp Bali](https://elsewheresurfcamps.com/wp-content/uploads/2025/04/DJI_0101-5-scaled-1.jpg)
@@ -22,5 +23,6 @@ Things to do around: Canggu cafes, gyms, nightlife, temples, Ubud, beaches. Very
 Notes: Probably the most polished camp product, but far from both Miami and Berlin and Canggu is crowded.
 
 Sources:
+
 - https://elsewheresurfcamps.com/bali-surf/
 - https://www.luwatu.com/surf-camps/indonesia/bali/elsewhere-surf-camp-bali-canggu

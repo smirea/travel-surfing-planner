@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJQfstfHUJBDMRh-KrCsl-Kjw -->
+
 # Siargao, Philippines: Surf Coach Siargao SPF All levels
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Siargao; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - http://www.spfsiargao.com/
 - https://maps.google.com/?cid=4335416993230086791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

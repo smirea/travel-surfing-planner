@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJg151aaSpzS0RI8E-BgkWcKo -->
+
 # Kuta Lombok, Indonesia: Surfing Banditos Lombok - Surf School
 
 ![Surfing Banditos Lombok - Surf School](http://static1.squarespace.com/static/6579f2ac47ec241bf7fa0d14/t/67f9d188374c5c3481eea0c1/1744425352517/PNG+LOGO+LIGN.png?format=1500w)
@@ -22,6 +23,7 @@ Things to do around: Kuta Lombok area; not deeply researched in the bulk pass.
 Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=false, housing=true, price=true.
 
 Sources:
+
 - https://www.surfingbanditoslombok.com/
 - https://www.surfingbanditoslombok.com/cart
 - https://www.surfingbanditoslombok.com/about

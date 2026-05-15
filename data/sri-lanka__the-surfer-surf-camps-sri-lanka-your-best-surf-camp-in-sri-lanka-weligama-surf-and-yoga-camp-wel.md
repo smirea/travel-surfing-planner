@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJ8T3AnVsV4ToR7E40Lk095b8 -->
+
 # Weligama, Sri Lanka: The Surfer Surf Camps Sri Lanka - Your Best Surf camp in Sri Lanka Weligama - Surf and Yoga Camp Weligama
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=13827525632607932140&g_mp=Cidnb29nbGUu
 
 Tripadvisor: -
 
-Housing: possible / needs direct confirmation
+Housing: yes / official site references accommodation/rooms.
 
 Rating: 4.9 Google (1608)
 
@@ -21,8 +22,10 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Weligama; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://www.thesurferweligama.com/
 - http://www.thesurferweligama.com/
 - https://maps.google.com/?cid=13827525632607932140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

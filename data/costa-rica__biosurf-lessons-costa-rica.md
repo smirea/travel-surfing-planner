@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJoXWHwdFWxEoREdopA-A-sQE -->
+
 # Jaco, Costa Rica: BioSurf Lessons Costa Rica
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=121947796762384913&g_mp=Cidnb29nbGUubW
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: yes / official site references accommodation/rooms.
 
 Rating: 5 Google (153)
 
@@ -21,8 +22,16 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Jaco; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://biosurf.company.site/products/Personalized-Surf-Lessons-p637032315
+- https://biosurf.company.site/products/Group-Surf-Lessons-p637027817
+- https://biosurf.company.site/products/cart
+- https://biosurf.company.site/products/account
+- https://biosurf.company.site/products/search
+- https://biosurf.company.site/products
+- https://biosurf.company.site/manifest.json
 - https://biosurf.company.site/
 - https://maps.google.com/?cid=121947796762384913&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

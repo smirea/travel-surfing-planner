@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJdTtoQjZdsg0R-J4ItqiZkzQ -->
+
 # Imsouane, Morocco: Imsouane surf experience
 
 ![Imsouane surf experience](https://imsouanesurfexperience.com/uploads/20251205184437_69332815bae61.webp)
@@ -9,7 +10,7 @@ Price: See official pricing source; exact two-week total needs direct confirmati
 
 Website: https://imsouanesurfexperience.com/
 
-Housing: unclear / likely lessons-only unless confirmed
+Housing: yes / official site references stay or camp accommodation.
 
 Rating: 5 (181)
 
@@ -19,9 +20,10 @@ Period fit: Recurring lesson/package evidence found; exact Sep 20-Oct 31, 2026 d
 
 Things to do around: Imsouane area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=false, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=false, price=true. Official site checked; updated fields reflect accessible website tex
 
 Sources:
+
 - https://imsouanesurfexperience.com/
 - https://imsouanesurfexperience.com/about
 - https://imsouanesurfexperience.com/packages

@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJm810kO8SwQ4R52pkExUsNc0 -->
+
 # Dakar / Ngor, Senegal: Ngor Island Surf Camp
 
 ![Ngor Island Surf Camp](https://static.wixstatic.com/media/a078b3_c7361f80d29445349c12ace7277deb29~mv2.jpg/v1/fill/w_960,h_720,al_c/a078b3_c7361f80d29445349c12ace7277deb29~mv2.jpg)
@@ -13,15 +14,27 @@ Housing: yes or likely package/stay evidence
 
 Rating: 4.7 (203)
 
-Lessons: Surf offering evidence found. Beginner suitability needs direct confirmation. English-language site or English evidence found.
+Lessons: Official site supports beginner/all-level surf instruction and is published in English.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Dakar / Ngor area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=false, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=false, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website tex
 
 Sources:
+
+- https://www.gosurfsenegal.com/surf-theory
+- https://www.gosurfsenegal.com/surf-school
+- https://www.gosurfsenegal.com/surf-guiding
+- https://www.gosurfsenegal.com/prices
+- https://www.gosurfsenegal.com/surfboard-rental
+- https://www.gosurfsenegal.com/pt
+- https://www.gosurfsenegal.com/nl
+- https://www.gosurfsenegal.com/fr
+- https://www.gosurfsenegal.com/es
+- https://www.gosurfsenegal.com/de
+- https://www.gosurfsenegal.com/da
 - https://www.gosurfsenegal.com/
 - https://www.gosurfsenegal.com/book-online
 - https://www.gosurfsenegal.com/surfcamp-day-pass

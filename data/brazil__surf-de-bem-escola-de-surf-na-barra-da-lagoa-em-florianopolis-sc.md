@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJp9ysqhQ_J5URGq4Q06GRTrQ -->
+
 # Florianopolis, Brazil: Surf De Bem - Escola de Surf na Barra da Lagoa em Florianópolis SC
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=12992482099227307546&g_mp=Cidnb29nbGUu
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: yes / official site references accommodation/rooms.
 
 Rating: 5 Google (131)
 
@@ -21,8 +22,10 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Florianopolis; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://surfdebem.com.br/
 - http://www.surfdebem.com.br/
 - https://maps.google.com/?cid=12992482099227307546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

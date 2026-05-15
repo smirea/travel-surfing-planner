@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJx5K0imNMGw0ReVK9pFLDdtI -->
+
 # Sagres, Portugal: Sagres Surf School
 
 ![Sagres Surf School](https://sagressurfschool.com/images/praia-cordoama.png)
@@ -9,7 +10,7 @@ Price: See official pricing source; exact two-week total needs direct confirmati
 
 Website: https://sagressurfschool.com/
 
-Housing: unclear / likely lessons-only unless confirmed
+Housing: yes / official site references accommodation/rooms.
 
 Rating: 5 (168)
 
@@ -19,9 +20,12 @@ Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
 
 Things to do around: Sagres area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=false, housing=false, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=false, housing=false, price=true. Official site checked; updated fields reflect accessible website te
 
 Sources:
+
+- https://sagressurfschool.com/gallery.php
+- https://www.sagressurfschool.com/
 - https://sagressurfschool.com/
 - https://sagressurfschool.com/consumer-info.html
 - https://sagressurfschool.com/teste.html

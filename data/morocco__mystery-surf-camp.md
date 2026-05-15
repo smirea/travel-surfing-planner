@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJDU6giTBfsg0REQgArn62Mig -->
+
 # Imsouane, Morocco: Mystery Surf Camp
 
 ![Mystery Surf Camp](https://mysterysurfcamp.com/wp-content/uploads/2024/06/Surf-camp-Imsouane-e1720528300390.webp)
@@ -22,4 +23,5 @@ Things to do around: Imsouane bay is quieter and wave-focused; less city/activit
 Notes: Great surf learning environment and reviews, but more remote. Better if the priority is mellow progression rather than nightlife or many non-surf activities.
 
 Sources:
+
 - https://mysterysurfcamp.com/

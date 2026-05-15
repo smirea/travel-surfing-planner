@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJP1JZEw8TwQ4R8s57qlaKuJs -->
+
 # Dakar / Ngor, Senegal: Senegliss Surf School
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,5 +25,6 @@ Things to do around: Dakar / Ngor; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - https://www.seneglisssurfschool.com/
 - https://maps.google.com/?cid=11220870576425651954&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

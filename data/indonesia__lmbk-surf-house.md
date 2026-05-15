@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJGwG-dWCpzS0RnIjU7JCDCe0 -->
+
 # Kuta, Lombok, Indonesia: LMBK Surf House
 
 ![LMBK Surf House](https://lmbksurfhouse.com/wp-content/uploads/2022/11/Screen-Shot-2021-05-07-at-10.20.36-PM.png)
@@ -22,5 +23,5 @@ Things to do around: Kuta Lombok cafes, beaches, waterfalls, Pink Beach, south-c
 Notes: Very strong coaching description, but no public price found. Worth direct quote if Lombok appeals more than Bali.
 
 Sources:
-- https://lmbksurfhouse.com/wp-content/uploads/2026/04/2026-LMBK-Surf-House-Information-Guide-1.pdf
+
 - https://lmbksurfhouse.com/

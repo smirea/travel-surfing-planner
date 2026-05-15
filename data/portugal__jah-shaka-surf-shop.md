@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJdY2Ftc8xGw0RhUN2U8jKaOk -->
+
 # Lagos, Portugal: JAH SHAKA SURF SHOP
 
 ![JAH SHAKA SURF SHOP](https://cdn.prod.website-files.com/656f02aca1d62748d066cce7/66886bc1f9d99023630bac14_jah_shaka_surf_shop.jpg)
@@ -15,13 +16,20 @@ Rating: 4.9 (2108)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Lagos area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
+- https://www.jahshakasurf.com/contact
+- https://www.jahshakasurf.com/surf-shop
+- https://www.jahshakasurf.com/surf-camp
+- https://www.jahshakasurf.com/surf-lessons#private
+- https://www.jahshakasurf.com/surf-lessons#kids
+- https://www.jahshakasurf.com/surf-lessons#group
 - https://www.jahshakasurf.com/
 - https://www.jahshakasurf.com/
 - https://www.jahshakasurf.com/surf-lessons

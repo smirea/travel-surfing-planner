@@ -1,9 +1,10 @@
 <!-- google_maps_id: ChIJB9GpFYqpzS0R4jjTCoJfR4o -->
+
 # Kuta Lombok, Indonesia: Kuta Lombok Surf School
 
 Image: not captured during bulk evaluation.
 
-Duration: Duration needs direct confirmation.
+Duration: Official site duration clue: surf coach Surf Equipments (Board, UV-Protective Shirt and leggings) Boat if necessary (Most spot needs boat) 2 Hours
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
@@ -19,9 +20,10 @@ Period fit: Website evidence suggests recurring/year-round/seasonal availability
 
 Things to do around: Kuta Lombok area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
 
 Sources:
+
 - https://www.kutalomboksurfschool.com/
 - https://www.kutalomboksurfschool.com/surf-lesson/
 - https://www.kutalomboksurfschool.com/gallery/

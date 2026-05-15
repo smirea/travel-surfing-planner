@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJyxFsFHAWIYQR0jj1MKyAKx4 -->
+
 # Sayulita, Mexico: Lunazul Surf School
 
 ![Lunazul Surf School](https://images.squarespace-cdn.com/content/v1/5c21564555b02cf0eff89ee4/89005854-ad94-4753-b670-4fcd15b616a6/InWaterLessons_Lunazul-6.jpg)
@@ -22,5 +23,6 @@ Things to do around: Sayulita restaurants/nightlife, Punta de Mita, La Lancha, j
 Notes: Good DIY option, but Sayulita can be crowded and this is not a clean all-inclusive course.
 
 Sources:
+
 - https://lunazulsurf.com/lessons
 - https://www.sayulita.com/posts/Lunazul-Surf-School-Surf-Camps

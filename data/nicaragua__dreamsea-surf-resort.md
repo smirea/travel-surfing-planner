@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJ4ahtD9-0dY8ReM6vi_PqewE -->
+
 # San Juan del Sur, Nicaragua: Dreamsea Surf Resort Nicaragua
 
 ![Dreamsea Surf Resort Nicaragua](https://www.dreamsea.com/wp-content/uploads/2026/01/destination-nicaragua-sanjuandelsur-header-2560x1200-moz.jpg)
@@ -22,4 +23,5 @@ Things to do around: San Juan del Sur, beaches, colonial city trips, sunsets, Ni
 Notes: Good Central America fallback and cheaper in low season, but less cleanly bundled than Morocco/Canaries options.
 
 Sources:
+
 - https://www.dreamsea.com/nicaragua-sanjuandelsur/

@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJmd9XqWRMGw0Rq9ILeNlceuI -->
+
 # Sagres, Portugal: Wavesensations - Sagres Surf Shop & Surf School
 
 ![Wavesensations - Sagres Surf Shop & Surf School](https://wavesensations.com/wp-content/uploads/2022/02/015-683x1024.jpg)
@@ -15,13 +16,17 @@ Rating: 4.8 (422)
 
 Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
 
 Things to do around: Sagres area; not deeply researched in the bulk pass.
 
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Warning found in accessible text, but not treated as school-level rejection without clearer context: Not suitable for beginners; no surf lessons. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Warning found in accessible text, but not treated as school-level rejection without clearer context: Not suitable for beginners; no surf lessons. Bulk evidence flags: surf=true, begi
 
 Sources:
+
+- https://wavesensations.com/contact-us/wavesensations-faq/
+- https://wavesensations.com/accommodation/packages-surf-stay/
+- https://wavesensations.com/contact-us/
 - https://wavesensations.com/
 - https://wavesensations.com/sagres-surf-school/
 - https://wavesensations.com/sagres-surf-house

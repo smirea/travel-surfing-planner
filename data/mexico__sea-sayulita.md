@@ -1,7 +1,8 @@
 <!-- google_maps_id: ChIJDwkIE3kXIYQRE-P7aLj7K1I -->
+
 # Sayulita, Mexico: Sea Sayulita
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Official site duration clue: Surf lessons Beginner lessons Intermediate lessions Group lessons Kids lessons Weekly
 
 Price: Quote required / not found in stored research
 
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=5921102904562541331&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: unknown / likely lessons-only unless confirmed
+Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
 
 Rating: 5 Google (62)
 
@@ -21,8 +22,12 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Sayulita; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://www.seasayulita.com/surftrip
+- https://www.seasayulita.com/surflessons
+- https://www.seasayulita.com/
 - http://www.seasayulita.com/
 - https://maps.google.com/?cid=5921102904562541331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

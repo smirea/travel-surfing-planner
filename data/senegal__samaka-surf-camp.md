@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJbfK0zfcTwQ4R_svd34Qj2lw -->
+
 # Dakar / Ngor, Senegal: Samaka Surf Camp
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -11,7 +12,7 @@ Google Maps: https://maps.google.com/?cid=6690699250010803198&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: possible / needs direct confirmation
+Housing: yes / official site references accommodation/rooms.
 
 Rating: 5 Google (34)
 
@@ -21,8 +22,12 @@ Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains includ
 
 Things to do around: Dakar / Ngor; not deeply researched in this catch-up pass.
 
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
+Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
 
 Sources:
+
+- https://samaka-surfcamp.com/restaurant-bar.html
+- https://samaka-surfcamp.com/nos-chambres.html
+- https://samaka-surfcamp.com/
 - http://samaka-surfcamp.com/
 - https://maps.google.com/?cid=6690699250010803198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

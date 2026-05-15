@@ -1,4 +1,5 @@
 <!-- google_maps_id: ChIJn1shcp1vn48R_zlaZGg3RGs -->
+
 # Santa Teresa, Costa Rica: Santa Teresa Surf & Adventures
 
 Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
@@ -24,4 +25,5 @@ Things to do around: Santa Teresa; not deeply researched in this catch-up pass.
 Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period.
 
 Sources:
+
 - https://maps.google.com/?cid=7729363781974374911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
