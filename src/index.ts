@@ -565,27 +565,15 @@ function renderPage(): string {
 		}
 
 		main {
-			display: grid;
-			grid-template-columns: minmax(0, 1fr) minmax(360px, 42vw);
-			align-items: start;
 			min-height: 0;
-		}
-
-		main.detail-closed {
-			grid-template-columns: 1fr;
 		}
 
 		main.detail-closed .detail {
 			display: none;
 		}
 
-		main.detail-closed .results {
-			border-right: 0;
-		}
-
 		.results {
 			min-width: 0;
-			border-right: 1px solid var(--line);
 			overflow-y: auto;
 			overflow-x: auto;
 		}
@@ -755,12 +743,18 @@ function renderPage(): string {
 		}
 
 		.detail {
-			position: sticky;
+			position: fixed;
 			top: 0;
+			right: 0;
+			z-index: 10;
+			width: min(620px, 42vw);
 			min-width: 0;
+			height: 100vh;
 			max-height: 100vh;
 			overflow: auto;
+			border-left: 1px solid var(--line);
 			background: #fbfbf8;
+			box-shadow: -12px 0 32px rgb(30 37 39 / 12%);
 		}
 
 		.detail-inner {
@@ -910,15 +904,17 @@ function renderPage(): string {
 			}
 
 			main {
-				grid-template-columns: 1fr;
+				min-height: 0;
 			}
 
 			main:not(.detail-closed) .detail {
-				position: fixed;
 				inset: 0;
-				z-index: 20;
+				width: auto;
+				height: auto;
 				max-height: none;
+				border-left: 0;
 				border-top: 0;
+				box-shadow: none;
 			}
 
 			.results {
