@@ -1224,7 +1224,7 @@ function renderPage(): string {
 		let detailOpen = true;
 		let viewMode = "table";
 		const statusStorageKey = "travel-surfing-planner:school-status:v1";
-		const googleMapsApiKey = ${JSON.stringify(Bun.env.GOOGLE_MAPS_API_KEY?.trim() ?? '')};
+		const googleMapsBrowserApiKey = ${JSON.stringify(Bun.env.GOOGLE_MAPS_BROWSER_API_KEY?.trim() ?? '')};
 		const statusValues = ["yes", "no", "meh", "-"];
 		let sortState = { key: "", direction: "asc" };
 		let statuses = loadStatuses();
@@ -1486,8 +1486,8 @@ function renderPage(): string {
 		function updateMap() {
 			if (viewMode !== "map") return;
 
-			if (!googleMapsApiKey) {
-				setMapMessage("Set GOOGLE_MAPS_API_KEY in .env.local to load the Google Maps view.");
+			if (!googleMapsBrowserApiKey) {
+				setMapMessage("Set GOOGLE_MAPS_BROWSER_API_KEY in .env.local to load the Google Maps view.");
 				return;
 			}
 
@@ -1508,8 +1508,15 @@ function renderPage(): string {
 						initializeMap();
 						resolve();
 					};
+					window.gm_authFailure = () => {
+						reject(
+							new Error(
+								"Google Maps JavaScript rejected GOOGLE_MAPS_BROWSER_API_KEY. Use a browser key with Maps JavaScript API enabled.",
+							),
+						);
+					};
 					const script = document.createElement("script");
-					script.src = \`https://maps.googleapis.com/maps/api/js?key=\${encodeURIComponent(googleMapsApiKey)}&callback=initGoogleResultsMap&v=weekly\`;
+					script.src = \`https://maps.googleapis.com/maps/api/js?key=\${encodeURIComponent(googleMapsBrowserApiKey)}&callback=initGoogleResultsMap&v=weekly\`;
 					script.async = true;
 					script.defer = true;
 					script.onerror = () => reject(new Error("Google Maps could not be loaded."));

@@ -11,7 +11,7 @@ bun install
 bun start
 ```
 
-`bun start` opens the results page in a browser. The UI supports search, sorting, country/status/housing filters, local status labels (`yes`, `no`, `meh`, `-`), CSV export, a Google Maps view, and a right-side detail panel for each school. The map view needs `GOOGLE_MAPS_API_KEY` in `.env.local`.
+`bun start` opens the results page in a browser. The UI supports search, sorting, country/status/housing filters, local status labels (`yes`, `no`, `meh`, `-`), CSV export, a Google Maps view, and a right-side detail panel for each school. The map view needs `GOOGLE_MAPS_BROWSER_API_KEY` in `.env.local`; use a browser-restricted key with the Maps JavaScript API enabled. `GOOGLE_MAPS_API_KEY` remains the server-side Places lookup key.
 
 ## Data
 

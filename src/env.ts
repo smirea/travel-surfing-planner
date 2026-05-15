@@ -4,6 +4,7 @@ import { z } from 'zod';
 const env = z
 	.object({
 		GOOGLE_MAPS_API_KEY: z.string(),
+		GOOGLE_MAPS_BROWSER_API_KEY: z.string().optional(),
 	})
 	.parse(process.env);
 
