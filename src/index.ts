@@ -566,7 +566,7 @@ function renderPage(): string {
 
 		main {
 			display: grid;
-			grid-template-columns: minmax(520px, 1fr) minmax(360px, 42vw);
+			grid-template-columns: minmax(0, 1fr) minmax(360px, 42vw);
 			align-items: start;
 			min-height: 0;
 		}
@@ -876,20 +876,6 @@ function renderPage(): string {
 				grid-template-columns: 1fr;
 			}
 
-			main {
-				grid-template-columns: 1fr;
-			}
-
-			.results {
-				border-right: 0;
-				max-height: 52vh;
-			}
-
-			.detail {
-				position: static;
-				max-height: none;
-				border-top: 1px solid var(--line);
-			}
 		}
 
 		@media (max-width: 700px) {
@@ -923,6 +909,10 @@ function renderPage(): string {
 				min-height: 74px;
 			}
 
+			main {
+				grid-template-columns: 1fr;
+			}
+
 			main:not(.detail-closed) .detail {
 				position: fixed;
 				inset: 0;
@@ -932,6 +922,7 @@ function renderPage(): string {
 			}
 
 			.results {
+				border-right: 0;
 				max-height: none;
 			}
 
@@ -1277,6 +1268,10 @@ function renderPage(): string {
 			return [result.city, result.country].filter(Boolean).join(", ");
 		}
 
+		function tableRatingLabel(value) {
+			return String(value ?? "").replace(/\\s+Google\\b/i, "");
+		}
+
 		function renderSortIndicators() {
 			for (const label of sortDirectionLabels) {
 				label.textContent = label.dataset.sortDirection === sortState.key
@@ -1290,9 +1285,10 @@ function renderPage(): string {
 			rows.innerHTML = visibleResults.map(result => {
 				const status = currentStatus(result.id);
 				const statusClass = status === "-" ? "empty" : status;
+				const ratingText = tableRatingLabel(result.rating);
 				const rating = result.googleMapsUrl
-					? \`<a class="rating-link" href="\${escapeHtml(result.googleMapsUrl)}" target="_blank" rel="noreferrer">\${escapeHtml(result.rating)}</a>\`
-					: escapeHtml(result.rating);
+					? \`<a class="rating-link" href="\${escapeHtml(result.googleMapsUrl)}" target="_blank" rel="noreferrer">\${escapeHtml(ratingText)}</a>\`
+					: escapeHtml(ratingText);
 				const location = result.city
 					? \`<span class="location-city">\${escapeHtml(result.city)}, </span>\${escapeHtml(result.country)}\`
 					: escapeHtml(result.country);
