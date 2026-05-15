@@ -586,13 +586,40 @@ function renderPage(): string {
 		.results {
 			min-width: 0;
 			border-right: 1px solid var(--line);
-			overflow: auto;
+			overflow-y: auto;
+			overflow-x: hidden;
 		}
 
 		table {
 			width: 100%;
+			table-layout: fixed;
 			border-collapse: collapse;
 			background: var(--panel);
+		}
+
+		.status-column {
+			width: 64px;
+		}
+
+		.name-column {
+			width: 24%;
+		}
+
+		.location-column {
+			width: 16%;
+		}
+
+		.rating-column {
+			width: 82px;
+		}
+
+		.housing-column {
+			width: 130px;
+		}
+
+		.price-column,
+		.period-column {
+			width: 180px;
 		}
 
 		th {
@@ -613,6 +640,7 @@ function renderPage(): string {
 			vertical-align: top;
 			border-bottom: 1px solid var(--line);
 			padding: 10px;
+			overflow-wrap: anywhere;
 		}
 
 		tr {
@@ -642,7 +670,7 @@ function renderPage(): string {
 			border-radius: 3px;
 		}
 
-		.country,
+		.location,
 		.rating,
 		.housing,
 		.status {
@@ -715,14 +743,12 @@ function renderPage(): string {
 			text-underline-offset: 2px;
 		}
 
-		.price,
-		.period {
-			min-width: 190px;
+		.notes {
+			color: #3e4a4d;
 		}
 
-		.notes {
-			min-width: 260px;
-			color: #3e4a4d;
+		.location-city {
+			color: var(--muted);
 		}
 
 		.detail {
@@ -862,6 +888,126 @@ function renderPage(): string {
 				border-top: 1px solid var(--line);
 			}
 		}
+
+		@media (max-width: 700px) {
+			body {
+				font-size: 13px;
+			}
+
+			header {
+				padding: 12px;
+			}
+
+			h1 {
+				font-size: 18px;
+			}
+
+			.header-top {
+				gap: 10px;
+			}
+
+			.controls {
+				gap: 8px;
+				margin-top: 12px;
+			}
+
+			.controls input,
+			.controls select {
+				padding: 8px;
+			}
+
+			.controls select[multiple] {
+				min-height: 74px;
+			}
+
+			main:not(.detail-closed) .detail {
+				position: fixed;
+				inset: 0;
+				z-index: 20;
+				max-height: none;
+				border-top: 0;
+			}
+
+			.results {
+				max-height: none;
+			}
+
+			table,
+			thead,
+			tbody {
+				display: block;
+				width: 100%;
+			}
+
+			tr {
+				display: grid;
+				grid-template-columns: 52px minmax(0, 1fr) 84px 64px;
+				width: 100%;
+			}
+
+			th,
+			td {
+				display: block;
+				padding: 7px 6px;
+			}
+
+			th {
+				font-size: 11px;
+			}
+
+			.mobile-hidden {
+				display: none;
+			}
+
+			.status {
+				width: auto;
+			}
+
+			.status-toggle {
+				min-width: 32px;
+				padding: 2px 5px;
+				font-size: 11px;
+			}
+
+			.name-button {
+				line-height: 1.25;
+			}
+
+			.location {
+				white-space: normal;
+				line-height: 1.25;
+			}
+
+			.location-city {
+				display: none;
+			}
+
+			.rating {
+				white-space: normal;
+				font-size: 12px;
+			}
+
+			.detail-inner {
+				min-height: 100vh;
+				padding: 14px 14px 24px;
+			}
+
+			.detail h2 {
+				font-size: 19px;
+			}
+
+			.field {
+				grid-template-columns: 1fr;
+			}
+
+			.field-label {
+				padding: 8px 10px 6px;
+			}
+
+			.field-value {
+				padding: 8px 10px 10px;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -901,17 +1047,26 @@ function renderPage(): string {
 		<main id="layout">
 			<section class="results" aria-label="Results">
 				<table>
+					<colgroup>
+						<col class="status-column">
+						<col class="name-column">
+						<col class="location-column">
+						<col class="rating-column">
+						<col class="housing-column mobile-hidden">
+						<col class="price-column mobile-hidden">
+						<col class="period-column mobile-hidden">
+						<col class="notes-column mobile-hidden">
+					</colgroup>
 					<thead>
 						<tr>
 							<th>Status</th>
 							<th><button class="sort-button" type="button" data-sort="name">Name <span class="sort-direction" data-sort-direction="name"></span></button></th>
-							<th><button class="sort-button" type="button" data-sort="country">Country <span class="sort-direction" data-sort-direction="country"></span></button></th>
-							<th>City</th>
+							<th><button class="sort-button" type="button" data-sort="location">Location <span class="sort-direction" data-sort-direction="location"></span></button></th>
 							<th><button class="sort-button" type="button" data-sort="rating">Rating <span class="sort-direction" data-sort-direction="rating"></span></button></th>
-							<th>Housing</th>
-							<th>Price</th>
-							<th>Period</th>
-							<th>Notes</th>
+							<th class="mobile-hidden">Housing</th>
+							<th class="mobile-hidden">Price</th>
+							<th class="mobile-hidden">Period</th>
+							<th class="mobile-hidden">Notes</th>
 						</tr>
 					</thead>
 					<tbody id="rows"></tbody>
@@ -943,6 +1098,7 @@ function renderPage(): string {
 		const exportCsvButton = document.querySelector("#exportCsv");
 		const sortButtons = document.querySelectorAll("[data-sort]");
 		const sortDirectionLabels = document.querySelectorAll("[data-sort-direction]");
+		const narrowScreen = window.matchMedia("(max-width: 700px)");
 
 		function loadStatuses() {
 			try {
@@ -1102,12 +1258,16 @@ function renderPage(): string {
 					return (leftRating - rightRating) * direction;
 				}
 
-				const leftValue = String(left[sortState.key] ?? "").toLowerCase();
-				const rightValue = String(right[sortState.key] ?? "").toLowerCase();
+				const leftValue = String(sortState.key === "location" ? locationLabel(left) : (left[sortState.key] ?? "")).toLowerCase();
+				const rightValue = String(sortState.key === "location" ? locationLabel(right) : (right[sortState.key] ?? "")).toLowerCase();
 				return leftValue.localeCompare(rightValue) * direction;
 			});
 
 			return sorted;
+		}
+
+		function locationLabel(result) {
+			return [result.city, result.country].filter(Boolean).join(", ");
 		}
 
 		function renderSortIndicators() {
@@ -1126,17 +1286,19 @@ function renderPage(): string {
 				const rating = result.googleMapsUrl
 					? \`<a class="rating-link" href="\${escapeHtml(result.googleMapsUrl)}" target="_blank" rel="noreferrer">\${escapeHtml(result.rating)}</a>\`
 					: escapeHtml(result.rating);
+				const location = result.city
+					? \`<span class="location-city">\${escapeHtml(result.city)}, </span>\${escapeHtml(result.country)}\`
+					: escapeHtml(result.country);
 				return \`
 					<tr class="\${result.id === selectedId ? "selected" : ""}" data-id="\${escapeHtml(result.id)}">
 						<td class="status"><button class="status-toggle status-\${statusClass}" type="button" data-status-id="\${escapeHtml(result.id)}">\${escapeHtml(status)}</button></td>
 						<td><button class="name-button" type="button" data-id="\${escapeHtml(result.id)}">\${escapeHtml(result.name)}</button></td>
-						<td class="country">\${escapeHtml(result.country)}</td>
-						<td>\${escapeHtml(result.city)}</td>
+						<td class="location">\${location}</td>
 						<td class="rating">\${rating}</td>
-						<td class="housing">\${escapeHtml(result.withHousing)}</td>
-						<td class="price">\${escapeHtml(result.price)}</td>
-						<td class="period">\${escapeHtml(result.period)}</td>
-						<td class="notes">\${escapeHtml(result.notes)}</td>
+						<td class="housing mobile-hidden">\${escapeHtml(result.withHousing)}</td>
+						<td class="price mobile-hidden">\${escapeHtml(result.price)}</td>
+						<td class="period mobile-hidden">\${escapeHtml(result.period)}</td>
+						<td class="notes mobile-hidden">\${escapeHtml(result.notes)}</td>
 					</tr>
 				\`;
 			}).join("");
@@ -1283,7 +1445,14 @@ function renderPage(): string {
 					option.textContent = value;
 					country.append(option);
 				}
-				selectedId = decodeURIComponent(location.hash.slice(1)) || results[0]?.id || "";
+				const hashId = decodeURIComponent(location.hash.slice(1));
+				if (hashId) {
+					selectedId = hashId;
+				} else if (narrowScreen.matches) {
+					detailOpen = false;
+				} else {
+					selectedId = results[0]?.id || "";
+				}
 				applyFilters();
 			})
 			.catch(error => {
