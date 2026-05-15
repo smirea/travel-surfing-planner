@@ -14,13 +14,11 @@ Housing: unclear / likely lessons-only unless confirmed
 
 Rating: 4.9 (325)
 
-Lessons: Surf offering evidence found. Beginner suitability needs direct confirmation. English-language site or English evidence found.
+Lessons: Surf instruction found; beginner suitability needs confirmation. English-language evidence found.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Florianopolis area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=false, english=true, recurring_or_period=false, housing=false, price=true.
+Things to do around: Florianopolis area.
 
 Sources:
 

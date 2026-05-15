@@ -10,17 +10,15 @@ Price: Quote needed / not found in accessible pages.
 
 Website: http://moanasurfschool.in/
 
-Housing: yes / official site references accommodation/rooms.
+Housing: Lodging referenced; confirm details.
 
 Rating: 4.9 (1162)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Varkala area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=false, housing=false, price=false. Official site checked; updated fields reflect accessible website t
+Things to do around: Varkala area.
 
 Sources:
 

@@ -4,23 +4,21 @@
 
 ![Surf School Lanzarote](https://surfschoolanzarote.com/wp-content/uploads/2023/03/iamm.jpg)
 
-Duration: Recurring lessons or weekly/package cadence found in accessible pages.
+Duration: Recurring lessons or weekly/package cadence indicated.
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: http://www.surfschoolanzarote.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 5 (276)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Target-period evidence found for Sep 20-Oct 31, 2026 in accessible official-site text.
+Period fit: Sep 20-Oct 31, 2026 availability indicated in official-site text.
 
-Things to do around: Lanzarote area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
+Things to do around: Lanzarote area.
 
 Sources:
 

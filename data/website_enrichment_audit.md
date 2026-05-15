@@ -1,6 +1,6 @@
 # Website Enrichment Audit
 
-Generated: 2026-05-15T00:54:51.024Z
+Audit timestamp: 2026-05-15T00:54:51.024Z
 
 | metric                         | count |
 | ------------------------------ | ----: |
@@ -9,7 +9,7 @@ Generated: 2026-05-15T00:54:51.024Z
 | files updated                  |   224 |
 | sites with no successful fetch |    21 |
 
-## Updated Listings
+## Listings with Website-Derived Updates
 
 | file                                                                                                    | listing                                                                                           | updated fields                       | website                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -238,7 +238,7 @@ Generated: 2026-05-15T00:54:51.024Z
 | data/sri-lanka\_\_beach-break-surf-camp.md                                                              | Beach Break Surf Camp                                                                             | Period fit, Duration, Notes          | http://beachbreak-surfcamp.com/                                                                                                             |
 | data/sri-lanka\_\_saha-surf-camp.md                                                                     | Saha Surf Camp                                                                                    | Period fit, Duration, Notes          | https://www.booksurfcamps.com/share/dBwyikp6dA/saha-surf-camp                                                                               |
 
-## Fetch Failures
+## Sites Without Successful Fetch
 
 | file                                                     | listing                                 | website                                                                     |
 | -------------------------------------------------------- | --------------------------------------- | --------------------------------------------------------------------------- |

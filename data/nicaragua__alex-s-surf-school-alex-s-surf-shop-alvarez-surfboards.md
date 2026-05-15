@@ -2,7 +2,7 @@
 
 # San Juan del Sur, Nicaragua: Alex's Surf School | Alex's Surf Shop - Alvarez Surfboards
 
-Duration: Official site duration clue: surf school in the area says they are the best in town. We will let you to decide!!! :) ​ All surf lessons take 2 hours
+Duration: surf school in the area says they are the best in town. We will let you to decide!!! :) ​ All surf lessons take 2 hours
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=12632255168541401523&g_mp=Cidnb29nbGUu
 
 Tripadvisor: -
 
-Housing: yes / official site references accommodation/rooms.
+Housing: Lodging referenced; confirm details.
 
 Rating: 4.8 Google (120)
 
-Lessons: Raw discovery matched "beginner surf camp San Juan del Sur Nicaragua". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf camp San Juan del Sur Nicaragua"; confirm complete-beginner English instruction.
 
-Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
+Period fit: Likely Sep 20-Oct 31, 2026 fit; recurring daily/year-round operation described.
 
-Things to do around: San Juan del Sur; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: San Juan del Sur.
 
 Sources:
 

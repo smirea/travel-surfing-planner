@@ -14,13 +14,11 @@ Housing: unclear / likely lessons-only unless confirmed
 
 Rating: 4.9 (1759)
 
-Lessons: Surf offering needs direct confirmation from website or operator. Beginner suitability needs direct confirmation. English instruction needs direct confirmation.
+Lessons: Surf, beginner suitability, and English instruction all need confirmation.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Weligama area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=false, beginner=false, english=false, recurring_or_period=false, housing=false, price=false.
+Things to do around: Weligama area.
 
 Sources:
 

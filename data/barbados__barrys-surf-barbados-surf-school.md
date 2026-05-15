@@ -4,23 +4,21 @@
 
 ![Barrys Surf Barbados Surf School](https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2017_WidgetAsset-14348-2.png)
 
-Duration: Official site duration clue: SURF LESSONS SURFBOARD RENTALS EPIC LOFT ACCOMMODATION BARBADOS BEGINNER SURFING LESSONS $75US = 2 HOUR
+Duration: SURF LESSONS SURFBOARD RENTALS EPIC LOFT ACCOMMODATION BARBADOS BEGINNER SURFING LESSONS $75US = 2 HOUR
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: https://www.surfing-barbados.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 5 (232)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Target-period evidence found for Sep 20-Oct 31, 2026 in accessible official-site text.
+Period fit: Sep 20-Oct 31, 2026 availability indicated in official-site text.
 
-Things to do around: Surfers Point area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
+Things to do around: Surfers Point area.
 
 Sources:
 

@@ -2,7 +2,7 @@
 
 # Cape Town / Muizenberg, South Africa: SurfXCape
 
-Duration: Official site duration clue: surf lesson (1.5 hours
+Duration: surf lesson (1.5 hours
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=9002005498379390134&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: yes / official site references camp stay inclusions.
+Housing: Lodging referenced; confirm details.
 
 Rating: 5 Google (48)
 
-Lessons: Raw discovery matched "beginner surf lessons Muizenberg Cape Town". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf lessons Muizenberg Cape Town"; confirm complete-beginner English instruction.
 
-Period fit: Target-period evidence found for Sep 20-Oct 31, 2026 in accessible official-site text.
+Period fit: Sep 20-Oct 31, 2026 availability indicated in official-site text.
 
-Things to do around: Cape Town / Muizenberg; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: Cape Town / Muizenberg.
 
 Sources:
 

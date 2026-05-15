@@ -4,23 +4,21 @@
 
 Image: not captured during bulk evaluation.
 
-Duration: Official site duration clue: package . Once you’ve done a beginner’s course you can move onto our 6 week
+Duration: package . Once you’ve done a beginner’s course you can move onto our 6 week
 
 Price: Quote needed / not found in accessible pages.
 
 Website: https://letsgosurfing.com.au/lessons/byron-bay/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 5 (1391)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
+Period fit: Likely Sep 20-Oct 31, 2026 fit; recurring daily/year-round operation described.
 
-Things to do around: Byron Bay area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=false. Official site checked; updated fields reflect accessible website tex
+Things to do around: Byron Bay area.
 
 Sources:
 

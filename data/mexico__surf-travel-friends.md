@@ -10,17 +10,15 @@ Price: See official pricing source; exact two-week total needs direct confirmati
 
 Website: http://surftravelfriends.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 4.9 (331)
 
-Lessons: Official site supports beginner/all-level surf instruction and is published in English.
+Lessons: Beginner/all-level surf instruction; English-language site.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Puerto Escondido area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=false, english=true, recurring_or_period=false, housing=true, price=true. Official site checked; updated fields reflect accessible website te
+Things to do around: Puerto Escondido area.
 
 Sources:
 

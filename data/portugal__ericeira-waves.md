@@ -2,7 +2,7 @@
 
 # Ericeira, Portugal: Ericeira Waves
 
-Duration: Official site duration clue: surf. GROUP 5 lessons pack = € 200 &#128; 45 per 1 lesson 2 hours
+Duration: surf. GROUP 5 lessons pack = € 200 &#128; 45 per 1 lesson 2 hours
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=11378065318977561946&g_mp=Cidnb29nbGUu
 
 Tripadvisor: -
 
-Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
+Housing: No lodging package found; appears lessons/rentals-only.
 
 Rating: 4.9 Google (296)
 
-Lessons: Raw discovery matched "beginner surf lessons Ericeira Portugal". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf lessons Ericeira Portugal"; confirm complete-beginner English instruction.
 
-Period fit: Target-period evidence found for Sep 20-Oct 31, 2026 in accessible official-site text.
+Period fit: Sep 20-Oct 31, 2026 availability indicated in official-site text.
 
-Things to do around: Ericeira; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: Ericeira.
 
 Sources:
 

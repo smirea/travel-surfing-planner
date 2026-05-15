@@ -1,2793 +1,2793 @@
 {
-  "generatedAt": "2026-05-14T21:19:27.949Z",
-  "screened": 127,
-  "results": [
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Kima Surf Camp Bali Canggu | 4.9 (761) | [site](https://kimasurf.com/canggu-surfresort/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "Kima Surf Camp Bali Canggu",
-      "rating": "4.9 (761)",
-      "url": "https://kimasurf.com/canggu-surfresort/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://kimasurf.com/canggu-surfresort"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Lagos | JAH SHAKA SURF SHOP | 4.9 (2108) | [site](http://jahshakasurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Lagos",
-      "name": "JAH SHAKA SURF SHOP",
-      "rating": "4.9 (2108)",
-      "url": "http://jahshakasurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.jahshakasurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Weligama | Ama Surf School | 4.9 (1912) | [site](http://www.amasurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Weligama",
-      "name": "Ama Surf School",
-      "rating": "4.9 (1912)",
-      "url": "http://www.amasurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://amasurfschool.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Sagres | Wavy SurfCamp | 4.8 (751) | [site](https://www.wavysurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Sagres",
-      "name": "Wavy SurfCamp",
-      "rating": "4.8 (751)",
-      "url": "https://www.wavysurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://wavysurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Weligama | Lucky's Surf School | 4.9 (1759) | [site](https://www.luckyssurfweligama.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Weligama",
-      "name": "Lucky's Surf School",
-      "rating": "4.9 (1759)",
-      "url": "https://www.luckyssurfweligama.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": false,
-        "status": 403,
-        "finalUrl": "https://www.luckyssurfweligama.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Weligama | Kima Surf Camp Sri Lanka | 4.9 (618) | [site](https://kimasurfsrilanka.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Weligama",
-      "name": "Kima Surf Camp Sri Lanka",
-      "rating": "4.9 (618)",
-      "url": "https://kimasurfsrilanka.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://kimasurfsrilanka.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Lanzarote | Calima | 4.9 (1517) | [site](https://calimasurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Lanzarote",
-      "name": "Calima",
-      "rating": "4.9 (1517)",
-      "url": "https://calimasurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://calimasurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing | 5 (390) | [site](http://www.comesurfing.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing",
-      "rating": "5 (390)",
-      "url": "http://www.comesurfing.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.comesurfing.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Kitesurf Essaouira Maroc Yalla | 5 (866) | [site](https://yalla-surf-kite.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Kitesurf Essaouira Maroc Yalla",
-      "rating": "5 (866)",
-      "url": "https://yalla-surf-kite.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://yalla-surf-kite.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | DHM surf camp | 4.9 (340) | [site](https://dhm.co.id/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "DHM surf camp",
-      "rating": "4.9 (340)",
-      "url": "https://dhm.co.id/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://dhm.co.id/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Fuerteventura | Surfintrip – Surf Camp & School Fuerteventura | 4.9 (333) | [site](https://surfintrip.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Fuerteventura",
-      "name": "Surfintrip – Surf Camp & School Fuerteventura",
-      "rating": "4.9 (333)",
-      "url": "https://surfintrip.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfintrip.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Weligama | Ocean Tribe Surf Camp & Yoga Retreat | 4.9 (331) | [site](https://oceantribesurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Weligama",
-      "name": "Ocean Tribe Surf Camp & Yoga Retreat",
-      "rating": "4.9 (331)",
-      "url": "https://oceantribesurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://oceantribesurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | SurfWG Bali Surfcamp | 4.8 (374) | [site](https://www.surfwg.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "SurfWG Bali Surfcamp",
-      "rating": "4.8 (374)",
-      "url": "https://www.surfwg.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfwg.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Naneakite : Kitesurf camp - Kitesurf school in Essaouira | 5 (274) | [site](https://naneakite.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Naneakite : Kitesurf camp - Kitesurf school in Essaouira",
-      "rating": "5 (274)",
-      "url": "https://naneakite.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://naneakite.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Australia | Byron Bay | Lets Go Surfing Byron Bay | 5 (1391) | [site](https://letsgosurfing.com.au/lessons/byron-bay/) | Queued. |",
-      "done": "[ ]",
-      "country": "Australia",
-      "city": "Byron Bay",
-      "name": "Lets Go Surfing Byron Bay",
-      "rating": "5 (1391)",
-      "url": "https://letsgosurfing.com.au/lessons/byron-bay/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://letsgosurfing.com.au/lessons/byron-bay/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Australia | Byron Bay | Soul Surf School | 4.9 (1567) | [site](http://www.soulsurfschool.com.au/) | Queued. |",
-      "done": "[ ]",
-      "country": "Australia",
-      "city": "Byron Bay",
-      "name": "Soul Surf School",
-      "rating": "4.9 (1567)",
-      "url": "http://www.soulsurfschool.com.au/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://soulsurfschool.com.au/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Mexico | Puerto Escondido | Soul Surf School | 5 (338) | [site](https://www.soulsurfschool.com.mx/es) | Queued. |",
-      "done": "[ ]",
-      "country": "Mexico",
-      "city": "Puerto Escondido",
-      "name": "Soul Surf School",
-      "rating": "5 (338)",
-      "url": "https://www.soulsurfschool.com.mx/es",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.soulsurfschool.com.mx/es"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Ericeira | Surf Riders Ericeira | 5 (681) | [site](http://www.surfriders.pt/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Ericeira",
-      "name": "Surf Riders Ericeira",
-      "rating": "5 (681)",
-      "url": "http://www.surfriders.pt/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfriders.pt/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Morocco | Tamraght | Maroc Surf Camp | 5 (239) | [site](http://marocsurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Tamraght",
-      "name": "Maroc Surf Camp",
-      "rating": "5 (239)",
-      "url": "http://marocsurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.marocsurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Clapo Surf Camp Morocco | 5 (228) | [site](http://claposurfmorocco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Clapo Surf Camp Morocco",
-      "rating": "5 (228)",
-      "url": "http://claposurfmorocco.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://claposurfmorocco.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | In Da Surf Camp & School Canggu Bali | 4.9 (263) | [site](http://www.indasurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "In Da Surf Camp & School Canggu Bali",
-      "rating": "4.9 (263)",
-      "url": "http://www.indasurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.indasurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Ericeira | Surf School, Rentals & Shop Ericeira Activity Surf Center | 4.9 (720) | [site](http://www.activitysurfcenter.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Ericeira",
-      "name": "Surf School, Rentals & Shop Ericeira Activity Surf Center",
-      "rating": "4.9 (720)",
-      "url": "http://www.activitysurfcenter.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.activitysurfcenter.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Tamraght | Desert Surf Camp - Tamraght | 4.9 (258) | [site](https://desertsurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Tamraght",
-      "name": "Desert Surf Camp - Tamraght",
-      "rating": "4.9 (258)",
-      "url": "https://desertsurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://desertsurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Essaouira Flyin' Surf School Morocco: Essaouira, Surf, Kitesurf, Wingfoil, Stand-Up Paddle, Maroc | 5 (595) | [site](https://flyinsurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Essaouira Flyin' Surf School Morocco: Essaouira, Surf, Kitesurf, Wingfoil, Stand-Up Paddle, Maroc",
-      "rating": "5 (595)",
-      "url": "https://flyinsurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://flyinsurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Dian Surf School Canggu Bali | 4.9 (675) | [site](https://diansurfschoolcanggu.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "Dian Surf School Canggu Bali",
-      "rating": "4.9 (675)",
-      "url": "https://diansurfschoolcanggu.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://diansurfschoolcanggu.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Weligama | Kuma Surf Camp Weligama, Sri Lanka | 4.9 (233) | [site](https://kumasurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Weligama",
-      "name": "Kuma Surf Camp Weligama, Sri Lanka",
-      "rating": "4.9 (233)",
-      "url": "https://kumasurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": false,
-        "error": "timeout"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | Spain | Tenerife | Surf Life Tenerife | 5 (537) | [site](http://www.surflifetenerife.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Tenerife",
-      "name": "Surf Life Tenerife",
-      "rating": "5 (537)",
-      "url": "http://www.surflifetenerife.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surflifetenerife.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | India | Varkala | MOANA SURF CLUB | 4.9 (1162) | [site](http://moanasurfschool.in/) | Queued. |",
-      "done": "[ ]",
-      "country": "India",
-      "city": "Varkala",
-      "name": "MOANA SURF CLUB",
-      "rating": "4.9 (1162)",
-      "url": "http://moanasurfschool.in/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://moanasurfschool.in/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Explora Watersports: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco | 4.9 (579) | [site](https://explorawatersports.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Explora Watersports: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco",
-      "rating": "4.9 (579)",
-      "url": "https://explorawatersports.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://explorawatersports.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | ESSAOUIRA WATERSPORTS: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco | 5 (480) | [site](https://essaouirawatersports.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "ESSAOUIRA WATERSPORTS: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco",
-      "rating": "5 (480)",
-      "url": "https://essaouirawatersports.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.essaouirawatersports.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Lanzarote | Momo Surf School & Surf Camp Lanzarote | 5 (171) | [site](https://www.momosurfschool.com/en) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Lanzarote",
-      "name": "Momo Surf School & Surf Camp Lanzarote",
-      "rating": "5 (171)",
-      "url": "https://www.momosurfschool.com/en",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.momosurfschool.com/en"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Surf Well Bali | 5 (472) | [site](https://www.surfwellbali.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "Surf Well Bali",
-      "rating": "5 (472)",
-      "url": "https://www.surfwellbali.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfwellbali.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | LoTide Surf Camp | 4.6 (313) | [site](http://www.lotidecamps.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "LoTide Surf Camp",
-      "rating": "4.6 (313)",
-      "url": "http://www.lotidecamps.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://lotidecamps.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Imsouane Surf Camp Local Surf Camp | 5 (165) | [site](http://localsurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Imsouane Surf Camp Local Surf Camp",
-      "rating": "5 (165)",
-      "url": "http://localsurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": false,
-        "error": "fetch failed"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | Surfing in Taghazout - Surf Camp Taghazout | 5 (162) | [site](https://surfingintaghazout.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "Surfing in Taghazout - Surf Camp Taghazout",
-      "rating": "5 (162)",
-      "url": "https://surfingintaghazout.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfingintaghazout.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Portugal | Lagos | Tiny Whale Surf Lodge | 4.9 (187) | [site](http://www.tinywhalesurflodge.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Lagos",
-      "name": "Tiny Whale Surf Lodge",
-      "rating": "4.9 (187)",
-      "url": "http://www.tinywhalesurflodge.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.tinywhalesurflodge.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Surftwins Sidi kaouki Essaouira | 4.9 (520) | [site](http://www.surftwinsessaouira.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Surftwins Sidi kaouki Essaouira",
-      "rating": "4.9 (520)",
-      "url": "http://www.surftwinsessaouira.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surftwinsessaouira.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!) | 4.9 (519) | [site](https://www.canggu-surfingclass.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!)",
-      "rating": "4.9 (519)",
-      "url": "https://www.canggu-surfingclass.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.canggu-surfingclass.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Loving Surf, Kite & Surf School Surf Shop | 4.9 (501) | [site](http://www.lovingsurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Loving Surf, Kite & Surf School Surf Shop",
-      "rating": "4.9 (501)",
-      "url": "http://www.lovingsurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.lovingsurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Tamarindo | Witch’s Rock Surf Camp | 4.6 (533) | [site](https://www.witchsrocksurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Tamarindo",
-      "name": "Witch’s Rock Surf Camp",
-      "rating": "4.6 (533)",
-      "url": "https://www.witchsrocksurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://witchsrocksurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Brazil | Florianopolis | Campeche Surf School | 4.9 (325) | [site](http://www.campechesurfschool.com.br/) | Queued. |",
-      "done": "[ ]",
-      "country": "Brazil",
-      "city": "Florianopolis",
-      "name": "Campeche Surf School",
-      "rating": "4.9 (325)",
-      "url": "http://www.campechesurfschool.com.br/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.campechesurfschool.com.br/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | Surf Coast Morocco - Surf & Yoga House | 4.8 (554) | [site](https://www.surfcoastmorocco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "Surf Coast Morocco - Surf & Yoga House",
-      "rating": "4.8 (554)",
-      "url": "https://www.surfcoastmorocco.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfcoastmorocco.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Lanzarote | Lanzarote Surf - Famara surf camp | 4.9 (162) | [site](https://www.lanzarotesurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Lanzarote",
-      "name": "Lanzarote Surf - Famara surf camp",
-      "rating": "4.9 (162)",
-      "url": "https://www.lanzarotesurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://lanzarotesurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Travel Surf Morocco | 5 (382) | [site](http://www.travelsurfmorocco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Travel Surf Morocco",
-      "rating": "5 (382)",
-      "url": "http://www.travelsurfmorocco.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.travelsurfmorocco.com/en/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Fuerteventura | Surf Therapy Surf Camp & Surf School Fuerteventura | 4.7 (216) | [site](https://www.surftherapy.es/es) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Fuerteventura",
-      "name": "Surf Therapy Surf Camp & Surf School Fuerteventura",
-      "rating": "4.7 (216)",
-      "url": "https://www.surftherapy.es/es",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surftherapy.es/es/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Peniche / Baleal | Peniche Surfcamp | 4.5 (281) | [site](http://www.penichesurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Peniche / Baleal",
-      "name": "Peniche Surfcamp",
-      "rating": "4.5 (281)",
-      "url": "http://www.penichesurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.penichesurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | Surf Camp Lombok | 4.9 (151) | [site](http://www.surfcampindonesia.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "Surf Camp Lombok",
-      "rating": "4.9 (151)",
-      "url": "http://www.surfcampindonesia.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfcampindonesia.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Ericeira | Surf 365 Ericeira | 4.9 (408) | [site](http://www.surf365ericeira.pt/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Ericeira",
-      "name": "Surf 365 Ericeira",
-      "rating": "4.9 (408)",
-      "url": "http://www.surf365ericeira.pt/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": false,
-        "error": "fetch failed"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | Puerto Rico | Rincon | Rincón Surf School + Resort | 4.9 (273) | [site](http://www.rinconsurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Puerto Rico",
-      "city": "Rincon",
-      "name": "Rincón Surf School + Resort",
-      "rating": "4.9 (273)",
-      "url": "http://www.rinconsurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.rinconsurfschool.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | India | Varkala | Elixir Surf School | 5 (638) | [site](https://elixircliff.com/elixirsurf.html) | Queued. |",
-      "done": "[ ]",
-      "country": "India",
-      "city": "Varkala",
-      "name": "Elixir Surf School",
-      "rating": "5 (638)",
-      "url": "https://elixircliff.com/elixirsurf.html",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://elixircliff.com/elixirsurf.html"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | Kuta Lombok Surf School | 4.8 (452) | [site](http://www.kutalomboksurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "Kuta Lombok Surf School",
-      "rating": "4.8 (452)",
-      "url": "http://www.kutalomboksurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.kutalomboksurfschool.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Essaouira | Kite Surf Wingfoil Essaouira - Olasurf Essaouira | 5 (330) | [site](https://www.olasurfessaouira.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Essaouira",
-      "name": "Kite Surf Wingfoil Essaouira - Olasurf Essaouira",
-      "rating": "5 (330)",
-      "url": "https://www.olasurfessaouira.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://olasurfessaouira.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Tamarindo | Surf Every Day Academy ‍ ️ ‍ ️ | 5 (620) | [site](https://www.surfeverydayacademy.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Tamarindo",
-      "name": "Surf Every Day Academy ‍ ️ ‍ ️",
-      "rating": "5 (620)",
-      "url": "https://www.surfeverydayacademy.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfeverydayacademy.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_lessons_only"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Arugam Bay | Banana Surf Camp | 4.8 (152) | [site](http://bananasurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Arugam Bay",
-      "name": "Banana Surf Camp",
-      "rating": "4.8 (152)",
-      "url": "http://bananasurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://bananasurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Sagres | Wavesensations - Sagres Surf Shop & Surf School | 4.8 (422) | [site](http://www.wavesensations.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Sagres",
-      "name": "Wavesensations - Sagres Surf Shop & Surf School",
-      "rating": "4.8 (422)",
-      "url": "http://www.wavesensations.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://wavesensations.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Jaco | Surf Synergy Surf and Wellness Resort | 5 (195) | [site](https://surfsynergy.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Jaco",
-      "name": "Surf Synergy Surf and Wellness Resort",
-      "rating": "5 (195)",
-      "url": "https://surfsynergy.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfsynergy.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Lanzarote | Surf School Lanzarote | 5 (276) | [site](http://www.surfschoolanzarote.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Lanzarote",
-      "name": "Surf School Lanzarote",
-      "rating": "5 (276)",
-      "url": "http://www.surfschoolanzarote.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfschoolanzarote.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Arugam Bay | Arugam Bay Surf Center | 5 (272) | [site](http://arugambaysurfcenter.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Arugam Bay",
-      "name": "Arugam Bay Surf Center",
-      "rating": "5 (272)",
-      "url": "http://arugambaysurfcenter.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://arugambaysurfcenter.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | Surfwell - Surf Lessons Lombok | 5 (267) | [site](https://surfwells.com/lombok/surf-lessons-kuta-lombok/?utm_source=google_map&utm_medium=organic&utm_campaign=gbp_listing) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "Surfwell - Surf Lessons Lombok",
-      "rating": "5 (267)",
-      "url": "https://surfwells.com/lombok/surf-lessons-kuta-lombok/?utm_source=google_map&utm_medium=organic&utm_campaign=gbp_listing",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfwells.com/lombok/surf-lessons-kuta-lombok/?utm_source=google_map&utm_medium=organic&utm_campaign=gbp_listing"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Nicaragua | Popoyo | Popoyo Surfcamp | 4.9 (210) | [site](http://www.popoyosurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Nicaragua",
-      "city": "Popoyo",
-      "name": "Popoyo Surfcamp",
-      "rating": "4.9 (210)",
-      "url": "http://www.popoyosurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.popoyosurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | Taghazout Surfers - Surf School | 4.9 (295) | [site](https://taghazoutsurfers.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "Taghazout Surfers - Surf School",
-      "rating": "4.9 (295)",
-      "url": "https://taghazoutsurfers.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://taghazoutsurfers.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Ecuador | Montanita | Balsa Surf Camp Guest House | 4.8 (234) | [site](https://www.balsasurfcamp.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Ecuador",
-      "city": "Montanita",
-      "name": "Balsa Surf Camp Guest House",
-      "rating": "4.8 (234)",
-      "url": "https://www.balsasurfcamp.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.balsasurfcamp.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Arugam Bay | Surf & Yoga, Arugam Bay 〰 All Inclusive Surf Camp and Yoga Retreat in Sri Lanka | 4.7 (141) | [site](https://surfnyogaarugambay.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Arugam Bay",
-      "name": "Surf & Yoga, Arugam Bay 〰 All Inclusive Surf Camp and Yoga Retreat in Sri Lanka",
-      "rating": "4.7 (141)",
-      "url": "https://surfnyogaarugambay.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfnyogaarugambay.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Weligama | Freedom Surf School Weligama \\| Best Surf Lessons & Rentals | 4.9 (286) | [site](http://www.freedomsrilanka.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Weligama",
-      "name": "Freedom Surf School Weligama \\",
-      "rating": "Best Surf Lessons & Rentals",
-      "url": "286",
-      "notes": "[site](http://www.freedomsrilanka.com/)",
-      "fetched": {
-        "ok": false,
-        "error": "Failed to parse URL from 286"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Tamarindo | Salty Smile surf school Tamarindo | 5 (454) | [site](https://www.saltysmilesurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Tamarindo",
-      "name": "Salty Smile surf school Tamarindo",
-      "rating": "5 (454)",
-      "url": "https://www.saltysmilesurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.saltysmilesurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | Rama surf lombok | 4.8 (320) | [site](https://ramasurflombok.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "Rama surf lombok",
-      "rating": "4.8 (320)",
-      "url": "https://ramasurflombok.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://ramasurflombok.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Barbados | Surfers Point | Barrys Surf Barbados Surf School | 5 (232) | [site](https://www.surfing-barbados.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Barbados",
-      "city": "Surfers Point",
-      "name": "Barrys Surf Barbados Surf School",
-      "rating": "5 (232)",
-      "url": "https://www.surfing-barbados.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfing-barbados.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Mexico | Sayulita | WildMex Surf School & Adventure Center, Sayulita | 4.9 (512) | [site](https://wildmex.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Mexico",
-      "city": "Sayulita",
-      "name": "WildMex Surf School & Adventure Center, Sayulita",
-      "rating": "4.9 (512)",
-      "url": "https://wildmex.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://wildmex.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Arugam Bay | Ocean Surf Arugam Bay | 4.9 (261) | [site](https://oceansurfarugambay.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Arugam Bay",
-      "name": "Ocean Surf Arugam Bay",
-      "rating": "4.9 (261)",
-      "url": "https://oceansurfarugambay.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://oceansurfarugambay.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Surf camp Imsouane By Pro Surf Imsouane & Surf House | 4.7 (125) | [site](https://www.surfschoolmorocco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Surf camp Imsouane By Pro Surf Imsouane & Surf House",
-      "rating": "4.7 (125)",
-      "url": "https://www.surfschoolmorocco.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": false,
-        "error": "timeout"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | Spain | Fuerteventura | Surf School Corralejo - Cotillo BlueAdventure | 5 (217) | [site](https://www.blueadventuresurf.com/surf) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Fuerteventura",
-      "name": "Surf School Corralejo - Cotillo BlueAdventure",
-      "rating": "5 (217)",
-      "url": "https://www.blueadventuresurf.com/surf",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.blueadventuresurf.com/surf"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Imsouane Surf Family | 5 (212) | [site](http://www.imsouanesurffamily.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Imsouane Surf Family",
-      "rating": "5 (212)",
-      "url": "http://www.imsouanesurffamily.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://imsouanesurffamily.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Lagos | Lagos Surf Safari Surf School | 4.9 (244) | [site](http://www.lagossurfsafari.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Lagos",
-      "name": "Lagos Surf Safari Surf School",
-      "rating": "4.9 (244)",
-      "url": "http://www.lagossurfsafari.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://lagossurfsafari.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Imsouane Vibe Surf Camp | 5 (74) | [site](https://imsouanevibe.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Imsouane Vibe Surf Camp",
-      "rating": "5 (74)",
-      "url": "https://imsouanevibe.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://imsouanevibe.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | Nuna Surf Camp Kuta Lombok | 4.7 (114) | [site](https://www.nunasurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "Nuna Surf Camp Kuta Lombok",
-      "rating": "4.7 (114)",
-      "url": "https://www.nunasurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://nunasurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Ericeira | Surf Center Ericeira | 4.8 (272) | [site](https://www.ericeirasurfcenter.net/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Ericeira",
-      "name": "Surf Center Ericeira",
-      "rating": "4.8 (272)",
-      "url": "https://www.ericeirasurfcenter.net/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.ericeirasurfcenter.net/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Fuerteventura | Corralejo Surf School RIP CURL | 4.8 (272) | [site](http://www.corralejosurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Fuerteventura",
-      "name": "Corralejo Surf School RIP CURL",
-      "rating": "4.8 (272)",
-      "url": "http://www.corralejosurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.corralejosurfschool.com/es/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Tamraght | Solyra Surf Morocco \\| Surf & Yoga Camp in Tamraght | 5 (71) | [site](https://solyrasurfmorocco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Tamraght",
-      "name": "Solyra Surf Morocco \\",
-      "rating": "Surf & Yoga Camp in Tamraght",
-      "url": "71",
-      "notes": "[site](https://solyrasurfmorocco.com/)",
-      "fetched": {
-        "ok": false,
-        "error": "Failed to parse URL from 71"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | India | Varkala | MAHALO SURF, VARKALA | 5 (369) | [site](https://instagram.com/mahalosurfvarkala?igshid=YTQwZjQ0NmI0OA==) | Queued. |",
-      "done": "[ ]",
-      "country": "India",
-      "city": "Varkala",
-      "name": "MAHALO SURF, VARKALA",
-      "rating": "5 (369)",
-      "url": "https://instagram.com/mahalosurfvarkala?igshid=YTQwZjQ0NmI0OA==",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.instagram.com/mahalosurfvarkala?igshid=YTQwZjQ0NmI0OA%3D%3D"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Ericeira | 3Surfers | 4.8 (262) | [site](http://3surfers.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Ericeira",
-      "name": "3Surfers",
-      "rating": "4.8 (262)",
-      "url": "http://3surfers.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://3surfers.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Sri Lanka | Arugam Bay | Surf Soul Camp & Yoga Retreat | 4.9 (80) | [site](https://surfsoulco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Sri Lanka",
-      "city": "Arugam Bay",
-      "name": "Surf Soul Camp & Yoga Retreat",
-      "rating": "4.9 (80)",
-      "url": "https://surfsoulco.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfsoulco.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Barbados | Surfers Point | Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS | 4.9 (221) | [site](https://dreadordead.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Barbados",
-      "city": "Surfers Point",
-      "name": "Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS",
-      "rating": "4.9 (221)",
-      "url": "https://dreadordead.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://dreadordead.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | Taghazout Surf Lessons & School – Surf with Reda | 5 (189) | [site](https://surfwithreda.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "Taghazout Surf Lessons & School – Surf with Reda",
-      "rating": "5 (189)",
-      "url": "https://surfwithreda.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfwithreda.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Senegal | Dakar / Ngor | Ngor Island Surf Camp | 4.7 (203) | [site](http://www.gosurfsenegal.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Senegal",
-      "city": "Dakar / Ngor",
-      "name": "Ngor Island Surf Camp",
-      "rating": "4.7 (203)",
-      "url": "http://www.gosurfsenegal.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.gosurfsenegal.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Mexico | Sayulita | Marea Surf School – Surf Lessons in Sayulita | 4.9 (406) | [site](http://www.mareasayulita.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Mexico",
-      "city": "Sayulita",
-      "name": "Marea Surf School – Surf Lessons in Sayulita",
-      "rating": "4.9 (406)",
-      "url": "http://www.mareasayulita.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.mareasayulita.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_lessons_only"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Imsouane surf experience | 5 (181) | [site](https://imsouanesurfexperience.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Imsouane surf experience",
-      "rating": "5 (181)",
-      "url": "https://imsouanesurfexperience.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://imsouanesurfexperience.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Tamarindo | GoodVibes Surf School | 5 (338) | [site](http://www.goodvibessurfschoolcr.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Tamarindo",
-      "name": "GoodVibes Surf School",
-      "rating": "5 (338)",
-      "url": "http://www.goodvibessurfschoolcr.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://goodvibessurfschoolcr.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | Momo surf school | 5 (177) | [site](https://momosurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "Momo surf school",
-      "rating": "5 (177)",
-      "url": "https://momosurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://momosurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_lessons_only"
-    },
-    {
-      "line": "| [ ] | Portugal | Lagos | TSE | 4.8 (233) | [site](http://thesurfexperience.eu/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Lagos",
-      "name": "TSE",
-      "rating": "4.8 (233)",
-      "url": "http://thesurfexperience.eu/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://thesurfexperience.eu/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | Surf & Travel Camp Morocco | 4.6 (112) | [site](http://www.surfandtravelmorocco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "Surf & Travel Camp Morocco",
-      "rating": "4.6 (112)",
-      "url": "http://www.surfandtravelmorocco.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfandtravelmorocco.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | India | Varkala | Copa Cabana Surf School | 5 (321) | [site](http://copacabanaadventure.in/) | Queued. |",
-      "done": "[ ]",
-      "country": "India",
-      "city": "Varkala",
-      "name": "Copa Cabana Surf School",
-      "rating": "5 (321)",
-      "url": "http://copacabanaadventure.in/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://copacabanaadventure.in/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Sagres | Sagres Surf School | 5 (168) | [site](https://sagressurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Sagres",
-      "name": "Sagres Surf School",
-      "rating": "5 (168)",
-      "url": "https://sagressurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://sagressurfschool.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Canggu Surf School | 4.9 (192) | [site](https://www.baliwaveexperience.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "Canggu Surf School",
-      "rating": "4.9 (192)",
-      "url": "https://www.baliwaveexperience.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://baliwaveexperience.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta Lombok | Surfing Banditos Lombok - Surf School | 4.8 (221) | [site](https://www.surfingbanditoslombok.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta Lombok",
-      "name": "Surfing Banditos Lombok - Surf School",
-      "rating": "4.8 (221)",
-      "url": "https://www.surfingbanditoslombok.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surfingbanditoslombok.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Australia | Noosa | Go Ride a Wave - Noosa | 5 (308) | [site](https://gorideawave.com.au/) | Queued. |",
-      "done": "[ ]",
-      "country": "Australia",
-      "city": "Noosa",
-      "name": "Go Ride a Wave - Noosa",
-      "rating": "5 (308)",
-      "url": "https://gorideawave.com.au/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://gorideawave.com.au/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Santa Teresa | Mahalo Surf Club | 5 (300) | [site](http://www.mahalosurfclub.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17268747373134021831) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Santa Teresa",
-      "name": "Mahalo Surf Club",
-      "rating": "5 (300)",
-      "url": "http://www.mahalosurfclub.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17268747373134021831",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.mahalosurfclub.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17268747373134021831"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Nicaragua | Popoyo | Two Brother Surf Resort | 4.9 (119) | [site](http://www.twobrotherssurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Nicaragua",
-      "city": "Popoyo",
-      "name": "Two Brother Surf Resort",
-      "rating": "4.9 (119)",
-      "url": "http://www.twobrotherssurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://twobrotherssurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Australia | Gold Coast | Currumbin Alley Surf School | 4.9 (332) | [site](http://currumbinalleysurfschool.com.au/) | Queued. |",
-      "done": "[ ]",
-      "country": "Australia",
-      "city": "Gold Coast",
-      "name": "Currumbin Alley Surf School",
-      "rating": "4.9 (332)",
-      "url": "http://currumbinalleysurfschool.com.au/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://currumbinalleysurfschool.com.au/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_lessons_only"
-    },
-    {
-      "line": "| [ ] | Mexico | Puerto Escondido | Surf Travel Friends | 4.9 (331) | [site](http://surftravelfriends.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Mexico",
-      "city": "Puerto Escondido",
-      "name": "Surf Travel Friends",
-      "rating": "4.9 (331)",
-      "url": "http://surftravelfriends.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surftravelfriends.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Peru | Mancora | Escuela surf Mancora SurfPoint | 4.9 (324) | [site](https://instagram.com/escueladesurfmancorasurfpoint?igshid=OGQ5ZDc2ODk2ZA==) | Queued. |",
-      "done": "[ ]",
-      "country": "Peru",
-      "city": "Mancora",
-      "name": "Escuela surf Mancora SurfPoint",
-      "rating": "4.9 (324)",
-      "url": "https://instagram.com/escueladesurfmancorasurfpoint?igshid=OGQ5ZDc2ODk2ZA==",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.instagram.com/escueladesurfmancorasurfpoint?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | We Surf Morocco | 4.8 (190) | [site](http://wesurfmorocco.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "We Surf Morocco",
-      "rating": "4.8 (190)",
-      "url": "http://wesurfmorocco.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://wesurfmorocco.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Australia | Byron Bay | Mojosurf Surf School Byron Bay | 4.8 (360) | [site](http://www.mojosurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Australia",
-      "city": "Byron Bay",
-      "name": "Mojosurf Surf School Byron Bay",
-      "rating": "4.8 (360)",
-      "url": "http://www.mojosurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://mojosurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Portugal | Lagos | Salty Wave | 4.7 (219) | [site](http://www.saltywavesurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Lagos",
-      "name": "Salty Wave",
-      "rating": "4.7 (219)",
-      "url": "http://www.saltywavesurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://saltywavesurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Barbados | Surfers Point | Ride The Tide Surf School & Surfboard Rental | 4.7 (219) | [site](https://ridethetidebarbados.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Barbados",
-      "city": "Surfers Point",
-      "name": "Ride The Tide Surf School & Surfboard Rental",
-      "rating": "4.7 (219)",
-      "url": "https://ridethetidebarbados.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://ridethetidebarbados.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Taghazout | Surf Camps Taghazout Maroc Ocean Adventure | 4.6 (91) | [site](https://oceanadventure.surf/maroc/taghazout/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Taghazout",
-      "name": "Surf Camps Taghazout Maroc Ocean Adventure",
-      "rating": "4.6 (91)",
-      "url": "https://oceanadventure.surf/maroc/taghazout/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://oceanadventure.surf/maroc/taghazout/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Tamraght | Gota Dagua Surf Camp Morocco - Tamraght, Agadir | 5 (48) | [site](https://gotadaguasurf.com/surfcamp/tamraght-morocco/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Tamraght",
-      "name": "Gota Dagua Surf Camp Morocco - Tamraght, Agadir",
-      "rating": "5 (48)",
-      "url": "https://gotadaguasurf.com/surfcamp/tamraght-morocco/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://gotadaguasurf.com/surfcamp/tamraght-morocco/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Mexico | Puerto Escondido | Puerto Surf House & School | 4.6 (169) | [site](http://puertosurf.com.mx/) | Queued. |",
-      "done": "[ ]",
-      "country": "Mexico",
-      "city": "Puerto Escondido",
-      "name": "Puerto Surf House & School",
-      "rating": "4.6 (169)",
-      "url": "http://puertosurf.com.mx/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.puertosurf.com.mx/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Nicaragua | Popoyo | Nicawaves Surf Resort | 4.5 (196) | [site](http://nicawaves.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Nicaragua",
-      "city": "Popoyo",
-      "name": "Nicawaves Surf Resort",
-      "rating": "4.5 (196)",
-      "url": "http://nicawaves.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.nicawaves.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Lanzarote | Escuela de Surf Famara - La Cabra Surf School - Surf & Surfskate | 4.9 (155) | [site](https://lacabrasurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Lanzarote",
-      "name": "Escuela de Surf Famara - La Cabra Surf School - Surf & Surfskate",
-      "rating": "4.9 (155)",
-      "url": "https://lacabrasurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://lacabrasurfschool.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Australia | Gold Coast | Kirra Point Surf School | 5 (252) | [site](https://www.kirrapointsurfschool.com/?utm_medium=organic&utm_source=google&utm_campaign=gbp-listing) | Queued. |",
-      "done": "[ ]",
-      "country": "Australia",
-      "city": "Gold Coast",
-      "name": "Kirra Point Surf School",
-      "rating": "5 (252)",
-      "url": "https://www.kirrapointsurfschool.com/?utm_medium=organic&utm_source=google&utm_campaign=gbp-listing",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://kirrapointsurfschool.com/?utm_medium=organic&utm_source=google&utm_campaign=gbp-listing"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Peru | Mancora | Surf Racer House - Surf, Kitesurf & Skate Camp Peru | 4.9 (104) | [site](http://www.surf-racer.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Peru",
-      "city": "Mancora",
-      "name": "Surf Racer House - Surf, Kitesurf & Skate Camp Peru",
-      "rating": "4.9 (104)",
-      "url": "http://www.surf-racer.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surf-racer.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Brazil | Florianopolis | Floripa Surf Club Surf School | 5 (249) | [site](https://www.instagram.com/floripasurfcluboficial/) | Queued. |",
-      "done": "[ ]",
-      "country": "Brazil",
-      "city": "Florianopolis",
-      "name": "Floripa Surf Club Surf School",
-      "rating": "5 (249)",
-      "url": "https://www.instagram.com/floripasurfcluboficial/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.instagram.com/floripasurfcluboficial/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Fuerteventura | Aloha Surf Academy | 4.9 (150) | [site](http://www.alohasurfacademy.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Fuerteventura",
-      "name": "Aloha Surf Academy",
-      "rating": "4.9 (150)",
-      "url": "http://www.alohasurfacademy.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://alohasurfacademy.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Tamarindo | Tidal Wave Surf Academy \\| Surf lessons in Tamarindo | 5 (241) | [site](http://tidalwavesurfacademy.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Tamarindo",
-      "name": "Tidal Wave Surf Academy \\",
-      "rating": "Surf lessons in Tamarindo",
-      "url": "241",
-      "notes": "[site](http://tidalwavesurfacademy.com/)",
-      "fetched": {
-        "ok": false,
-        "error": "Failed to parse URL from 241"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": false
-      },
-      "status": "screened_out_fetch"
-    },
-    {
-      "line": "| [ ] | Senegal | Dakar / Ngor | Ngor Right Surf House | 5 (85) | [site](http://www.senegalsurftrip.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Senegal",
-      "city": "Dakar / Ngor",
-      "name": "Ngor Right Surf House",
-      "rating": "5 (85)",
-      "url": "http://www.senegalsurftrip.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://senegalsurftrip.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Canggu Beginner Surf | 5 (123) | [site](https://www.canggubeginnersurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Indonesia",
-      "city": "Kuta / Canggu, Bali",
-      "name": "Canggu Beginner Surf",
-      "rating": "5 (123)",
-      "url": "https://www.canggubeginnersurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.canggubeginnersurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Brazil | Florianopolis | Escola de Surf Evandro dos Santos | 5 (234) | [site](http://www.escoladesurfflorianopolis.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Brazil",
-      "city": "Florianopolis",
-      "name": "Escola de Surf Evandro dos Santos",
-      "rating": "5 (234)",
-      "url": "http://www.escoladesurfflorianopolis.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.escoladesurfflorianopolis.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Nosara | Surf Bikini Retreat | 5 (82) | [site](http://www.surfbikininosara.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Nosara",
-      "name": "Surf Bikini Retreat",
-      "rating": "5 (82)",
-      "url": "http://www.surfbikininosara.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfbikininosara.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Nicaragua | San Juan del Sur | Hightide Surf School | 5 (228) | [site](http://hightidesurfnica.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Nicaragua",
-      "city": "San Juan del Sur",
-      "name": "Hightide Surf School",
-      "rating": "5 (228)",
-      "url": "http://hightidesurfnica.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://hightidesurfnica.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Australia | Byron Bay | Kool Katz Surf School | 4.9 (265) | [site](http://koolkatzsurf.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Australia",
-      "city": "Byron Bay",
-      "name": "Kool Katz Surf School",
-      "rating": "4.9 (265)",
-      "url": "http://koolkatzsurf.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://koolkatzsurf.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Brazil | Florianopolis | Escola de Surf e Bodyboard Peterson Boeira | 5 (222) | [site](https://www.petersonboeiratreinador.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Brazil",
-      "city": "Florianopolis",
-      "name": "Escola de Surf e Bodyboard Peterson Boeira",
-      "rating": "5 (222)",
-      "url": "https://www.petersonboeiratreinador.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.petersonboeiratreinador.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Spain | Fuerteventura | International Surf School & Camp | 4.5 (88) | [site](https://iss.surf/) | Queued. |",
-      "done": "[ ]",
-      "country": "Spain",
-      "city": "Fuerteventura",
-      "name": "International Surf School & Camp",
-      "rating": "4.5 (88)",
-      "url": "https://iss.surf/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://iss.surf/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Tamraght | Easy Surf | 4.8 (155) | [site](https://www.easysurfmaroc.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Tamraght",
-      "name": "Easy Surf",
-      "rating": "4.8 (155)",
-      "url": "https://www.easysurfmaroc.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.easysurfmaroc.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    },
-    {
-      "line": "| [ ] | Costa Rica | Jaco | Surfer Factory Surf School / Camp | 4.7 (119) | [site](http://www.surferfactory.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Costa Rica",
-      "city": "Jaco",
-      "name": "Surfer Factory Surf School / Camp",
-      "rating": "4.7 (119)",
-      "url": "http://www.surferfactory.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://www.surferfactory.com/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_incomplete_price_or_dates"
-    },
-    {
-      "line": "| [ ] | Portugal | Sagres | Surf Planet Surf School Sagres | 5 (108) | [site](https://surfplanetsurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Portugal",
-      "city": "Sagres",
-      "name": "Surf Planet Surf School Sagres",
-      "rating": "5 (108)",
-      "url": "https://surfplanetsurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://surfplanetsurfschool.com/en"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": false,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Morocco | Imsouane | Surf Camp Mubaradise | 4.8 (52) | [site](http://www.mubaradisesurfschool.com/) | Queued. |",
-      "done": "[ ]",
-      "country": "Morocco",
-      "city": "Imsouane",
-      "name": "Surf Camp Mubaradise",
-      "rating": "4.8 (52)",
-      "url": "http://www.mubaradisesurfschool.com/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://mubaradisesurfschool.com/"
-      },
-      "evidence": {
-        "hasBeginner": false,
-        "hasCamp": true,
-        "hasDaily": false,
-        "hasPrice": true
-      },
-      "status": "screened_low_package_evidence"
-    },
-    {
-      "line": "| [ ] | Philippines | Siargao | Siargao Surf Fun - Wawe Forcadilla | 5 (204) | [site](https://www.siargaosurf.fun/) | Queued. |",
-      "done": "[ ]",
-      "country": "Philippines",
-      "city": "Siargao",
-      "name": "Siargao Surf Fun - Wawe Forcadilla",
-      "rating": "5 (204)",
-      "url": "https://www.siargaosurf.fun/",
-      "notes": "Queued.",
-      "fetched": {
-        "ok": true,
-        "status": 200,
-        "finalUrl": "https://siargaosurf.fun/"
-      },
-      "evidence": {
-        "hasBeginner": true,
-        "hasCamp": true,
-        "hasDaily": true,
-        "hasPrice": true
-      },
-      "status": "screened_package_evidence"
-    }
-  ]
+	"generatedAt": "2026-05-14T21:19:27.949Z",
+	"screened": 127,
+	"results": [
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Kima Surf Camp Bali Canggu | 4.9 (761) | [site](https://kimasurf.com/canggu-surfresort/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "Kima Surf Camp Bali Canggu",
+			"rating": "4.9 (761)",
+			"url": "https://kimasurf.com/canggu-surfresort/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://kimasurf.com/canggu-surfresort"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Lagos | JAH SHAKA SURF SHOP | 4.9 (2108) | [site](http://jahshakasurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Lagos",
+			"name": "JAH SHAKA SURF SHOP",
+			"rating": "4.9 (2108)",
+			"url": "http://jahshakasurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.jahshakasurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Weligama | Ama Surf School | 4.9 (1912) | [site](http://www.amasurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Weligama",
+			"name": "Ama Surf School",
+			"rating": "4.9 (1912)",
+			"url": "http://www.amasurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://amasurfschool.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Sagres | Wavy SurfCamp | 4.8 (751) | [site](https://www.wavysurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Sagres",
+			"name": "Wavy SurfCamp",
+			"rating": "4.8 (751)",
+			"url": "https://www.wavysurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://wavysurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Weligama | Lucky's Surf School | 4.9 (1759) | [site](https://www.luckyssurfweligama.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Weligama",
+			"name": "Lucky's Surf School",
+			"rating": "4.9 (1759)",
+			"url": "https://www.luckyssurfweligama.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": false,
+				"status": 403,
+				"finalUrl": "https://www.luckyssurfweligama.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Weligama | Kima Surf Camp Sri Lanka | 4.9 (618) | [site](https://kimasurfsrilanka.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Weligama",
+			"name": "Kima Surf Camp Sri Lanka",
+			"rating": "4.9 (618)",
+			"url": "https://kimasurfsrilanka.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://kimasurfsrilanka.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Lanzarote | Calima | 4.9 (1517) | [site](https://calimasurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Lanzarote",
+			"name": "Calima",
+			"rating": "4.9 (1517)",
+			"url": "https://calimasurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://calimasurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing | 5 (390) | [site](http://www.comesurfing.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Surf Essaouira - Kitesurfing - Wingfoil Camp Essaouira - Comesurfing",
+			"rating": "5 (390)",
+			"url": "http://www.comesurfing.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.comesurfing.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Kitesurf Essaouira Maroc Yalla | 5 (866) | [site](https://yalla-surf-kite.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Kitesurf Essaouira Maroc Yalla",
+			"rating": "5 (866)",
+			"url": "https://yalla-surf-kite.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://yalla-surf-kite.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | DHM surf camp | 4.9 (340) | [site](https://dhm.co.id/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "DHM surf camp",
+			"rating": "4.9 (340)",
+			"url": "https://dhm.co.id/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://dhm.co.id/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Fuerteventura | Surfintrip – Surf Camp & School Fuerteventura | 4.9 (333) | [site](https://surfintrip.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Fuerteventura",
+			"name": "Surfintrip – Surf Camp & School Fuerteventura",
+			"rating": "4.9 (333)",
+			"url": "https://surfintrip.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfintrip.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Weligama | Ocean Tribe Surf Camp & Yoga Retreat | 4.9 (331) | [site](https://oceantribesurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Weligama",
+			"name": "Ocean Tribe Surf Camp & Yoga Retreat",
+			"rating": "4.9 (331)",
+			"url": "https://oceantribesurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://oceantribesurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | SurfWG Bali Surfcamp | 4.8 (374) | [site](https://www.surfwg.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "SurfWG Bali Surfcamp",
+			"rating": "4.8 (374)",
+			"url": "https://www.surfwg.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfwg.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Naneakite : Kitesurf camp - Kitesurf school in Essaouira | 5 (274) | [site](https://naneakite.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Naneakite : Kitesurf camp - Kitesurf school in Essaouira",
+			"rating": "5 (274)",
+			"url": "https://naneakite.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://naneakite.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Australia | Byron Bay | Lets Go Surfing Byron Bay | 5 (1391) | [site](https://letsgosurfing.com.au/lessons/byron-bay/) | Queued. |",
+			"done": "[ ]",
+			"country": "Australia",
+			"city": "Byron Bay",
+			"name": "Lets Go Surfing Byron Bay",
+			"rating": "5 (1391)",
+			"url": "https://letsgosurfing.com.au/lessons/byron-bay/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://letsgosurfing.com.au/lessons/byron-bay/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Australia | Byron Bay | Soul Surf School | 4.9 (1567) | [site](http://www.soulsurfschool.com.au/) | Queued. |",
+			"done": "[ ]",
+			"country": "Australia",
+			"city": "Byron Bay",
+			"name": "Soul Surf School",
+			"rating": "4.9 (1567)",
+			"url": "http://www.soulsurfschool.com.au/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://soulsurfschool.com.au/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Mexico | Puerto Escondido | Soul Surf School | 5 (338) | [site](https://www.soulsurfschool.com.mx/es) | Queued. |",
+			"done": "[ ]",
+			"country": "Mexico",
+			"city": "Puerto Escondido",
+			"name": "Soul Surf School",
+			"rating": "5 (338)",
+			"url": "https://www.soulsurfschool.com.mx/es",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.soulsurfschool.com.mx/es"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Ericeira | Surf Riders Ericeira | 5 (681) | [site](http://www.surfriders.pt/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Ericeira",
+			"name": "Surf Riders Ericeira",
+			"rating": "5 (681)",
+			"url": "http://www.surfriders.pt/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfriders.pt/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Morocco | Tamraght | Maroc Surf Camp | 5 (239) | [site](http://marocsurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Tamraght",
+			"name": "Maroc Surf Camp",
+			"rating": "5 (239)",
+			"url": "http://marocsurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.marocsurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Clapo Surf Camp Morocco | 5 (228) | [site](http://claposurfmorocco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Clapo Surf Camp Morocco",
+			"rating": "5 (228)",
+			"url": "http://claposurfmorocco.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://claposurfmorocco.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | In Da Surf Camp & School Canggu Bali | 4.9 (263) | [site](http://www.indasurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "In Da Surf Camp & School Canggu Bali",
+			"rating": "4.9 (263)",
+			"url": "http://www.indasurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.indasurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Ericeira | Surf School, Rentals & Shop Ericeira Activity Surf Center | 4.9 (720) | [site](http://www.activitysurfcenter.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Ericeira",
+			"name": "Surf School, Rentals & Shop Ericeira Activity Surf Center",
+			"rating": "4.9 (720)",
+			"url": "http://www.activitysurfcenter.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.activitysurfcenter.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Tamraght | Desert Surf Camp - Tamraght | 4.9 (258) | [site](https://desertsurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Tamraght",
+			"name": "Desert Surf Camp - Tamraght",
+			"rating": "4.9 (258)",
+			"url": "https://desertsurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://desertsurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Essaouira Flyin' Surf School Morocco: Essaouira, Surf, Kitesurf, Wingfoil, Stand-Up Paddle, Maroc | 5 (595) | [site](https://flyinsurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Essaouira Flyin' Surf School Morocco: Essaouira, Surf, Kitesurf, Wingfoil, Stand-Up Paddle, Maroc",
+			"rating": "5 (595)",
+			"url": "https://flyinsurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://flyinsurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Dian Surf School Canggu Bali | 4.9 (675) | [site](https://diansurfschoolcanggu.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "Dian Surf School Canggu Bali",
+			"rating": "4.9 (675)",
+			"url": "https://diansurfschoolcanggu.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://diansurfschoolcanggu.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Weligama | Kuma Surf Camp Weligama, Sri Lanka | 4.9 (233) | [site](https://kumasurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Weligama",
+			"name": "Kuma Surf Camp Weligama, Sri Lanka",
+			"rating": "4.9 (233)",
+			"url": "https://kumasurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": false,
+				"error": "timeout"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | Spain | Tenerife | Surf Life Tenerife | 5 (537) | [site](http://www.surflifetenerife.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Tenerife",
+			"name": "Surf Life Tenerife",
+			"rating": "5 (537)",
+			"url": "http://www.surflifetenerife.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surflifetenerife.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | India | Varkala | MOANA SURF CLUB | 4.9 (1162) | [site](http://moanasurfschool.in/) | Queued. |",
+			"done": "[ ]",
+			"country": "India",
+			"city": "Varkala",
+			"name": "MOANA SURF CLUB",
+			"rating": "4.9 (1162)",
+			"url": "http://moanasurfschool.in/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://moanasurfschool.in/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Explora Watersports: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco | 4.9 (579) | [site](https://explorawatersports.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Explora Watersports: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco",
+			"rating": "4.9 (579)",
+			"url": "https://explorawatersports.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://explorawatersports.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | ESSAOUIRA WATERSPORTS: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco | 5 (480) | [site](https://essaouirawatersports.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "ESSAOUIRA WATERSPORTS: Kitesurf, Surfing and Wing foil Centre Essaouira Morocco",
+			"rating": "5 (480)",
+			"url": "https://essaouirawatersports.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.essaouirawatersports.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Lanzarote | Momo Surf School & Surf Camp Lanzarote | 5 (171) | [site](https://www.momosurfschool.com/en) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Lanzarote",
+			"name": "Momo Surf School & Surf Camp Lanzarote",
+			"rating": "5 (171)",
+			"url": "https://www.momosurfschool.com/en",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.momosurfschool.com/en"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Surf Well Bali | 5 (472) | [site](https://www.surfwellbali.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "Surf Well Bali",
+			"rating": "5 (472)",
+			"url": "https://www.surfwellbali.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfwellbali.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | LoTide Surf Camp | 4.6 (313) | [site](http://www.lotidecamps.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "LoTide Surf Camp",
+			"rating": "4.6 (313)",
+			"url": "http://www.lotidecamps.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://lotidecamps.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Imsouane Surf Camp Local Surf Camp | 5 (165) | [site](http://localsurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Imsouane Surf Camp Local Surf Camp",
+			"rating": "5 (165)",
+			"url": "http://localsurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": false,
+				"error": "fetch failed"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | Surfing in Taghazout - Surf Camp Taghazout | 5 (162) | [site](https://surfingintaghazout.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "Surfing in Taghazout - Surf Camp Taghazout",
+			"rating": "5 (162)",
+			"url": "https://surfingintaghazout.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfingintaghazout.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Portugal | Lagos | Tiny Whale Surf Lodge | 4.9 (187) | [site](http://www.tinywhalesurflodge.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Lagos",
+			"name": "Tiny Whale Surf Lodge",
+			"rating": "4.9 (187)",
+			"url": "http://www.tinywhalesurflodge.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.tinywhalesurflodge.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Surftwins Sidi kaouki Essaouira | 4.9 (520) | [site](http://www.surftwinsessaouira.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Surftwins Sidi kaouki Essaouira",
+			"rating": "4.9 (520)",
+			"url": "http://www.surftwinsessaouira.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surftwinsessaouira.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!) | 4.9 (519) | [site](https://www.canggu-surfingclass.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!)",
+			"rating": "4.9 (519)",
+			"url": "https://www.canggu-surfingclass.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.canggu-surfingclass.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Loving Surf, Kite & Surf School Surf Shop | 4.9 (501) | [site](http://www.lovingsurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Loving Surf, Kite & Surf School Surf Shop",
+			"rating": "4.9 (501)",
+			"url": "http://www.lovingsurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.lovingsurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Tamarindo | Witch’s Rock Surf Camp | 4.6 (533) | [site](https://www.witchsrocksurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Tamarindo",
+			"name": "Witch’s Rock Surf Camp",
+			"rating": "4.6 (533)",
+			"url": "https://www.witchsrocksurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://witchsrocksurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Brazil | Florianopolis | Campeche Surf School | 4.9 (325) | [site](http://www.campechesurfschool.com.br/) | Queued. |",
+			"done": "[ ]",
+			"country": "Brazil",
+			"city": "Florianopolis",
+			"name": "Campeche Surf School",
+			"rating": "4.9 (325)",
+			"url": "http://www.campechesurfschool.com.br/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.campechesurfschool.com.br/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | Surf Coast Morocco - Surf & Yoga House | 4.8 (554) | [site](https://www.surfcoastmorocco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "Surf Coast Morocco - Surf & Yoga House",
+			"rating": "4.8 (554)",
+			"url": "https://www.surfcoastmorocco.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfcoastmorocco.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Lanzarote | Lanzarote Surf - Famara surf camp | 4.9 (162) | [site](https://www.lanzarotesurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Lanzarote",
+			"name": "Lanzarote Surf - Famara surf camp",
+			"rating": "4.9 (162)",
+			"url": "https://www.lanzarotesurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://lanzarotesurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Travel Surf Morocco | 5 (382) | [site](http://www.travelsurfmorocco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Travel Surf Morocco",
+			"rating": "5 (382)",
+			"url": "http://www.travelsurfmorocco.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.travelsurfmorocco.com/en/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Fuerteventura | Surf Therapy Surf Camp & Surf School Fuerteventura | 4.7 (216) | [site](https://www.surftherapy.es/es) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Fuerteventura",
+			"name": "Surf Therapy Surf Camp & Surf School Fuerteventura",
+			"rating": "4.7 (216)",
+			"url": "https://www.surftherapy.es/es",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surftherapy.es/es/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Peniche / Baleal | Peniche Surfcamp | 4.5 (281) | [site](http://www.penichesurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Peniche / Baleal",
+			"name": "Peniche Surfcamp",
+			"rating": "4.5 (281)",
+			"url": "http://www.penichesurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.penichesurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | Surf Camp Lombok | 4.9 (151) | [site](http://www.surfcampindonesia.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "Surf Camp Lombok",
+			"rating": "4.9 (151)",
+			"url": "http://www.surfcampindonesia.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfcampindonesia.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Ericeira | Surf 365 Ericeira | 4.9 (408) | [site](http://www.surf365ericeira.pt/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Ericeira",
+			"name": "Surf 365 Ericeira",
+			"rating": "4.9 (408)",
+			"url": "http://www.surf365ericeira.pt/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": false,
+				"error": "fetch failed"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | Puerto Rico | Rincon | Rincón Surf School + Resort | 4.9 (273) | [site](http://www.rinconsurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Puerto Rico",
+			"city": "Rincon",
+			"name": "Rincón Surf School + Resort",
+			"rating": "4.9 (273)",
+			"url": "http://www.rinconsurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.rinconsurfschool.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | India | Varkala | Elixir Surf School | 5 (638) | [site](https://elixircliff.com/elixirsurf.html) | Queued. |",
+			"done": "[ ]",
+			"country": "India",
+			"city": "Varkala",
+			"name": "Elixir Surf School",
+			"rating": "5 (638)",
+			"url": "https://elixircliff.com/elixirsurf.html",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://elixircliff.com/elixirsurf.html"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | Kuta Lombok Surf School | 4.8 (452) | [site](http://www.kutalomboksurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "Kuta Lombok Surf School",
+			"rating": "4.8 (452)",
+			"url": "http://www.kutalomboksurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.kutalomboksurfschool.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Essaouira | Kite Surf Wingfoil Essaouira - Olasurf Essaouira | 5 (330) | [site](https://www.olasurfessaouira.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Essaouira",
+			"name": "Kite Surf Wingfoil Essaouira - Olasurf Essaouira",
+			"rating": "5 (330)",
+			"url": "https://www.olasurfessaouira.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://olasurfessaouira.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Tamarindo | Surf Every Day Academy ‍ ️ ‍ ️ | 5 (620) | [site](https://www.surfeverydayacademy.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Tamarindo",
+			"name": "Surf Every Day Academy ‍ ️ ‍ ️",
+			"rating": "5 (620)",
+			"url": "https://www.surfeverydayacademy.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfeverydayacademy.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_lessons_only"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Arugam Bay | Banana Surf Camp | 4.8 (152) | [site](http://bananasurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Arugam Bay",
+			"name": "Banana Surf Camp",
+			"rating": "4.8 (152)",
+			"url": "http://bananasurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://bananasurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Sagres | Wavesensations - Sagres Surf Shop & Surf School | 4.8 (422) | [site](http://www.wavesensations.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Sagres",
+			"name": "Wavesensations - Sagres Surf Shop & Surf School",
+			"rating": "4.8 (422)",
+			"url": "http://www.wavesensations.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://wavesensations.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Jaco | Surf Synergy Surf and Wellness Resort | 5 (195) | [site](https://surfsynergy.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Jaco",
+			"name": "Surf Synergy Surf and Wellness Resort",
+			"rating": "5 (195)",
+			"url": "https://surfsynergy.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfsynergy.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Lanzarote | Surf School Lanzarote | 5 (276) | [site](http://www.surfschoolanzarote.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Lanzarote",
+			"name": "Surf School Lanzarote",
+			"rating": "5 (276)",
+			"url": "http://www.surfschoolanzarote.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfschoolanzarote.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Arugam Bay | Arugam Bay Surf Center | 5 (272) | [site](http://arugambaysurfcenter.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Arugam Bay",
+			"name": "Arugam Bay Surf Center",
+			"rating": "5 (272)",
+			"url": "http://arugambaysurfcenter.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://arugambaysurfcenter.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | Surfwell - Surf Lessons Lombok | 5 (267) | [site](https://surfwells.com/lombok/surf-lessons-kuta-lombok/?utm_source=google_map&utm_medium=organic&utm_campaign=gbp_listing) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "Surfwell - Surf Lessons Lombok",
+			"rating": "5 (267)",
+			"url": "https://surfwells.com/lombok/surf-lessons-kuta-lombok/?utm_source=google_map&utm_medium=organic&utm_campaign=gbp_listing",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfwells.com/lombok/surf-lessons-kuta-lombok/?utm_source=google_map&utm_medium=organic&utm_campaign=gbp_listing"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Nicaragua | Popoyo | Popoyo Surfcamp | 4.9 (210) | [site](http://www.popoyosurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Nicaragua",
+			"city": "Popoyo",
+			"name": "Popoyo Surfcamp",
+			"rating": "4.9 (210)",
+			"url": "http://www.popoyosurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.popoyosurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | Taghazout Surfers - Surf School | 4.9 (295) | [site](https://taghazoutsurfers.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "Taghazout Surfers - Surf School",
+			"rating": "4.9 (295)",
+			"url": "https://taghazoutsurfers.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://taghazoutsurfers.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Ecuador | Montanita | Balsa Surf Camp Guest House | 4.8 (234) | [site](https://www.balsasurfcamp.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Ecuador",
+			"city": "Montanita",
+			"name": "Balsa Surf Camp Guest House",
+			"rating": "4.8 (234)",
+			"url": "https://www.balsasurfcamp.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.balsasurfcamp.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Arugam Bay | Surf & Yoga, Arugam Bay 〰 All Inclusive Surf Camp and Yoga Retreat in Sri Lanka | 4.7 (141) | [site](https://surfnyogaarugambay.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Arugam Bay",
+			"name": "Surf & Yoga, Arugam Bay 〰 All Inclusive Surf Camp and Yoga Retreat in Sri Lanka",
+			"rating": "4.7 (141)",
+			"url": "https://surfnyogaarugambay.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfnyogaarugambay.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Weligama | Freedom Surf School Weligama \\| Best Surf Lessons & Rentals | 4.9 (286) | [site](http://www.freedomsrilanka.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Weligama",
+			"name": "Freedom Surf School Weligama \\",
+			"rating": "Best Surf Lessons & Rentals",
+			"url": "286",
+			"notes": "[site](http://www.freedomsrilanka.com/)",
+			"fetched": {
+				"ok": false,
+				"error": "Failed to parse URL from 286"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Tamarindo | Salty Smile surf school Tamarindo | 5 (454) | [site](https://www.saltysmilesurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Tamarindo",
+			"name": "Salty Smile surf school Tamarindo",
+			"rating": "5 (454)",
+			"url": "https://www.saltysmilesurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.saltysmilesurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | Rama surf lombok | 4.8 (320) | [site](https://ramasurflombok.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "Rama surf lombok",
+			"rating": "4.8 (320)",
+			"url": "https://ramasurflombok.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://ramasurflombok.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Barbados | Surfers Point | Barrys Surf Barbados Surf School | 5 (232) | [site](https://www.surfing-barbados.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Barbados",
+			"city": "Surfers Point",
+			"name": "Barrys Surf Barbados Surf School",
+			"rating": "5 (232)",
+			"url": "https://www.surfing-barbados.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfing-barbados.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Mexico | Sayulita | WildMex Surf School & Adventure Center, Sayulita | 4.9 (512) | [site](https://wildmex.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Mexico",
+			"city": "Sayulita",
+			"name": "WildMex Surf School & Adventure Center, Sayulita",
+			"rating": "4.9 (512)",
+			"url": "https://wildmex.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://wildmex.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Arugam Bay | Ocean Surf Arugam Bay | 4.9 (261) | [site](https://oceansurfarugambay.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Arugam Bay",
+			"name": "Ocean Surf Arugam Bay",
+			"rating": "4.9 (261)",
+			"url": "https://oceansurfarugambay.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://oceansurfarugambay.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Surf camp Imsouane By Pro Surf Imsouane & Surf House | 4.7 (125) | [site](https://www.surfschoolmorocco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Surf camp Imsouane By Pro Surf Imsouane & Surf House",
+			"rating": "4.7 (125)",
+			"url": "https://www.surfschoolmorocco.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": false,
+				"error": "timeout"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | Spain | Fuerteventura | Surf School Corralejo - Cotillo BlueAdventure | 5 (217) | [site](https://www.blueadventuresurf.com/surf) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Fuerteventura",
+			"name": "Surf School Corralejo - Cotillo BlueAdventure",
+			"rating": "5 (217)",
+			"url": "https://www.blueadventuresurf.com/surf",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.blueadventuresurf.com/surf"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Imsouane Surf Family | 5 (212) | [site](http://www.imsouanesurffamily.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Imsouane Surf Family",
+			"rating": "5 (212)",
+			"url": "http://www.imsouanesurffamily.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://imsouanesurffamily.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Lagos | Lagos Surf Safari Surf School | 4.9 (244) | [site](http://www.lagossurfsafari.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Lagos",
+			"name": "Lagos Surf Safari Surf School",
+			"rating": "4.9 (244)",
+			"url": "http://www.lagossurfsafari.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://lagossurfsafari.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Imsouane Vibe Surf Camp | 5 (74) | [site](https://imsouanevibe.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Imsouane Vibe Surf Camp",
+			"rating": "5 (74)",
+			"url": "https://imsouanevibe.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://imsouanevibe.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | Nuna Surf Camp Kuta Lombok | 4.7 (114) | [site](https://www.nunasurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "Nuna Surf Camp Kuta Lombok",
+			"rating": "4.7 (114)",
+			"url": "https://www.nunasurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://nunasurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Ericeira | Surf Center Ericeira | 4.8 (272) | [site](https://www.ericeirasurfcenter.net/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Ericeira",
+			"name": "Surf Center Ericeira",
+			"rating": "4.8 (272)",
+			"url": "https://www.ericeirasurfcenter.net/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.ericeirasurfcenter.net/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Fuerteventura | Corralejo Surf School RIP CURL | 4.8 (272) | [site](http://www.corralejosurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Fuerteventura",
+			"name": "Corralejo Surf School RIP CURL",
+			"rating": "4.8 (272)",
+			"url": "http://www.corralejosurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.corralejosurfschool.com/es/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Tamraght | Solyra Surf Morocco \\| Surf & Yoga Camp in Tamraght | 5 (71) | [site](https://solyrasurfmorocco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Tamraght",
+			"name": "Solyra Surf Morocco \\",
+			"rating": "Surf & Yoga Camp in Tamraght",
+			"url": "71",
+			"notes": "[site](https://solyrasurfmorocco.com/)",
+			"fetched": {
+				"ok": false,
+				"error": "Failed to parse URL from 71"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | India | Varkala | MAHALO SURF, VARKALA | 5 (369) | [site](https://instagram.com/mahalosurfvarkala?igshid=YTQwZjQ0NmI0OA==) | Queued. |",
+			"done": "[ ]",
+			"country": "India",
+			"city": "Varkala",
+			"name": "MAHALO SURF, VARKALA",
+			"rating": "5 (369)",
+			"url": "https://instagram.com/mahalosurfvarkala?igshid=YTQwZjQ0NmI0OA==",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.instagram.com/mahalosurfvarkala?igshid=YTQwZjQ0NmI0OA%3D%3D"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Ericeira | 3Surfers | 4.8 (262) | [site](http://3surfers.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Ericeira",
+			"name": "3Surfers",
+			"rating": "4.8 (262)",
+			"url": "http://3surfers.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://3surfers.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Sri Lanka | Arugam Bay | Surf Soul Camp & Yoga Retreat | 4.9 (80) | [site](https://surfsoulco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Sri Lanka",
+			"city": "Arugam Bay",
+			"name": "Surf Soul Camp & Yoga Retreat",
+			"rating": "4.9 (80)",
+			"url": "https://surfsoulco.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfsoulco.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Barbados | Surfers Point | Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS | 4.9 (221) | [site](https://dreadordead.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Barbados",
+			"city": "Surfers Point",
+			"name": "Dread or Dead Surf Shop / SURF SCHOOL - BOARD RENTALS - SURF TOURS",
+			"rating": "4.9 (221)",
+			"url": "https://dreadordead.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://dreadordead.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | Taghazout Surf Lessons & School – Surf with Reda | 5 (189) | [site](https://surfwithreda.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "Taghazout Surf Lessons & School – Surf with Reda",
+			"rating": "5 (189)",
+			"url": "https://surfwithreda.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfwithreda.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Senegal | Dakar / Ngor | Ngor Island Surf Camp | 4.7 (203) | [site](http://www.gosurfsenegal.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Senegal",
+			"city": "Dakar / Ngor",
+			"name": "Ngor Island Surf Camp",
+			"rating": "4.7 (203)",
+			"url": "http://www.gosurfsenegal.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.gosurfsenegal.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Mexico | Sayulita | Marea Surf School – Surf Lessons in Sayulita | 4.9 (406) | [site](http://www.mareasayulita.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Mexico",
+			"city": "Sayulita",
+			"name": "Marea Surf School – Surf Lessons in Sayulita",
+			"rating": "4.9 (406)",
+			"url": "http://www.mareasayulita.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.mareasayulita.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_lessons_only"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Imsouane surf experience | 5 (181) | [site](https://imsouanesurfexperience.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Imsouane surf experience",
+			"rating": "5 (181)",
+			"url": "https://imsouanesurfexperience.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://imsouanesurfexperience.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Tamarindo | GoodVibes Surf School | 5 (338) | [site](http://www.goodvibessurfschoolcr.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Tamarindo",
+			"name": "GoodVibes Surf School",
+			"rating": "5 (338)",
+			"url": "http://www.goodvibessurfschoolcr.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://goodvibessurfschoolcr.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | Momo surf school | 5 (177) | [site](https://momosurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "Momo surf school",
+			"rating": "5 (177)",
+			"url": "https://momosurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://momosurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_lessons_only"
+		},
+		{
+			"line": "| [ ] | Portugal | Lagos | TSE | 4.8 (233) | [site](http://thesurfexperience.eu/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Lagos",
+			"name": "TSE",
+			"rating": "4.8 (233)",
+			"url": "http://thesurfexperience.eu/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://thesurfexperience.eu/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | Surf & Travel Camp Morocco | 4.6 (112) | [site](http://www.surfandtravelmorocco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "Surf & Travel Camp Morocco",
+			"rating": "4.6 (112)",
+			"url": "http://www.surfandtravelmorocco.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfandtravelmorocco.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | India | Varkala | Copa Cabana Surf School | 5 (321) | [site](http://copacabanaadventure.in/) | Queued. |",
+			"done": "[ ]",
+			"country": "India",
+			"city": "Varkala",
+			"name": "Copa Cabana Surf School",
+			"rating": "5 (321)",
+			"url": "http://copacabanaadventure.in/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://copacabanaadventure.in/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Sagres | Sagres Surf School | 5 (168) | [site](https://sagressurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Sagres",
+			"name": "Sagres Surf School",
+			"rating": "5 (168)",
+			"url": "https://sagressurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://sagressurfschool.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Canggu Surf School | 4.9 (192) | [site](https://www.baliwaveexperience.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "Canggu Surf School",
+			"rating": "4.9 (192)",
+			"url": "https://www.baliwaveexperience.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://baliwaveexperience.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta Lombok | Surfing Banditos Lombok - Surf School | 4.8 (221) | [site](https://www.surfingbanditoslombok.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta Lombok",
+			"name": "Surfing Banditos Lombok - Surf School",
+			"rating": "4.8 (221)",
+			"url": "https://www.surfingbanditoslombok.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surfingbanditoslombok.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Australia | Noosa | Go Ride a Wave - Noosa | 5 (308) | [site](https://gorideawave.com.au/) | Queued. |",
+			"done": "[ ]",
+			"country": "Australia",
+			"city": "Noosa",
+			"name": "Go Ride a Wave - Noosa",
+			"rating": "5 (308)",
+			"url": "https://gorideawave.com.au/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://gorideawave.com.au/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Santa Teresa | Mahalo Surf Club | 5 (300) | [site](http://www.mahalosurfclub.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17268747373134021831) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Santa Teresa",
+			"name": "Mahalo Surf Club",
+			"rating": "5 (300)",
+			"url": "http://www.mahalosurfclub.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17268747373134021831",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.mahalosurfclub.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17268747373134021831"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Nicaragua | Popoyo | Two Brother Surf Resort | 4.9 (119) | [site](http://www.twobrotherssurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Nicaragua",
+			"city": "Popoyo",
+			"name": "Two Brother Surf Resort",
+			"rating": "4.9 (119)",
+			"url": "http://www.twobrotherssurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://twobrotherssurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Australia | Gold Coast | Currumbin Alley Surf School | 4.9 (332) | [site](http://currumbinalleysurfschool.com.au/) | Queued. |",
+			"done": "[ ]",
+			"country": "Australia",
+			"city": "Gold Coast",
+			"name": "Currumbin Alley Surf School",
+			"rating": "4.9 (332)",
+			"url": "http://currumbinalleysurfschool.com.au/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://currumbinalleysurfschool.com.au/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_lessons_only"
+		},
+		{
+			"line": "| [ ] | Mexico | Puerto Escondido | Surf Travel Friends | 4.9 (331) | [site](http://surftravelfriends.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Mexico",
+			"city": "Puerto Escondido",
+			"name": "Surf Travel Friends",
+			"rating": "4.9 (331)",
+			"url": "http://surftravelfriends.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surftravelfriends.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Peru | Mancora | Escuela surf Mancora SurfPoint | 4.9 (324) | [site](https://instagram.com/escueladesurfmancorasurfpoint?igshid=OGQ5ZDc2ODk2ZA==) | Queued. |",
+			"done": "[ ]",
+			"country": "Peru",
+			"city": "Mancora",
+			"name": "Escuela surf Mancora SurfPoint",
+			"rating": "4.9 (324)",
+			"url": "https://instagram.com/escueladesurfmancorasurfpoint?igshid=OGQ5ZDc2ODk2ZA==",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.instagram.com/escueladesurfmancorasurfpoint?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | We Surf Morocco | 4.8 (190) | [site](http://wesurfmorocco.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "We Surf Morocco",
+			"rating": "4.8 (190)",
+			"url": "http://wesurfmorocco.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://wesurfmorocco.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Australia | Byron Bay | Mojosurf Surf School Byron Bay | 4.8 (360) | [site](http://www.mojosurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Australia",
+			"city": "Byron Bay",
+			"name": "Mojosurf Surf School Byron Bay",
+			"rating": "4.8 (360)",
+			"url": "http://www.mojosurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://mojosurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Portugal | Lagos | Salty Wave | 4.7 (219) | [site](http://www.saltywavesurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Lagos",
+			"name": "Salty Wave",
+			"rating": "4.7 (219)",
+			"url": "http://www.saltywavesurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://saltywavesurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Barbados | Surfers Point | Ride The Tide Surf School & Surfboard Rental | 4.7 (219) | [site](https://ridethetidebarbados.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Barbados",
+			"city": "Surfers Point",
+			"name": "Ride The Tide Surf School & Surfboard Rental",
+			"rating": "4.7 (219)",
+			"url": "https://ridethetidebarbados.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://ridethetidebarbados.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Taghazout | Surf Camps Taghazout Maroc Ocean Adventure | 4.6 (91) | [site](https://oceanadventure.surf/maroc/taghazout/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Taghazout",
+			"name": "Surf Camps Taghazout Maroc Ocean Adventure",
+			"rating": "4.6 (91)",
+			"url": "https://oceanadventure.surf/maroc/taghazout/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://oceanadventure.surf/maroc/taghazout/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Tamraght | Gota Dagua Surf Camp Morocco - Tamraght, Agadir | 5 (48) | [site](https://gotadaguasurf.com/surfcamp/tamraght-morocco/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Tamraght",
+			"name": "Gota Dagua Surf Camp Morocco - Tamraght, Agadir",
+			"rating": "5 (48)",
+			"url": "https://gotadaguasurf.com/surfcamp/tamraght-morocco/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://gotadaguasurf.com/surfcamp/tamraght-morocco/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Mexico | Puerto Escondido | Puerto Surf House & School | 4.6 (169) | [site](http://puertosurf.com.mx/) | Queued. |",
+			"done": "[ ]",
+			"country": "Mexico",
+			"city": "Puerto Escondido",
+			"name": "Puerto Surf House & School",
+			"rating": "4.6 (169)",
+			"url": "http://puertosurf.com.mx/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.puertosurf.com.mx/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Nicaragua | Popoyo | Nicawaves Surf Resort | 4.5 (196) | [site](http://nicawaves.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Nicaragua",
+			"city": "Popoyo",
+			"name": "Nicawaves Surf Resort",
+			"rating": "4.5 (196)",
+			"url": "http://nicawaves.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.nicawaves.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Lanzarote | Escuela de Surf Famara - La Cabra Surf School - Surf & Surfskate | 4.9 (155) | [site](https://lacabrasurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Lanzarote",
+			"name": "Escuela de Surf Famara - La Cabra Surf School - Surf & Surfskate",
+			"rating": "4.9 (155)",
+			"url": "https://lacabrasurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://lacabrasurfschool.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Australia | Gold Coast | Kirra Point Surf School | 5 (252) | [site](https://www.kirrapointsurfschool.com/?utm_medium=organic&utm_source=google&utm_campaign=gbp-listing) | Queued. |",
+			"done": "[ ]",
+			"country": "Australia",
+			"city": "Gold Coast",
+			"name": "Kirra Point Surf School",
+			"rating": "5 (252)",
+			"url": "https://www.kirrapointsurfschool.com/?utm_medium=organic&utm_source=google&utm_campaign=gbp-listing",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://kirrapointsurfschool.com/?utm_medium=organic&utm_source=google&utm_campaign=gbp-listing"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Peru | Mancora | Surf Racer House - Surf, Kitesurf & Skate Camp Peru | 4.9 (104) | [site](http://www.surf-racer.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Peru",
+			"city": "Mancora",
+			"name": "Surf Racer House - Surf, Kitesurf & Skate Camp Peru",
+			"rating": "4.9 (104)",
+			"url": "http://www.surf-racer.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surf-racer.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Brazil | Florianopolis | Floripa Surf Club Surf School | 5 (249) | [site](https://www.instagram.com/floripasurfcluboficial/) | Queued. |",
+			"done": "[ ]",
+			"country": "Brazil",
+			"city": "Florianopolis",
+			"name": "Floripa Surf Club Surf School",
+			"rating": "5 (249)",
+			"url": "https://www.instagram.com/floripasurfcluboficial/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.instagram.com/floripasurfcluboficial/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Fuerteventura | Aloha Surf Academy | 4.9 (150) | [site](http://www.alohasurfacademy.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Fuerteventura",
+			"name": "Aloha Surf Academy",
+			"rating": "4.9 (150)",
+			"url": "http://www.alohasurfacademy.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://alohasurfacademy.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Tamarindo | Tidal Wave Surf Academy \\| Surf lessons in Tamarindo | 5 (241) | [site](http://tidalwavesurfacademy.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Tamarindo",
+			"name": "Tidal Wave Surf Academy \\",
+			"rating": "Surf lessons in Tamarindo",
+			"url": "241",
+			"notes": "[site](http://tidalwavesurfacademy.com/)",
+			"fetched": {
+				"ok": false,
+				"error": "Failed to parse URL from 241"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": false
+			},
+			"status": "screened_out_fetch"
+		},
+		{
+			"line": "| [ ] | Senegal | Dakar / Ngor | Ngor Right Surf House | 5 (85) | [site](http://www.senegalsurftrip.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Senegal",
+			"city": "Dakar / Ngor",
+			"name": "Ngor Right Surf House",
+			"rating": "5 (85)",
+			"url": "http://www.senegalsurftrip.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://senegalsurftrip.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Indonesia | Kuta / Canggu, Bali | Canggu Beginner Surf | 5 (123) | [site](https://www.canggubeginnersurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Indonesia",
+			"city": "Kuta / Canggu, Bali",
+			"name": "Canggu Beginner Surf",
+			"rating": "5 (123)",
+			"url": "https://www.canggubeginnersurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.canggubeginnersurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Brazil | Florianopolis | Escola de Surf Evandro dos Santos | 5 (234) | [site](http://www.escoladesurfflorianopolis.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Brazil",
+			"city": "Florianopolis",
+			"name": "Escola de Surf Evandro dos Santos",
+			"rating": "5 (234)",
+			"url": "http://www.escoladesurfflorianopolis.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.escoladesurfflorianopolis.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Nosara | Surf Bikini Retreat | 5 (82) | [site](http://www.surfbikininosara.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Nosara",
+			"name": "Surf Bikini Retreat",
+			"rating": "5 (82)",
+			"url": "http://www.surfbikininosara.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfbikininosara.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Nicaragua | San Juan del Sur | Hightide Surf School | 5 (228) | [site](http://hightidesurfnica.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Nicaragua",
+			"city": "San Juan del Sur",
+			"name": "Hightide Surf School",
+			"rating": "5 (228)",
+			"url": "http://hightidesurfnica.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://hightidesurfnica.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Australia | Byron Bay | Kool Katz Surf School | 4.9 (265) | [site](http://koolkatzsurf.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Australia",
+			"city": "Byron Bay",
+			"name": "Kool Katz Surf School",
+			"rating": "4.9 (265)",
+			"url": "http://koolkatzsurf.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://koolkatzsurf.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Brazil | Florianopolis | Escola de Surf e Bodyboard Peterson Boeira | 5 (222) | [site](https://www.petersonboeiratreinador.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Brazil",
+			"city": "Florianopolis",
+			"name": "Escola de Surf e Bodyboard Peterson Boeira",
+			"rating": "5 (222)",
+			"url": "https://www.petersonboeiratreinador.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.petersonboeiratreinador.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Spain | Fuerteventura | International Surf School & Camp | 4.5 (88) | [site](https://iss.surf/) | Queued. |",
+			"done": "[ ]",
+			"country": "Spain",
+			"city": "Fuerteventura",
+			"name": "International Surf School & Camp",
+			"rating": "4.5 (88)",
+			"url": "https://iss.surf/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://iss.surf/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Tamraght | Easy Surf | 4.8 (155) | [site](https://www.easysurfmaroc.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Tamraght",
+			"name": "Easy Surf",
+			"rating": "4.8 (155)",
+			"url": "https://www.easysurfmaroc.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.easysurfmaroc.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		},
+		{
+			"line": "| [ ] | Costa Rica | Jaco | Surfer Factory Surf School / Camp | 4.7 (119) | [site](http://www.surferfactory.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Costa Rica",
+			"city": "Jaco",
+			"name": "Surfer Factory Surf School / Camp",
+			"rating": "4.7 (119)",
+			"url": "http://www.surferfactory.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://www.surferfactory.com/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_incomplete_price_or_dates"
+		},
+		{
+			"line": "| [ ] | Portugal | Sagres | Surf Planet Surf School Sagres | 5 (108) | [site](https://surfplanetsurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Portugal",
+			"city": "Sagres",
+			"name": "Surf Planet Surf School Sagres",
+			"rating": "5 (108)",
+			"url": "https://surfplanetsurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://surfplanetsurfschool.com/en"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": false,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Morocco | Imsouane | Surf Camp Mubaradise | 4.8 (52) | [site](http://www.mubaradisesurfschool.com/) | Queued. |",
+			"done": "[ ]",
+			"country": "Morocco",
+			"city": "Imsouane",
+			"name": "Surf Camp Mubaradise",
+			"rating": "4.8 (52)",
+			"url": "http://www.mubaradisesurfschool.com/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://mubaradisesurfschool.com/"
+			},
+			"evidence": {
+				"hasBeginner": false,
+				"hasCamp": true,
+				"hasDaily": false,
+				"hasPrice": true
+			},
+			"status": "screened_low_package_evidence"
+		},
+		{
+			"line": "| [ ] | Philippines | Siargao | Siargao Surf Fun - Wawe Forcadilla | 5 (204) | [site](https://www.siargaosurf.fun/) | Queued. |",
+			"done": "[ ]",
+			"country": "Philippines",
+			"city": "Siargao",
+			"name": "Siargao Surf Fun - Wawe Forcadilla",
+			"rating": "5 (204)",
+			"url": "https://www.siargaosurf.fun/",
+			"notes": "Queued.",
+			"fetched": {
+				"ok": true,
+				"status": 200,
+				"finalUrl": "https://siargaosurf.fun/"
+			},
+			"evidence": {
+				"hasBeginner": true,
+				"hasCamp": true,
+				"hasDaily": true,
+				"hasPrice": true
+			},
+			"status": "screened_package_evidence"
+		}
+	]
 }

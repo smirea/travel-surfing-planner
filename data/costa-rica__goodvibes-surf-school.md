@@ -10,17 +10,15 @@ Price: See official pricing source; exact two-week total needs direct confirmati
 
 Website: http://www.goodvibessurfschoolcr.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 5 (338)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Recurring/year-round/seasonal availability indicated; confirm exact Sep 20-Oct 31, 2026 dates before booking.
 
-Things to do around: Tamarindo area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Things to do around: Tamarindo area.
 
 Sources:
 

@@ -4,23 +4,21 @@
 
 ![Puerto Surf House & School](https://www.puertosurf.com.mx/wp-content/uploads/2019/12/puerto-surf-clase-grupal-05-495x400.jpg)
 
-Duration: Official site duration clue: lesson 1 class 1000.00 MXN Semi private class 1 class 1100.00 MXN Private / Guided class 1 class 1300.00 MXN Basic Package 6 nights
+Duration: lesson 1 class 1000.00 MXN Semi private class 1 class 1100.00 MXN Private / Guided class 1 class 1300.00 MXN Basic Package 6 nights
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: http://puertosurf.com.mx/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 4.6 (169)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Website evidence suggests recurring/year-round/seasonal availability; confirm exact Sep 20-Oct 31, 2026 dates before booking.
+Period fit: Recurring/year-round/seasonal availability indicated; confirm exact Sep 20-Oct 31, 2026 dates before booking.
 
-Things to do around: Puerto Escondido area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
+Things to do around: Puerto Escondido area.
 
 Sources:
 

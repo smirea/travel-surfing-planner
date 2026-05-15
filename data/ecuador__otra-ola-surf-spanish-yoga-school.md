@@ -2,7 +2,7 @@
 
 # Montanita, Ecuador: Otra Ola Surf, Spanish, Yoga School
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Needs direct confirmation.
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=2748793239654647918&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: yes / official site references accommodation/rooms.
+Housing: Lodging referenced; confirm details.
 
 Rating: 4.9 Google (107)
 
-Lessons: Raw discovery matched "beginner surf lessons Montanita Ecuador". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf lessons Montanita Ecuador"; confirm complete-beginner English instruction.
 
-Period fit: Target-period evidence found for Sep 20-Oct 31, 2026 in accessible official-site text.
+Period fit: Sep 20-Oct 31, 2026 availability indicated in official-site text.
 
-Things to do around: Montanita; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: Montanita.
 
 Sources:
 

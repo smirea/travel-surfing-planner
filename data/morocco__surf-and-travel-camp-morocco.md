@@ -4,23 +4,21 @@
 
 ![Surf & Travel Camp Morocco](http://static1.squarespace.com/static/545377aae4b08fffb61630b7/t/6554bf4e4c1f95020fbbd5a5/1700052814950/IMG_1526.jpg?format=1500w)
 
-Duration: Recurring lessons or weekly/package cadence found in accessible pages.
+Duration: Recurring lessons or weekly/package cadence indicated.
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: http://www.surfandtravelmorocco.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 4.6 (112)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
+Period fit: Likely Sep 20-Oct 31, 2026 fit; recurring daily/year-round operation described.
 
-Things to do around: Taghazout area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
+Things to do around: Taghazout area.
 
 Sources:
 

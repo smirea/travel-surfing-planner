@@ -4,23 +4,21 @@
 
 ![Kitesurf Essaouira Maroc Yalla](https://img1.wsimg.com/isteam/ip/357462de-3e2d-4c1a-8d7a-efc00f110df4/726157aa-63b0-4077-a33f-3516a54414ed.JPG)
 
-Duration: Official site duration clue: Surf Prix / € 1/2 journée :......................20€ Journée : 35€ 2 Jours :.......................65€ 1 WEEK
+Duration: Surf Prix / € 1/2 journée :......................20€ Journée : 35€ 2 Jours :.......................65€ 1 WEEK
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: https://yalla-surf-kite.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 5 (866)
 
-Lessons: Surf offering evidence found. Beginner suitability needs direct confirmation. English-language site or English evidence found.
+Lessons: Surf instruction found; beginner suitability needs confirmation. English-language evidence found.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Essaouira area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=false, english=true, recurring_or_period=false, housing=true, price=true. Official site checked; updated fields reflect accessible website te
+Things to do around: Essaouira area.
 
 Sources:
 

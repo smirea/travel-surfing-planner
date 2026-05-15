@@ -18,6 +18,7 @@ The final deliverable will be a `data/result.md` table of `name,country,city,rat
 
 ```md
 <!-- google_maps_id: [Google Places placeId, e.g. ChIJ...] -->
+
 # [city, country]: [offering name]
 
 [one meaningful image it]

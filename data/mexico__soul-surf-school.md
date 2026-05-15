@@ -4,23 +4,21 @@
 
 ![Soul Surf School](https://static.wixstatic.com/media/0abad5_68056340e17b4389a30f4a280466d644%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/0abad5_68056340e17b4389a30f4a280466d644%7Emv2.jpg)
 
-Duration: Official site duration clue: 2 Day Surf Trips / Viajes de Surf 1/2 - Soul Surf Lessons top of page Sobre Nosotros Paquetes de Surf
+Duration: 2 Day Surf Trips / Viajes de Surf 1/2 - Soul Surf Lessons top of page Sobre Nosotros Paquetes de Surf
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: https://www.soulsurfschool.com.mx/es
 
-Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
+Housing: No lodging package found; appears lessons/rentals-only.
 
 Rating: 5 (338)
 
 Lessons: Official site confirms surf lessons/coaching; beginner suitability still not explicit in accessible text.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Puerto Escondido area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=false, english=true, recurring_or_period=false, housing=false, price=true. Official site checked; updated fields reflect accessible website t
+Things to do around: Puerto Escondido area.
 
 Sources:
 

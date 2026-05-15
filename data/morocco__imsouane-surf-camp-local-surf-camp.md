@@ -4,23 +4,21 @@
 
 Image: not captured during bulk evaluation.
 
-Duration: Official site duration clue: Surf skate lessons • Free surfskate to use all day • Wifi, Towels & GOOD VIBES From 550€ 8days/7nights
+Duration: Surf skate lessons • Free surfskate to use all day • Wifi, Towels & GOOD VIBES From 550€ 8days/7nights
 
 Price: Quote needed / not found in accessible pages.
 
 Website: http://localsurfcamp.com/
 
-Housing: yes / official site references accommodation/rooms.
+Housing: Lodging referenced; confirm details.
 
 Rating: 5 (165)
 
-Lessons: Official site supports beginner/all-level surf instruction and is published in English.
+Lessons: Beginner/all-level surf instruction; English-language site.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Imsouane area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=false, beginner=false, english=false, recurring_or_period=false, housing=false, price=false. Official site checked; updated fields reflect accessible websit
+Things to do around: Imsouane area.
 
 Sources:
 

@@ -2,7 +2,7 @@
 
 # Tenerife, Spain: Surf School Tilegit Tenerife
 
-Duration: Official site duration clue: 2 hours lesson All the material included Max 8 people per group BOOK NOW PRIVATE LESSONS 120€ 2 Hour lesson
+Duration: 2 hours lesson All the material included Max 8 people per group BOOK NOW PRIVATE LESSONS 120€ 2 Hour lesson
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=2619152048313855125&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
+Housing: No lodging package found; appears lessons/rentals-only.
 
 Rating: 5 Google (647)
 
-Lessons: Raw discovery matched "beginner surf lessons Playa de las Americas Tenerife". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf lessons Playa de las Americas Tenerife"; confirm complete-beginner English instruction.
 
-Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains included because the stored data has no affirmative evidence that it does not offer beginner English surf instruction during the target period.
+Period fit: Confirm Sep 20-Oct 31, 2026 availability before booking.
 
-Things to do around: Tenerife; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: Tenerife.
 
 Sources:
 

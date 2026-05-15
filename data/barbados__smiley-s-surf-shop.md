@@ -2,7 +2,7 @@
 
 # Surfers Point, Barbados: Smiley's Surf Shop
 
-Duration: Needs direct confirmation. This was a missed raw Google Places discovery candidate, not a previously rejected school.
+Duration: Needs direct confirmation.
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=5783445301310294459&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: yes / official site references stay or camp accommodation.
+Housing: Lodging referenced; confirm details.
 
 Rating: 5 Google (44)
 
-Lessons: Raw discovery matched "beginner surf lessons Surfers Point Barbados". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf lessons Surfers Point Barbados"; confirm complete-beginner English instruction.
 
-Period fit: Needs direct confirmation for Sep 20-Oct 31, 2026. It remains included because the stored data has no affirmative evidence that it does not offer beginner English surf instruction during the target period.
+Period fit: Confirm Sep 20-Oct 31, 2026 availability before booking.
 
-Things to do around: Surfers Point; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: Surfers Point.
 
 Sources:
 

@@ -4,23 +4,21 @@
 
 Image: not captured during bulk evaluation.
 
-Duration: Recurring lessons or weekly/package cadence found in accessible pages.
+Duration: Recurring lessons or weekly/package cadence indicated.
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: https://www.surfwellbali.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 5 (472)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Recurring lesson/package evidence found; exact Sep 20-Oct 31, 2026 dates need direct confirmation.
+Period fit: Recurring lesson/package availability indicated; confirm exact Sep 20-Oct 31, 2026 dates before booking.
 
-Things to do around: Kuta / Canggu, Bali area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true.
+Things to do around: Kuta / Canggu, Bali area.
 
 Sources:
 

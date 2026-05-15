@@ -4,23 +4,21 @@
 
 ![Surf Riders Ericeira](https://static.wixstatic.com/media/db8529_282a25d2c03e40b0b73e6f7dfd7fde4b%7Emv2_d_5184_3456_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/db8529_282a25d2c03e40b0b73e6f7dfd7fde4b%7Emv2_d_5184_3456_s_4_2.jpg)
 
-Duration: Official site duration clue: Surf Lessons Book Surf Camp CONTACT Log In / Sign Up SURF CAMP LIFE Surf Villas Book Surf Camp 🌊 Âncora 1 Packs from 3 nights
+Duration: Surf Lessons Book Surf Camp CONTACT Log In / Sign Up SURF CAMP LIFE Surf Villas Book Surf Camp 🌊 Âncora 1 Packs from 3 nights
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: http://www.surfriders.pt/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 5 (681)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
+Period fit: Likely Sep 20-Oct 31, 2026 fit; recurring daily/year-round operation described.
 
-Things to do around: Ericeira area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
+Things to do around: Ericeira area.
 
 Sources:
 

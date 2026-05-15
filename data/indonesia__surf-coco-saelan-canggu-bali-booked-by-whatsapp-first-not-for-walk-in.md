@@ -4,23 +4,21 @@
 
 ![Surf Coco Saelan Canggu Bali (booked by whatsapp first, not for walk-in!)](https://www.canggu-surfingclass.com/wp-content/uploads/2022/08/hook-ig.png)
 
-Duration: Official site duration clue: Lesson. Read more SELECT LEVEL We offer Surf Lessons and Surf packages BEGINNER CLASS Duration Max 2 hours
+Duration: Lesson. Read more SELECT LEVEL We offer Surf Lessons and Surf packages BEGINNER CLASS Duration Max 2 hours
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: https://www.canggu-surfingclass.com/
 
-Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
+Housing: No lodging package found; appears lessons/rentals-only.
 
 Rating: 4.9 (519)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: No explicit Sep/Oct 2026 no found; direct confirmation needed.
+Period fit: No Sep/Oct 2026 exclusion found; confirm exact dates before booking.
 
-Things to do around: Kuta / Canggu, Bali area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=false, housing=false, price=true. Official site checked; updated fields reflect accessible website te
+Things to do around: Kuta / Canggu, Bali area.
 
 Sources:
 

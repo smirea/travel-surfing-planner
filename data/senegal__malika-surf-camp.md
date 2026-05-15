@@ -2,7 +2,7 @@
 
 # Dakar / Ngor, Senegal: Malika Surf Camp
 
-Duration: Official site duration clue: package, you can stay as long as you want! Packages all levels Surf with a coach 1 week
+Duration: package, you can stay as long as you want! Packages all levels Surf with a coach 1 week
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=2116663125558714703&g_mp=Cidnb29nbGUub
 
 Tripadvisor: -
 
-Housing: yes / official site references camp stay inclusions.
+Housing: Lodging referenced; confirm details.
 
 Rating: 4.3 Google (115)
 
-Lessons: Raw discovery matched "beginner surf lessons Dakar Ngor Senegal". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf lessons Dakar Ngor Senegal"; confirm complete-beginner English instruction.
 
-Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
+Period fit: Likely Sep 20-Oct 31, 2026 fit; recurring daily/year-round operation described.
 
-Things to do around: Dakar / Ngor; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: Dakar / Ngor.
 
 Sources:
 

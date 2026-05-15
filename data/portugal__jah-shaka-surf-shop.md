@@ -4,23 +4,21 @@
 
 ![JAH SHAKA SURF SHOP](https://cdn.prod.website-files.com/656f02aca1d62748d066cce7/66886bc1f9d99023630bac14_jah_shaka_surf_shop.jpg)
 
-Duration: Recurring lessons or weekly/package cadence found in accessible pages.
+Duration: Recurring lessons or weekly/package cadence indicated.
 
 Price: See official pricing source; exact two-week total needs direct confirmation.
 
 Website: http://jahshakasurf.com/
 
-Housing: yes or likely package/stay evidence
+Housing: Package/stay likely; confirm lodging details.
 
 Rating: 4.9 (2108)
 
-Lessons: Surf offering evidence found. Beginner/all-levels evidence found. English-language site or English evidence found.
+Lessons: Beginner/all-level surf instruction; English-language evidence found.
 
-Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
+Period fit: Likely Sep 20-Oct 31, 2026 fit; recurring daily/year-round operation described.
 
-Things to do around: Lagos area; not deeply researched in the bulk pass.
-
-Notes: Included under the corrected rule: only exclude a school with affirmative evidence that it does not offer beginner English surf instruction during September 20-October 31, 2026. Bulk evidence flags: surf=true, beginner=true, english=true, recurring_or_period=true, housing=true, price=true. Official site checked; updated fields reflect accessible website text
+Things to do around: Lagos area.
 
 Sources:
 

@@ -39,7 +39,7 @@ const evaluationMarkdown = await Bun.file(evaluationPath).text();
 const existingRows = parseResultRows(resultMarkdown);
 const existingKeys = new Set(existingRows.map(row => candidateKey(row.country, row.name)));
 const existingFiles = new Set(existingRows.map(row => row.detailFile));
-const usedFiles = new Set([...existingFiles]);
+const usedFiles = new Set(existingFiles);
 const generatedAt = new Date().toISOString();
 const missed = raw.candidates.filter(candidate => !existingKeys.has(candidateKey(candidate.country, candidate.name)));
 const additions = missed.map(candidate => candidateToResultRow(candidate, usedFiles));

@@ -2,7 +2,7 @@
 
 # Noosa, Australia: Sunshine Coast Elite Surf Coaching
 
-Duration: Official site duration clue: lesson options Upcoming programs . . . Surf Sisters (Weekly Sessions) Surf Sisters runs weekly
+Duration: lesson options Upcoming programs . . . Surf Sisters (Weekly Sessions) Surf Sisters runs weekly
 
 Price: Quote required / not found in stored research
 
@@ -12,17 +12,15 @@ Google Maps: https://maps.google.com/?cid=12957813745798067298&g_mp=Cidnb29nbGUu
 
 Tripadvisor: -
 
-Housing: no package found on official site; appears lessons/rentals-only from accessible pages.
+Housing: No lodging package found; appears lessons/rentals-only.
 
 Rating: 5 Google (42)
 
-Lessons: Raw discovery matched "beginner surf lessons Noosa Australia". Direct confirmation is still needed for complete-beginner English instruction.
+Lessons: Search match for "beginner surf lessons Noosa Australia"; confirm complete-beginner English instruction.
 
-Period fit: Likely available during Sep 20-Oct 31, 2026; official site describes recurring daily/year-round operation.
+Period fit: Likely Sep 20-Oct 31, 2026 fit; recurring daily/year-round operation described.
 
-Things to do around: Noosa; not deeply researched in this catch-up pass.
-
-Notes: Catch-up add from raw/country discovery; missed by the prior top-school evaluation. Keep included unless direct checking finds no beginner English surf instruction in the target period. Official site checked; updated fields reflect accessible website text, with remaining quote/booking gaps left explicit.
+Things to do around: Noosa.
 
 Sources:
 
