@@ -4,7 +4,7 @@
 
 Duration: 1 day to 2 weeks. Contact us for a quote! Contact Us Contact via WhatsApp IKA IKA SURF
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://ikaikasurfschooltenerife.com/
 

@@ -4,7 +4,7 @@
 
 Duration: surf sessions with lessons by our expert surf coaches Surfboard rentals Surf photography for one session Nature excursions 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://ashleyjayneyoga.com/
 

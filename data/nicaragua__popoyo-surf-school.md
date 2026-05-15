@@ -4,7 +4,7 @@
 
 Duration: package! Single Session Prices Lessons are personalized to your level. Single sessions range around 1.5 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.popoyosurfschool.com/
 

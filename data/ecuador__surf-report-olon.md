@@ -4,7 +4,7 @@
 
 Duration: Surf Lesson $15 per person (2-3-4 people) 1.5 Hour
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.surfreportolon.com/
 

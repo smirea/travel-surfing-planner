@@ -4,7 +4,7 @@
 
 Duration: Surf Lesson From USD $80 / 2 Hours All Ages / Private Lesson View Details Stand-Up Paddle Tour From USD $70 / 2 Hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.surf787.com/
 

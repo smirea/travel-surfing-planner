@@ -4,7 +4,7 @@
 
 Duration: surf experience in La Saladita $1,214 USD p/p Women’s Longboard Surf Retreat · 6 Days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://fugasurfcamp.mx/
 

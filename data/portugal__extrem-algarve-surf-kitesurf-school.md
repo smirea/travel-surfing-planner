@@ -4,7 +4,7 @@
 
 Duration: surf camp any day of the week and book as many nights as you like with a two night minimum. We usually recommend a camp of 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.extremealgarve.com/
 

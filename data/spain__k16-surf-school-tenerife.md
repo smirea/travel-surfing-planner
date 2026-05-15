@@ -4,7 +4,7 @@
 
 Duration: Surf is life! IN GROUP 1 Instructor for 5 students &#128; 40 Lesson 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://k16surfschooltenerife.com/
 

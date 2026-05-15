@@ -4,7 +4,7 @@
 
 Duration: 2 hours lessons. You can choose these two options in your package if you wish to. \*If you intend to take several surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://beachbreak-surfcamp.com/
 

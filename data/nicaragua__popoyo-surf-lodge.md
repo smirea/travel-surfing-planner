@@ -4,7 +4,7 @@
 
 Duration: package is a no “bells and whistles” straight forward surf trip, geared for surfers who are interested in surfing ALL DAY. PSL 7 night
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.popoyosurflodge.com/
 

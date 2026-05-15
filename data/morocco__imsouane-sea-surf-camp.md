@@ -4,7 +4,7 @@
 
 Duration: SURF lesson &ndash; Groupe lesson &ndash; Semi private lesson &ndash; Private lesson From 30 EUR 2 Hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.imsouaneseasurfcamp.com/
 

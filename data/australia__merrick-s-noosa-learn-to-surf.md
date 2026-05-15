@@ -4,7 +4,7 @@
 
 Duration: LESSON 2 x 2hr Group Lesson in 1 Day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.learntosurf.com.au/
 

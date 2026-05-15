@@ -4,7 +4,7 @@
 
 Duration: Surf Camp 7-day surf coaching retreat Surf Level Beginner & Intermediate Room Exclusive Villa Duration 7 Days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://barefootsurftravel.com/surf-trips/nicaragua/info
 

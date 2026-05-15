@@ -4,7 +4,7 @@
 
 Duration: surf lessons included in the surf packages. If the cancellation is made more than 7 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.billabongsurfcamp.com/
 

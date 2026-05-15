@@ -4,7 +4,7 @@
 
 Duration: course you will receive a certificate of participation and notes with main highlights of the course. If you take 5 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://haranasurf.com/surf-school/
 

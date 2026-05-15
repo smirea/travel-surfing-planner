@@ -4,7 +4,7 @@
 
 Duration: 5 day 'Become a Surfer' course. We teach you new skills in each surf lesson and ensure you leave Raglan confident to surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://upsurfcoaching.co.nz/
 

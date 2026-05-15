@@ -4,7 +4,7 @@
 
 Duration: Surf Sun Morocco Choose from our carefully designed packages to match your level and interests. All include 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.surfsunmorocco.com/
 

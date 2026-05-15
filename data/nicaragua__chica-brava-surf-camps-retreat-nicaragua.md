@@ -4,7 +4,7 @@
 
 Duration: Surf Retreat in July of 2023 and had the most amazing time and progressed in my surfing more in the 5 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://chicabrava.com/
 

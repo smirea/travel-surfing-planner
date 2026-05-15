@@ -4,7 +4,7 @@
 
 Duration: SURF RENTALS ABOUT US CONTACT BOOK NOW SURF LESSONS For all levels EXPLORE Santa Teresa ATV Rentals Daily & Weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://santateresaextreme.com/
 

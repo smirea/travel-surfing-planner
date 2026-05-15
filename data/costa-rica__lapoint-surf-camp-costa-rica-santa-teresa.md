@@ -4,7 +4,7 @@
 
 Duration: 14 days prior to arrival. SURF
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.lapointcamps.com/surfcamp/costa-rica/
 

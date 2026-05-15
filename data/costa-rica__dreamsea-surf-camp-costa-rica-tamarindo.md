@@ -4,7 +4,7 @@
 
 Duration: 7 Nights, 8 Days Shared Open-Air Dormitory Bed DAILY Breakfast NIGHTLY Dinner FIVE Surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://dreamseacostarica.com/
 

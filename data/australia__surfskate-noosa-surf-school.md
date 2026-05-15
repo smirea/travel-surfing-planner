@@ -4,7 +4,7 @@
 
 Duration: 6 weeks course
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfskatenoosa.com/
 

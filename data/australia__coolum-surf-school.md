@@ -4,7 +4,7 @@
 
 Duration: Surf Groms Log book to track their progress and achievements throughout the program Cooee Toy Programs offered: 3 Day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.coolumsurfschool.com.au/
 

@@ -4,7 +4,7 @@
 
 Duration: surf coach level 1 qualification Speaks Spanish, Italian (native) and English. Rentals Surfboard 2 hours 10€ 8 hours - 15€ 1 day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.kontraolasurftenerife.com/
 

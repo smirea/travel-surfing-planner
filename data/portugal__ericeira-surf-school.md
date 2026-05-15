@@ -4,7 +4,7 @@
 
 Duration: 5 days there will be 9 surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://ericeirasurfschool.pt/en_GB/
 

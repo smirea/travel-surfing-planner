@@ -4,7 +4,7 @@
 
 Duration: surf lessons with accommodation at Casa del Sol for the ultimate Montañita surf camp experience! Included in this 7 day/6 night
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.casadelsolmontanita.com/
 

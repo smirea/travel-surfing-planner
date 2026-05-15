@@ -4,7 +4,7 @@
 
 Duration: Surf Lessons Punta Mita: 1800 MXN per person, 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://wintersurfschool.com/
 

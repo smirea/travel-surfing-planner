@@ -4,7 +4,7 @@
 
 Duration: 90 minutes. Would definitely recommend to others and hope to visit again! Sean Awesome experience and great instruction by my surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfemporium.co.za/
 

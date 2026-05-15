@@ -4,7 +4,7 @@
 
 Duration: Package Inclusions 1x 2 Hour
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://gorideawave.com.au/
 

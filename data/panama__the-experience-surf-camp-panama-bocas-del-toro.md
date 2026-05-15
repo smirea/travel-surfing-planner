@@ -4,7 +4,7 @@
 
 Duration: package? Yes. We have the Quick Surf Trip Pack which you can book for a 4 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.theexperiencesurfcamp.com/
 

@@ -4,7 +4,7 @@
 
 Duration: surf initiation experience. Made for kids, adults or the whole family! Book a time now and pay at the beach 1 day US$65 2 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.cabaretesurfcompany.com/
 

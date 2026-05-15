@@ -4,7 +4,7 @@
 
 Duration: 7 days & include; &#8211; Daily healthy breakfast & tea/coffee &#8211; Morning 1.5hr Surf Lesson
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.africansoulsurfer.co.za/
 

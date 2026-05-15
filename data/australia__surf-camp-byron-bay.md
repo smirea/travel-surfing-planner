@@ -4,7 +4,7 @@
 
 Duration: Surf Camp Byron Bay History Packages After School Kids Surf Courses &#8211; Wednesday Wipeout Weekender Sundekker 3 Days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.surfcampbyronbay.com.au/
 

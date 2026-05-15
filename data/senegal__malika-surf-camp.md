@@ -4,7 +4,7 @@
 
 Duration: package, you can stay as long as you want! Packages all levels Surf with a coach 1 week
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.malikasurfcamp.com/
 

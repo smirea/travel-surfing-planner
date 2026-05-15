@@ -4,7 +4,7 @@
 
 Duration: surf beach for the day, 1 surfboard per person, technical instructions on the beach and 1.5 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.beyondthedreamsurf.com/
 

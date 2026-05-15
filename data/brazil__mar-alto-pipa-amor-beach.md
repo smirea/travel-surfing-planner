@@ -4,7 +4,7 @@
 
 Duration: Needs direct confirmation.
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://instagram.com/mar.altopipa?igshid=YmMyMTA2M2Y=
 

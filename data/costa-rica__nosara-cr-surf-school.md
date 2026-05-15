@@ -4,7 +4,7 @@
 
 Duration: SURF LESSONS COME SURF WITH US! #1 FOR SIXTH YEAR IN A ROW TRAVELER'S CHOICE (2019-2024) SURF LESSONS Lessons are 90 minutes
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://nosaracrsurfschool.com/
 

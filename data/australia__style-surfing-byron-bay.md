@@ -4,7 +4,7 @@
 
 Duration: Surf Weather Safety: Reviews! Surf Gallery Group Lesson 3 Hours Private Lesson 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.stylesurfingbyronbay.com/
 

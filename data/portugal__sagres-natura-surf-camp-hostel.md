@@ -4,7 +4,7 @@
 
 Duration: surf & stay package Accommodation 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.sagresnatura.com/
 

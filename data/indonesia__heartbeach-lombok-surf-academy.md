@@ -4,7 +4,7 @@
 
 Duration: surf lesson in kuta,Lombok with Heartbeach surf academy. ​Lee Sainton ​Everything was perfect! We stayed 15 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.heartbeachlombok.com/
 

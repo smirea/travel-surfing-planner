@@ -4,7 +4,7 @@
 
 Duration: 7 NIGHTS AT SKATE SURF HOUSE 7 BREAKFAST PREPARED BY LOCAL PRODUCERS Basic course: 5x surf lessons Surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://skatesurfmorocco.com/
 

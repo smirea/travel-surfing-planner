@@ -4,7 +4,7 @@
 
 Duration: surf@getwetsurf.com More Questions?  Call Us 1800 438 938 &#x77; Chat Now 8am - 3:30pm / 7 Days Beginner Lessons 2 hour
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://getwetsurf.com/
 

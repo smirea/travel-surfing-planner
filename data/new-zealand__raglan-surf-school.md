@@ -4,7 +4,7 @@
 
 Duration: LESSON LEARN TO SURF WITH RAGLAN SURF SCHOOL Book ONLINE NOW Definitely one of the best experiences I have ever had. Within 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.raglansurfingschool.co.nz/
 

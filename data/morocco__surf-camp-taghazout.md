@@ -4,7 +4,7 @@
 
 Duration: surf camp for everybody ! Come any day you want and stay for 4 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.surfcamp-taghazout.com/
 

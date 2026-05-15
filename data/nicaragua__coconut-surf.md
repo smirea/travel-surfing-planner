@@ -4,7 +4,7 @@
 
 Duration: Surf Package This package is 6 nights and 7 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://coconutsurf.com/
 

@@ -4,7 +4,7 @@
 
 Duration: SURF SCHOOL View Service DETAILS 2 hr 150 euros 150 € Book Now Surf Coaching Program / 5 Days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.extrasurfschool.com/
 

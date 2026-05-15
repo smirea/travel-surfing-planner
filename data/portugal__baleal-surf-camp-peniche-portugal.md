@@ -4,7 +4,7 @@
 
 Duration: surf equipment and a lot more… Light Surf Pack Light Surf Pack, available during the low and mid season, includes 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.balealsurfcamp.com/
 

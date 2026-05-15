@@ -4,7 +4,7 @@
 
 Duration: 3 DAYS SEMI-PRIVATE CLASSES DESCRIPTION INCLUDES We offer the same run of lessons as if it were private (read the previous package
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://wild-kitesurf-peru.com/
 

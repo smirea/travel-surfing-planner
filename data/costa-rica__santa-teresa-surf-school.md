@@ -4,7 +4,7 @@
 
 Duration: Needs direct confirmation.
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://wa.me/50683383057?text=Hi!%20I%E2%80%99m%20interested%20in%20booking%20a%20surf%20lesson%20in%20Santa%20Teresa%20%ED%A0%BC%ED%BC%8A
 

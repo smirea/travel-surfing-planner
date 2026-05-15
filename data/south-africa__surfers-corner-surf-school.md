@@ -4,7 +4,7 @@
 
 Duration: surf in Cape Town. We offer private or small group lessons, weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://southafrica.learn2surf.net/school/cape-town/
 

@@ -4,7 +4,7 @@
 
 Duration: surf school 100% Guarantee Stand up or money back 7 Days a Week 362 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://garysurf.com/
 

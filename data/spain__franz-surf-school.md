@@ -4,7 +4,7 @@
 
 Duration: surf lesson now and get ready for a unique and unforgettable experience. Surf Lessons from 35€ / 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfschooltenerife.es/
 

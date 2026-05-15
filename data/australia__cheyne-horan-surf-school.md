@@ -4,7 +4,7 @@
 
 Duration: Lesson at Surfers Paradise Want To Learn How To Surf? Book Now 1 Hour A$ 110 2 Hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.cheynehoran.com.au/surf-lessons/
 

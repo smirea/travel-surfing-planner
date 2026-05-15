@@ -4,7 +4,7 @@
 
 Duration: Surf Packages ↓ Surf & Stay Packages 7-night surf camp. All-inclusive. Sunday to Sunday. 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.becoolsrilanka.com/
 

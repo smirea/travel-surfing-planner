@@ -4,7 +4,7 @@
 
 Duration: surf lessons in Tenerife south Surf Lesson Prices in Tenerife South Group surf lessons 40€ Per person 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://kaizensurfschool.es/?utm_source=googlemaps&utm_medium=maps&utm_campaign=google_maps&utm_id=google
 

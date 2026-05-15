@@ -4,7 +4,7 @@
 
 Duration: SURF PROGRAM USD 850 Shared Room USD 1160 Private Room \*per week Surf lessons: 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://perfectsunsetschool.com/
 

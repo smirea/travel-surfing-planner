@@ -4,7 +4,7 @@
 
 Duration: Surf School i've ever been. Awesome teachers that helped me level up from beginner to Intermediate surfer in 2 weeks
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfpauhana.com/
 

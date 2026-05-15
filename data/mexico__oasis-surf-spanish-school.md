@@ -4,7 +4,7 @@
 
 Duration: SURF & SPANISH ONLY ] 1 week Weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.spanishandsurflessonsmexico.com/
 

@@ -4,7 +4,7 @@
 
 Duration: surf lesson (1.5 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfxcape.co.za/
 

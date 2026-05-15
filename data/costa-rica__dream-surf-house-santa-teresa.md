@@ -4,7 +4,7 @@
 
 Duration: lesson. Enough time to learn the basic techniques, stand up on the board, catch small waves and have a lot of fun. WEEKLY
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.dreamsea.com/costarica-santateresa/
 

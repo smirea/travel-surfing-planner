@@ -4,7 +4,7 @@
 
 Duration: surf lessons? 90 Minutes
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.capetownsurfschool.com/
 

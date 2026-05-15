@@ -4,7 +4,7 @@
 
 Duration: lesson having learned something new, no matter your surf skill level. Surf Packages Package 1 (2hours surf lessons) 2 Hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.ticosurflessons.com/
 

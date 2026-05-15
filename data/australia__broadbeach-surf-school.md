@@ -4,7 +4,7 @@
 
 Duration: Surf School offers a fun, healthy and safe surfing experience! SURFING LESSONS Group Lesson A$ 55.00 Clock 1.5 Hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.broadbeachsurfschool.com.au/
 

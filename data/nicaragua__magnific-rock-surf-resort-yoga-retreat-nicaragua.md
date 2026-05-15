@@ -4,7 +4,7 @@
 
 Duration: 5 day all inclusive surf package and I cannot recommend it enough! All the staff at Magnific Rock and the surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://magnificrock.com/
 

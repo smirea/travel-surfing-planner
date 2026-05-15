@@ -4,7 +4,7 @@
 
 Duration: surf camp price: 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://wavenomadsurf.com/
 

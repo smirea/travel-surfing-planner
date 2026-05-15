@@ -4,7 +4,7 @@
 
 Duration: 1.5 hours Group (2 on 1): 2000 PHP per person Intermediate & advanced surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.siargaosurfacademy.com/
 

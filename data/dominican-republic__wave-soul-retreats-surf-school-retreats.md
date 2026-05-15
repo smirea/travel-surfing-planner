@@ -4,7 +4,7 @@
 
 Duration: surf level​ 2 Nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://wavesoulretreats.com/
 

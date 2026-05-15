@@ -4,7 +4,7 @@
 
 Duration: Surf Program / Peregian Beach Build skill and confidence. 1 hour weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.senditsurfacademy.com/
 

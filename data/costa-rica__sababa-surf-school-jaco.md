@@ -4,7 +4,7 @@
 
 Duration: 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://swordfish-magenta-e5w4.squarespace.com/
 

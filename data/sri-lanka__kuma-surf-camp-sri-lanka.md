@@ -4,7 +4,7 @@
 
 Duration: Surf Packages in Weligama Surf Packages with Accommodation One Person Beginner / Intermediate $ 390 6 surfing lessons 6 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://kumasurfcamp.com/arugam-bay
 

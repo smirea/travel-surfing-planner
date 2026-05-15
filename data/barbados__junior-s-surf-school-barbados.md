@@ -4,7 +4,7 @@
 
 Duration: lesson, you can expect: Three to five people per group A two hour
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://juniorssurfschool.com/schedulelesson
 

@@ -4,7 +4,7 @@
 
 Duration: 1.5 hours Instructor Student Ratio: 1 to 1 In our Private Surf Lesson
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.surfshack.biz/
 

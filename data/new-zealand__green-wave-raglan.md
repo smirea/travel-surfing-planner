@@ -4,7 +4,7 @@
 
 Duration: surf lessons are ever the same! Surf Packages 2-4 day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://greenwaveraglan.com/
 

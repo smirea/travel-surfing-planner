@@ -4,7 +4,7 @@
 
 Duration: 90 minutes each 1 Coach - 1 Student $600 USD + 1 free class Read More Semi-Private Surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.aguatibia.com/
 

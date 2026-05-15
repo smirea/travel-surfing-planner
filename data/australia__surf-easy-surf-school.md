@@ -4,7 +4,7 @@
 
 Duration: Surf Lessons &#038; Hire Currumbin Surf Safety Course Surfing Etiquette Tips City of Gold Coast Women&#8217;s 6 week
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.surfeasy.com.au/
 

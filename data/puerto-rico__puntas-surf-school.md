@@ -4,7 +4,7 @@
 
 Duration: Surf School also has 4 tropical bungalows available for weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://puntassurfschool.com/
 

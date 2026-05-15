@@ -4,7 +4,7 @@
 
 Duration: surf school that helps visitors progress while opening the ocean to local kids through free weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://surfcoachtama.com/
 

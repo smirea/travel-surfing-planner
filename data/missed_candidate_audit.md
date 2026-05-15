@@ -1,13 +1,13 @@
 # Missed Candidate Audit
 
-This audit tracks surf schools that were missing from the published result list and were added during the catch-up pass. The review prioritized beginner-friendly English surf instruction for September 20-October 31, 2026.
+This audit tracks surf schools that were missing from the published result list and were added during follow-up review. The review prioritized beginner-friendly English surf instruction for September 20-October 31, 2026.
 
 | metric                       | count |
 | ---------------------------- | ----: |
 | raw Google Places candidates |   387 |
-| result rows before catch-up  |   145 |
+| result rows before follow-up |   145 |
 | missed raw candidates added  |   246 |
-| result rows after catch-up   |   391 |
+| result rows after follow-up  |   391 |
 
 ## Added By Country
 

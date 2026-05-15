@@ -4,7 +4,7 @@
 
 Duration: surf. GROUP 5 lessons pack = € 200 &#128; 45 per 1 lesson 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.ericeirawaves.com/
 

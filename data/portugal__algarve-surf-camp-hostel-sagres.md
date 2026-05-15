@@ -4,7 +4,7 @@
 
 Duration: Surf & Stay: Surf Camp Week - from 490€ Surf Camp week runs all year round Check availability SURF & STAY: Surf Week 7 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.algarvesurfschool.com/
 

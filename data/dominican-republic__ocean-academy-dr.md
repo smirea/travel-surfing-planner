@@ -4,7 +4,7 @@
 
 Duration: lesson $50 per person. Semi private $140 for two person. Private $100 Each class take 1:30 min. Ask for our 5 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.oceanacademydr.org/
 

@@ -4,7 +4,7 @@
 
 Duration: 2 hours lesson All the material included Max 8 people per group BOOK NOW PRIVATE LESSONS 120€ 2 Hour lesson
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.tilegitsurf.es/
 

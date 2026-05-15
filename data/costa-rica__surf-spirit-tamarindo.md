@@ -4,7 +4,7 @@
 
 Duration: Surf Camp in Tamarindo &#8211; Costa Rica Skip to main content Skip to footer HOME PACKAGES 4 Day Surf Camp 6 Day Surf Camp 8 Day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfspiritcostarica.com/
 

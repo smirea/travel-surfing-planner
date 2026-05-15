@@ -4,7 +4,7 @@
 
 Duration: surf school, we host weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.surfdancer.com/
 

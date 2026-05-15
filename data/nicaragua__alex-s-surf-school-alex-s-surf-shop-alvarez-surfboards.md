@@ -4,7 +4,7 @@
 
 Duration: surf school in the area says they are the best in town. We will let you to decide!!! :) ​ All surf lessons take 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.surfwithalex.com/
 

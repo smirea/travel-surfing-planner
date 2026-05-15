@@ -4,7 +4,7 @@
 
 Duration: Surf lessons, rent surfboard and rent all surf materials Surf lessons Price List Type Time Price 1 Day 2 H 40 EUR 3 Days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.tenerifesurfing.com/
 

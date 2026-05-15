@@ -4,7 +4,7 @@
 
 Duration: 2 hours. Anass is a great teacher! Pierre Daudet 15:43 11 Nov 25 Anass is an amazing surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://kiteandsurfessaouira.com/
 

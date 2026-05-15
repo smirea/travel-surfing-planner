@@ -4,7 +4,7 @@
 
 Duration: package price is for 6 nights 7 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://bocasdeltorosurfing.com/
 

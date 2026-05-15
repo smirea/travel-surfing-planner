@@ -4,7 +4,7 @@
 
 Duration: Needs direct confirmation.
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://brothersurfecuador.negocio.site/?utm_source=gmb&utm_medium=referral
 

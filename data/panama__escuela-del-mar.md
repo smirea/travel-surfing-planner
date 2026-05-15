@@ -4,7 +4,7 @@
 
 Duration: SURF SURF LESSONS: $50 per person Includes: 30 minute surf theory on land 1.5 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://surfschoolpanama.com/
 

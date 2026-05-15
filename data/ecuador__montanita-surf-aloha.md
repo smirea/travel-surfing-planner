@@ -4,7 +4,7 @@
 
 Duration: Needs direct confirmation.
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.google.com.ec/url?sa=t&source=web&rct=j&url=https://m.facebook.com/MontanitaSurfAloha/?locale2=es_LA&ved=2ahUKEwj1nJqAiu3aAhXEwVkKHepPCTQQjjgwAHoECAAQAQ&usg=AOvVaw2XofmDquX5SI6TYks013uF
 

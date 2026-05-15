@@ -4,7 +4,7 @@
 
 Duration: camp for my 11 year old daughter. 1 week
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.dominicansurfschool.com/
 

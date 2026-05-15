@@ -4,7 +4,7 @@
 
 Duration: Camp in Arugam Bay, Sri Lanka Available all year round from US$ 60 Explore this experience Login to save to your favorites 1 Day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.booksurfcamps.com/share/dBwyikp6dA/saha-surf-camp
 

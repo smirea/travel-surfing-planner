@@ -4,7 +4,7 @@
 
 Duration: LESSON 50 € 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://famarasurfing.com/
 

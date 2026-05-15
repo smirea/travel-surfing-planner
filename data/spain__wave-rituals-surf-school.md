@@ -4,7 +4,7 @@
 
 Duration: Surf Retreats Surf Yoga Massage Contact Blog Menu Surf Retreats 1 Week
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.waverituals.com/
 

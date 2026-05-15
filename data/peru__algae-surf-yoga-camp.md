@@ -4,7 +4,7 @@
 
 Duration: surf b&b beginner Design your camp freesurfing intermediate Design your camp surf & yoga all levels Design your camp 7 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://algaesurfcamp.com/
 

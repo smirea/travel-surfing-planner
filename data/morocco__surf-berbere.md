@@ -4,7 +4,7 @@
 
 Duration: surf camp, right on Hash Point in the heart of Taghazout. For beginners with less than 4 weeks
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfberbere.com/
 

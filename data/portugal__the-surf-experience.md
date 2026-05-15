@@ -4,7 +4,7 @@
 
 Duration: 3 DAY MINIMUM TO HOWEVER MANY DAYS YOU WISH. DROP US A MAIL YOU CAN ADD ANY DAY TO START YOUR WEEK BEGINNER SURFING COURSE
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://surfexperience.com/
 

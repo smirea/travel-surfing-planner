@@ -4,7 +4,7 @@
 
 Duration: weekly options. Whether you&#8217;re planning a quick surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.sunrisesurfschool.com/
 

@@ -4,7 +4,7 @@
 
 Duration: Surf & Chill package includes once surfing per day (except the day of arrival and departure). surf PACKAGES 3 Nights 5 Nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://surfnyoganicaragua.com/
 

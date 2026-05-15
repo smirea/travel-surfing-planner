@@ -4,7 +4,7 @@
 
 Duration: Surf lessons Beginner lessons Intermediate lessions Group lessons Kids lessons Weekly
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.seasayulita.com/
 

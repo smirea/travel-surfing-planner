@@ -4,7 +4,7 @@
 
 Duration: lesson is based. Duration Each session lasts 90 minutes
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://nortenosara.com/
 

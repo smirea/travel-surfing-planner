@@ -4,7 +4,7 @@
 
 Duration: Surf Package 7 Nights Accommodation in your chosen option. 7 Healthy Breakfast Buffets to fuel your day. 5 Days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://sandysurfschoolsagres.com/
 

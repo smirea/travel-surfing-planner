@@ -4,7 +4,7 @@
 
 Duration: SURF ADVENTURE 7-Day Surf Safari 10-Day Backpacker’s Surfing Adventure (BRISBANE – SYDNEY or SYDNEY - BRISBANE) The 10 Day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.australiansurfingadventures.com/
 

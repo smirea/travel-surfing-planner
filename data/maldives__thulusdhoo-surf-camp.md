@@ -4,7 +4,7 @@
 
 Duration: Needs direct confirmation.
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https%3A%2F%2Fwww.vio.com%2FHotel%2FSearch%3FhotelId%3D2224303%26utm_source%3Dgha-vr%26utm_campaign%3Dstatic%26openHotelDetails%3D1
 

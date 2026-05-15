@@ -4,7 +4,7 @@
 
 Duration: surf camp and did a three day course and have already thought about plans to return next year for at least a 5 day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.surfsagres.com/
 

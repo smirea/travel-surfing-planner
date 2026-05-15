@@ -4,7 +4,7 @@
 
 Duration: Surf course 5 x 2 hours Yoga course 2 x 1 hour 6 nights
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.cocosurfcamp.com/
 

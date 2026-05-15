@@ -4,7 +4,7 @@
 
 Duration: surf in Gold Coast? Book with Go Ride A Wave and make waves like never before! Daily 2 Hour
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.goldcoastsurfacademy.com.au/
 

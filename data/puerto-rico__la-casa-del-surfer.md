@@ -4,7 +4,7 @@
 
 Duration: 90 minutes in water surfing Equipment (appropriate board & leash) Gentle, beginner friendly wave Surf
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.lacasadelsurfer.com/
 

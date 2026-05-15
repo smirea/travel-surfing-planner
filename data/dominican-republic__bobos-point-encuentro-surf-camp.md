@@ -4,7 +4,7 @@
 
 Duration: Surf skills to transform and evolve to your best Version. _3 SURF LESSONS COURSE PROGRAM_ ( in 1 day
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: https://www.bobosurfsup.com/
 

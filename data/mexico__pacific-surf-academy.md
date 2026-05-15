@@ -4,7 +4,7 @@
 
 Duration: Surf Shop Our surf shop offer a large choice of surfboards, bodyboards and fins for rent. Surf Bodyboard Surf 1 hour $200 2 hours
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.pacificsurfacademy.com/
 

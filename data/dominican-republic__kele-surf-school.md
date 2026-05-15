@@ -4,7 +4,7 @@
 
 Duration: surf tratando por primera vez. Anterior Me and my boyfriend took 5 days
 
-Price: Quote required / not found in stored research
+Price: Quote required / no public price found
 
 Website: http://www.kelesurf.com/
 
