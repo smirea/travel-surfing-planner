@@ -2,6 +2,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
+import env from './env.ts';
 
 interface ResultRow {
 	id: string;
@@ -55,7 +56,7 @@ const args = (await yargs(hideBin(process.argv))
 	.scriptName('travel-surfing-planner')
 	.option('port', {
 		type: 'number',
-		default: Number(process.env.PORT ?? 6174),
+		default: env.PORT,
 		describe: 'HTTP port to serve the results viewer on.',
 	})
 	.option('open', {
